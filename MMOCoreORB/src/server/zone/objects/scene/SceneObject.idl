@@ -1175,7 +1175,15 @@ class SceneObject extends TreeEntry implements Logger, Metrics {
 
 	@read
 	public unsigned int getContainerVolumeLimit() {
-		return containerVolumeLimit;
+		int newcontainerVolumeLimit = containerVolumeLimit;
+		
+//		if (containerVolumeLimit == 80)
+//			newcontainerVolumeLimit = 1000;
+		
+		if (containerVolumeLimit == 50)
+			newcontainerVolumeLimit = 100;
+		
+		return newcontainerVolumeLimit;
 	}
 
 	@dirty
