@@ -156,8 +156,8 @@ public:
 		}
 
 		// add speed multiplier mod for existing buffs
-		if(vehicle->getSpeedMultiplierMod() != 0)
-			newSpeed *= vehicle->getSpeedMultiplierMod();
+//		if(vehicle->getSpeedMultiplierMod() != 0)
+//			newSpeed *= vehicle->getSpeedMultiplierMod();
 
 		// Add our change to the buffer history
 		changeBuffer->add(SpeedModChange(newSpeed / creature->getRunSpeed()));

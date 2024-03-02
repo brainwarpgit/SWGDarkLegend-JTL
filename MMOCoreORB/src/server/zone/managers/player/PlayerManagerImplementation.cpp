@@ -3812,77 +3812,78 @@ int PlayerManagerImplementation::checkSpeedHackFirstTest(CreatureObject* player,
 
 		allowedSpeedMod = vehicle->getSpeedMultiplierMod();
 		allowedSpeedBase = vehicle->getRunSpeed();
-	} else if (parent != nullptr && parent->isMount()) {
-		Creature* mount = cast<Creature*>( parent.get());
-
-		allowedSpeedMod = mount->getSpeedMultiplierMod();
-
-		PetManager* petManager = server->getPetManager();
-
-		if (petManager != nullptr) {
-			allowedSpeedBase = petManager->getMountedRunSpeed(mount);
-		}
-
 	}
-
+// else if (parent != nullptr && parent->isMount()) {
+//		Creature* mount = cast<Creature*>( parent.get());
+//
+//		allowedSpeedMod = mount->getSpeedMultiplierMod();
+//
+//		PetManager* petManager = server->getPetManager();
+//
+//		if (petManager != nullptr) {
+//			allowedSpeedBase = petManager->getMountedRunSpeed(mount);
+//		}
+//
+//	}
+//
 	float maxAllowedSpeed = allowedSpeedMod * allowedSpeedBase;
 
-	if (parsedSpeed > maxAllowedSpeed * errorMultiplier) {
-		//float delta = abs(parsedSpeed - maxAllowedSpeed);
-
-		if (changeBuffer->size() == 0) { // no speed changes
-			auto msg = player->info();
-			msg << "max allowed speed should be " << maxAllowedSpeed * errorMultiplier;
-			msg << " parsed " << parsedSpeed;
-
-			msg.flush();
-
-			player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
-
-			return 1;
-		}
-
-		SpeedModChange* firstChange = &changeBuffer->get(changeBuffer->size() - 1);
-		const Time* timeStamp = &firstChange->getTimeStamp();
-
-		if (timeStamp->miliDifference() > 2000) { // we already should have lowered the speed, 2 seconds lag
-			auto msg = player->info();
-			msg << "max allowed speed should be " << maxAllowedSpeed * errorMultiplier;
-			msg << " parsed " << parsedSpeed;
-
-			msg.flush();
-
-			player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
-
-			return 1;
-		}
-
-		for (int i = 0; i < changeBuffer->size() - 1; ++i) {
-			SpeedModChange* change = &changeBuffer->get(i);
-			//Time timeStamp = change->getTimeStamp();
-
-			float oldSpeedMod = change->getNewSpeed();
-			float allowed = allowedSpeedBase * oldSpeedMod * errorMultiplier;
-
-			if (allowed >= parsedSpeed) {
-				return 0; // no hack detected
-			}
-
-			if (allowed > maxAllowedSpeed)
-				maxAllowedSpeed = allowed;
-		}
-
-		auto msg = player->info();
-		msg << "max allowed speed should be " << maxAllowedSpeed;
-		msg << " parsed " << parsedSpeed;
-		msg << " changeBufferSize: " << changeBuffer->size();
-
-		msg.flush();
-
-		player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
-
-		return 1;
-	}
+//	if (parsedSpeed > maxAllowedSpeed * errorMultiplier) {
+//		//float delta = abs(parsedSpeed - maxAllowedSpeed);
+//
+//		if (changeBuffer->size() == 0) { // no speed changes
+//			auto msg = player->info();
+//			msg << "max allowed speed should be " << maxAllowedSpeed * errorMultiplier;
+//			msg << " parsed " << parsedSpeed;
+//
+//			msg.flush();
+//
+//			player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
+//
+//			return 1;
+//		}
+//
+//		SpeedModChange* firstChange = &changeBuffer->get(changeBuffer->size() - 1);
+//		const Time* timeStamp = &firstChange->getTimeStamp();
+//
+//		if (timeStamp->miliDifference() > 2000) { // we already should have lowered the speed, 2 seconds lag
+//			auto msg = player->info();
+//			msg << "max allowed speed should be " << maxAllowedSpeed * errorMultiplier;
+//			msg << " parsed " << parsedSpeed;
+//
+//			msg.flush();
+//
+//			player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
+//
+//			return 1;
+//		}
+//
+//		for (int i = 0; i < changeBuffer->size() - 1; ++i) {
+//			SpeedModChange* change = &changeBuffer->get(i);
+//			//Time timeStamp = change->getTimeStamp();
+//
+//			float oldSpeedMod = change->getNewSpeed();
+//			float allowed = allowedSpeedBase * oldSpeedMod * errorMultiplier;
+//
+//			if (allowed >= parsedSpeed) {
+//				return 0; // no hack detected
+//			}
+//
+//			if (allowed > maxAllowedSpeed)
+//				maxAllowedSpeed = allowed;
+//		}
+//
+//		auto msg = player->info();
+//		msg << "max allowed speed should be " << maxAllowedSpeed;
+//		msg << " parsed " << parsedSpeed;
+//		msg << " changeBufferSize: " << changeBuffer->size();
+//
+//		msg.flush();
+//
+//		player->teleport(teleportPoint.getX(), teleportPoint.getZ(), teleportPoint.getY(), teleportParentID);
+//
+//		return 1;
+//	}
 
 	return 0;
 }

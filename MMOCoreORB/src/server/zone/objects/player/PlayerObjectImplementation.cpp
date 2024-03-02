@@ -2803,6 +2803,12 @@ int PlayerObjectImplementation::getLotsRemaining() {
 
 	int lotsRemaining = maximumLots;
 
+	if(lotsRemaining != 20) {
+		//msg << "incorrect max lots found: " << lotsRemaining << " expected: 100, max lots updated" << endl;
+		setMaximumLots(20);
+		lotsRemaining = 20;
+	}
+	
 	for (int i = 0; i < ownedStructures.size(); ++i) {
 		auto oid = ownedStructures.get(i);
 
