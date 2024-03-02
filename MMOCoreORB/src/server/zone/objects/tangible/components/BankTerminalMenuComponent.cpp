@@ -119,14 +119,14 @@ int BankTerminalMenuComponent::handleObjectMenuSelect(SceneObject* sceneObject, 
 		return 0;
 
 	} else if (selectedID == DEPOSIT) {
-		if (planet == playerZone->getZoneName() || GLOBALSAFETYDEPOSIT) {
+	//	if (planet == playerZone->getZoneName() || GLOBALSAFETYDEPOSIT) {
 			ManagedReference<SceneObject*> bank = creature->getSlottedObject("bank");
 			bank->openContainerTo(creature);
-		} else {
-			creature->sendSystemMessage("@newbie_tutorial/system_messages:bank_info_2");
-		}
+	//	} else {
+	//		creature->sendSystemMessage("@newbie_tutorial/system_messages:bank_info_2");
+	//	}
 
-		return 0;
+	//	return 0;
 	} else if (selectedID == DEPOSITALL) {
 		uint32 cash = creature->getCashCredits();
 

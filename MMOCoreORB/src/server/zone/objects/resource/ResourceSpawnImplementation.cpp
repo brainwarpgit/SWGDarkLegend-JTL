@@ -242,7 +242,10 @@ Reference<ResourceContainer*> ResourceSpawnImplementation::createResource(int un
    	if (units != 0)
    		newResource->setQuantity(units);
 
-   	newResource->setCustomObjectName(getFamilyName(), false);
+   	String resourceName = getFinalClass() + " (" + getName() + ")"; 
+
+	// Added name to the ResourceContainer so they can be searched on the Bazaar
+	newResource->setCustomObjectName(getFamilyName() + " ["+getName()+"]", true);
 
    	++containerReferenceCount;
 

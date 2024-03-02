@@ -1671,7 +1671,7 @@ class CreatureObject extends TangibleObject {
 
 	@read
 	public float getSpeedMultiplierMod() {
-		return speedMultiplierMod;
+		return speedMultiplierMod * 3.0;//SPEED AFFECTS RUN SPEED AND VEHICLES
 	}
 
 	@mock
@@ -1728,7 +1728,7 @@ class CreatureObject extends TangibleObject {
 
 	@read
 	public float getRunSpeed() {
-		return runSpeed;
+		return (runSpeed / 3.0) * 2.0;//divide by vehicle/run multipler, then apply a run multiplier
 	}
 
 	@read
