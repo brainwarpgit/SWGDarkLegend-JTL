@@ -127,28 +127,34 @@ Core3 = {
 	},
 	-------- SPACE ZONES -------
 	SpaceZonesEnabled = {
-		"space_corellia",
-		"space_dantooine",
-		"space_dathomir",
-		"space_endor",
-		"space_heavy1",
-		"space_light1",
-		"space_lok",
-		"space_naboo",
-		"space_tatooine",
-		"space_yavin4"
-		---- TEST ZONES ----
-		--"space_09",
-		--"space_corellia_2",
-		--"space_env",
-		--"space_halos",
-		--"space_naboo_2",
-		--"space_tatooine_2",
+	"space_corellia",
+	"space_dantooine",
+	"space_dathomir",
+	"space_endor",
+	"space_heavy1",
+	"space_light1",
+	"space_lok",
+	"space_naboo",
+	"space_tatooine",
+	"space_yavin4"
+	---- TEST ZONES ----
+	--"space_09",
+	--"space_corellia_2",
+	--"space_env",
+	--"space_halos",
+	--"space_naboo_2",
+	--"space_tatooine_2",
 	},
 
 	------TRE config------
-	TrePath = "/home/swgemu/Desktop/SWGEmu",
+	TrePath = "/home/swgemu/workspace/tre",
 	TreFiles = {
+		"Core3_update_06.tre",
+		"Core3_update_05.tre",
+		"Core3_update_04.tre",
+		"Core3_update_03.tre",
+		"Core3_update_02.tre",
+		"Core3_update_01.tre",
 		"default_patch.tre",
 		"patch_sku1_14_00.tre",
 		"patch_14_00.tre",
