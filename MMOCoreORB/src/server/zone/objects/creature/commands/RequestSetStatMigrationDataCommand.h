@@ -86,8 +86,8 @@ public:
 		Zone* zone = creature->getZone();
 
 		if (zone != nullptr && zone->getZoneName() == "tutorial")
+			player->clearBuffs(true, false);//remove buffs to prevent min/maxxing HAMs
 			session->migrateStats();
-
 
 		return SUCCESS;
 	}
