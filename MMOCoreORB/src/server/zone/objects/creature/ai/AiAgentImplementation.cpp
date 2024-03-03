@@ -177,6 +177,21 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 
 	level = getTemplateLevel();
 
+	int lvlrand = 10000;
+
+	int lvlmod = System::random(lvlrand);
+
+	int difficulty = lvlrand - lvlmod;
+
+	String strdifficulty = "";
+	
+	if (difficulty >= (lvlrand * .8)) {
+		strdifficulty = "(Elite)";
+	}
+	if (difficulty >= (lvlrand * .95)) {
+		strdifficulty = "(Legendary)";
+	}
+
 	planetMapCategory = npcTemplate->getPlanetMapCategory();
 	mapCategoryName = npcTemplate->getPlanetMapCategoryName();
 
@@ -196,7 +211,15 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 	if (petDeed == nullptr) {
 		for (int i = 0; i < 9; ++i) {
 			if (i % 3 == 0) {
-				ham = System::random(getHamMaximum() - getHamBase()) + getHamBase();
+				if (strdifficulty == "(Legendary)" ) {
+					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1 * ((difficulty / lvlrand) + 2);
+				}
+				if (strdifficulty == "(Elite)") {
+					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1 * ((difficulty / lvlrand) + 1);
+				}
+				if (strdifficulty == "") {
+					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1;
+				}
 				if (isDroidObject() && isPet())
 					ham = getHamMaximum();
 				baseHAM.add(ham);
@@ -238,7 +261,11 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 		int templSpecies = getSpecies();
 
 		if (!npcTemplate->getRandomNameTag()) {
-			setCustomObjectName(nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies), false);
+			if (strdifficulty != "") {			
+				setCustomObjectName(nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies) + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
+			} else {
+				setCustomObjectName(nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies) + "\\#C0C0C0" + " [" + level + "]", false);
+			}
 		} else {
 			String newName = nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies);
 			newName += " (";
@@ -249,10 +276,18 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 				newName += StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString();
 
 			newName += ")";
-			setCustomObjectName(newName, false);
+			if (strdifficulty != "") {			
+				setCustomObjectName(newName + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
+			} else {
+				setCustomObjectName(newName + "\\#C0C0C0" + " [" + level + "]", false);
+			}
 		}
 	} else {
-		setCustomObjectName(templateData->getCustomName(), false);
+		if (strdifficulty != "") {			
+			setCustomObjectName(templateData->getCustomName() + StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString() + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
+		} else {
+			setCustomObjectName(templateData->getCustomName() + StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString() + "\\#C0C0C0" + " [" + level + "]", false);
+		}
 	}
 
 	setHeight(templateData->getScale(), false);
