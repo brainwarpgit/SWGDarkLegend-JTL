@@ -978,6 +978,8 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	if (creature->getParent().get() != nullptr)
 		quantityExtracted = 1;
 
+	quantityExtracted *= 5;
+
 	TransactionLog trx(TrxCode::HARVESTED, player, resourceSpawn);
 	resourceManager->harvestResourceToPlayer(trx, player, resourceSpawn, quantityExtracted);
 	trx.commit();
