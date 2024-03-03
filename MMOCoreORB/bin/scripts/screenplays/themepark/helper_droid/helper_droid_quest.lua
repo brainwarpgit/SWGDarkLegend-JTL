@@ -1237,8 +1237,8 @@ function HelperDroidQuest:giveReward(pPlayer, profession)
 	local ttString = ""
 	local DI = 0
 
-	local credits = 100
-	local experience = 50
+	local credits = 500
+	local experience = 1000
 	local xpType = "combat_general"
 
 	if (profession == "brawler" or profession == "marksman") then
@@ -1322,7 +1322,7 @@ function HelperDroidQuest:giveReward(pPlayer, profession)
 		ttString = "4th"
 	elseif (questsComplete == 5) then
 		if (profession == "marksman" or profession == "artisan") then
-			experience = 200
+			experience = 1000
 			credits = 2000
 
 			if (not self:checkHasReward(pPlayer, "vehicle")) then
@@ -1341,7 +1341,7 @@ function HelperDroidQuest:giveReward(pPlayer, profession)
 
 		ttString = "5th"
 	elseif (questsComplete == 6) then
-		experience = 200
+		experience = 1000
 		credits = 2000
 
 		if (not self:checkHasReward(pPlayer, "vehicle")) then
