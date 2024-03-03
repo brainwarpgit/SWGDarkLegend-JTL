@@ -600,11 +600,14 @@ void CityManagerImplementation::promptDepositCityTreasury(CityRegion* city, Crea
 
 	if (ghost == nullptr)
 		return;
+	int cash = creature->getCashCredits();
+	int bank = creature->getBankCredits();
+	int totalPlayerCredits = bank + cash;
 
 	ManagedReference<SuiTransferBox*> transfer = new SuiTransferBox(creature, SuiWindowType::CITY_TREASURY_DEPOSIT);
 	transfer->setPromptTitle("@city/city:treasury_deposit"); //Treasury Deposit
 	transfer->setPromptText("@city/city:treasury_deposit_d"); //Enter the amount you would like to transfer to the city treasury.
-	transfer->addFrom("@city/city:funds", String::valueOf(creature->getCashCredits()), String::valueOf(creature->getCashCredits()), "1");
+	transfer->addFrom("@city/city:funds", String::valueOf(totalPlayerCredits), String::valueOf(totalPlayerCredits), "1");
 	transfer->addTo("@city/city:treasury", "0", "0", "1");
 	transfer->setUsingObject(terminal);
 	transfer->setForceCloseDistance(16.f);
@@ -616,10 +619,11 @@ void CityManagerImplementation::promptDepositCityTreasury(CityRegion* city, Crea
 
 void CityManagerImplementation::depositToCityTreasury(CityRegion* city, CreatureObject* creature, int amount) {
 	int cash = creature->getCashCredits();
+	int bank = creature->getBankCredits();
+	int totalPlayerCredits = bank + cash;
+	int total = totalPlayerCredits - amount;
 
-	int total = cash - amount;
-
-	if (total < 1 || total > cash) {
+	if (total < 1 || total > totalPlayerCredits) {
 		creature->sendSystemMessage("@city/city:positive_deposit"); //You must select a positive amount to transfer to the treasury.
 		return;
 	}
@@ -632,10 +636,30 @@ void CityManagerImplementation::depositToCityTreasury(CityRegion* city, Creature
 	}
 
 	{
-		TransactionLog trx(creature, TrxCode::CITYTREASURY, total, true);
-		trx.addState("treasury", city->getCityTreasury());
-		creature->subtractCashCredits(total);
-		city->addToCityTreasury(total);
+		// If player does not have enough cash on them, but they DO have enough credits in their bank, take the cash they have and the difference from their bank.
+		if (total > cash) {
+			int diff = total - cash;
+			if (bank >= diff) {
+				TransactionLog trx(creature, TrxCode::CITYTREASURY, total, true);
+				trx.addState("treasury", city->getCityTreasury());
+				creature->subtractCashCredits(cash);
+				creature->subtractBankCredits(diff);
+				city->addToCityTreasury(total);
+				return;
+			}
+			// If they don't have enough credits in their cash OR bank then err.
+			// However, this code should never hit if the above logic works. This is just a paranoid safeguard!
+			else {
+				creature->sendSystemMessage("You do not have enough total funds to complete this transaction."); //You must select a positive amount to transfer to the treasury.
+				return;
+			}
+		} else {
+			// If we have enough cash on-hand then we just do this
+			TransactionLog trx(creature, TrxCode::CITYTREASURY, total, true);
+			trx.addState("treasury", city->getCityTreasury());
+			creature->subtractCashCredits(total);
+			city->addToCityTreasury(total);
+		}
 	}
 
 	StringIdChatParameter params("city/city", "deposit_treasury"); //You deposit %DI credits into the treasury.
