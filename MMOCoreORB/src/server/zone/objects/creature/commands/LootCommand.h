@@ -52,7 +52,7 @@ public:
 		if (!agent->isDead() || creature->isDead())
 			return GENERALERROR;
 
-		if (!checkDistance(agent, creature, 16)) {
+		if (!checkDistance(agent, creature, 64)) {
 			creature->sendSystemMessage("@error_message:target_out_of_range"); //"Your target is out of range for this action."
 			return GENERALERROR;
 		}
@@ -86,6 +86,36 @@ public:
 		if (looterIsOwner) {
 			if (lootAll) {
 				playerManager->lootAll(creature, agent);
+				Zone* zone = creature->getZone();
+
+				SortedVector<TreeEntry*> closeObjects;
+				CloseObjectsVector* closeObjectsVector = (CloseObjectsVector*) creature->getCloseObjects();
+				if (closeObjectsVector == nullptr) {
+					zone->getInRangeObjects(creature->getWorldPositionX(), creature->getWorldPositionZ(), creature->getWorldPositionY(), 64, &closeObjects, true);
+				} else {
+					closeObjectsVector->safeCopyReceiversTo(closeObjects, CloseObjectsVector::CREOTYPE);
+				}
+
+				for (int i = 0; i < closeObjects.size(); ++i) {
+					SceneObject* obj = static_cast<SceneObject*>(closeObjects.get(i));
+
+					if (obj == nullptr)
+						continue;
+
+					if (obj->getObjectID() == creature->getObjectID())
+						continue;
+
+					CreatureObject* c = obj->asCreatureObject();
+
+					if (c == nullptr || c->isPlayerCreature() || !c->isDead())
+						continue;
+
+					if (!creature->isInRange(c, 64))//distance
+						continue;
+
+					playerManager->lootAll(creature, c);
+
+				}
 			} else {
 				//Check if the corpse's inventory contains any items.
 				if (lootContainer->getContainerObjectsSize() < 1) {
