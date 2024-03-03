@@ -128,7 +128,7 @@ void BountyMissionObjectiveImplementation::complete() {
 
 	int expGain = (mission->getRewardCredits() + mission->getBonusCredits()) / 50;
 
-	owner->getZoneServer()->getPlayerManager()->awardExperience(owner, "bountyhunter", expGain, true, 1);
+	owner->getZoneServer()->getPlayerManager()->awardExperience(owner, "bountyhunter", expGain * 10, true, 1);
 
 	owner->getZoneServer()->getMissionManager()->completePlayerBounty(mission->getTargetObjectId(), owner->getObjectID());
 

@@ -1056,7 +1056,7 @@ void EntertainingSessionImplementation::awardEntertainerExperience() {
 				}
 			}
 
-			int xpAmount = flourishXp + performance->getBaseXp();
+			int xpAmount = flourishXp + performance->getBaseXp() * 5;
 
 			int audienceSize = Math::min(getBandAudienceSize(), 50);
 			float audienceMod = audienceSize / 50.f;
@@ -1069,7 +1069,10 @@ void EntertainingSessionImplementation::awardEntertainerExperience() {
 			xpAmount = ceil(xpAmount * totalBonus);
 
 			if (playerManager != nullptr)
-				playerManager->awardExperience(player, xptype, xpAmount, true);
+				playerManager->awardExperience(player, xptype, xpAmount * 5, true);
+			
+			String healxptype("entertainer_healing");
+			playerManager->awardExperience(player, healxptype, xpAmount * 5 * .5, true);
 
 			oldFlourishXp = flourishXp;
 			flourishXp = 0;

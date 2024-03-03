@@ -8,6 +8,7 @@
 #include "server/zone/objects/creature/CreatureObject.h"
 #include "server/zone/objects/transaction/TransactionLog.h"
 #include "engine/engine.h"
+#include "server/zone/managers/player/PlayerManager.h"
 
 class MilkCreatureTask : public Task {
 
@@ -134,6 +135,21 @@ public:
 		resourceManager->harvestResourceToPlayer(trx, player, resourceSpawn, quantityExtracted);
 
 		updateMilkState(CreatureManager::ALREADYMILKED);
+
+		// Grant Wilderness Survival XP
+		const CreatureTemplate* creatureTemplate = creature->getCreatureTemplate();
+		
+		int xp = ((125 < player->getSkillMod("foraging")) ? 125 : player->getSkillMod("foraging"));
+		
+		if (creatureTemplate != NULL)
+			xp += 3 * creatureTemplate->getLevel() + quantityExtracted;
+		else
+			xp += quantityExtracted;
+		
+		ZoneServer* zoneServer = player->getZoneServer();
+		PlayerManager* playerManager = zoneServer->getPlayerManager();
+		playerManager->awardExperience(player, "camp", xp);
+
 	}
 
 	void clearStationary() {
