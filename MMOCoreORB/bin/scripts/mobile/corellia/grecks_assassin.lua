@@ -27,6 +27,7 @@ grecks_assassin = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_criminal_thug_aqualish_female_01.iff",

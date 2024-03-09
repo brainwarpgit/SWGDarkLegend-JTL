@@ -25,6 +25,7 @@ giant_veermok = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_veermok.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

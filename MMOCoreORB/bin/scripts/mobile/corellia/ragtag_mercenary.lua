@@ -27,6 +27,7 @@ ragtag_mercenary = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_hoodlum_zabrak_male_01.iff",

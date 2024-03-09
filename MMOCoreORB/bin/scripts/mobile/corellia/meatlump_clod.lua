@@ -26,6 +26,7 @@ meatlump_clod = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_criminal_thug_human_female_01.iff",

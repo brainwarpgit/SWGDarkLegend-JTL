@@ -25,6 +25,7 @@ boba_fett = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/boba_fett.iff"},
 	lootGroups = {},

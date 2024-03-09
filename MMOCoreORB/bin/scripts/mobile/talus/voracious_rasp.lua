@@ -25,6 +25,7 @@ voracious_rasp = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/horned_rasp_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

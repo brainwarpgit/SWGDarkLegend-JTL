@@ -26,6 +26,7 @@ chunker_pest = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mugger.iff",
 		"object/mobile/dressed_robber_human_male_01.iff",

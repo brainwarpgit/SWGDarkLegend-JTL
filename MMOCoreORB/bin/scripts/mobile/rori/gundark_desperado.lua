@@ -26,6 +26,7 @@ gundark_desperado = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_desperado_bith_female_01.iff",

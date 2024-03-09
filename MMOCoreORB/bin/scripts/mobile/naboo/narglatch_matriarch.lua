@@ -25,6 +25,7 @@ narglatch_matriarch = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/narglatch_female_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -27,6 +27,7 @@ nym_patrol_strong = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_patrol_strong_hum_f.iff",
 		"object/mobile/dressed_nym_patrol_strong_rod_m.iff",

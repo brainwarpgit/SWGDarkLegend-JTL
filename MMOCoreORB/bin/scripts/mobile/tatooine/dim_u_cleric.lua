@@ -27,6 +27,7 @@ dim_u_cleric = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_dim_u_cleric.iff"},
 	lootGroups = {

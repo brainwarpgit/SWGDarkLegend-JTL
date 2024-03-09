@@ -25,6 +25,7 @@ droideka = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/droideka.iff"},
 	lootGroups = {

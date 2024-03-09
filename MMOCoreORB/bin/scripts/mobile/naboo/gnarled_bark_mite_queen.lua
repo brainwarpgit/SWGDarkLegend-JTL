@@ -25,6 +25,7 @@ gnarled_bark_mite_queen = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gnarled_bark_mite_queen.iff"},
 	scale = 1.25,

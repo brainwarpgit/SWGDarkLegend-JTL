@@ -25,6 +25,7 @@ krayt_dragon_ancient = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 	scale = 2.05,
 
 	templates = {"object/mobile/krayt_dragon_hue.iff"},

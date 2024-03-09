@@ -25,6 +25,7 @@ alpha_veermok = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/alpha_veermok.iff"},
 	scale = 1.25,

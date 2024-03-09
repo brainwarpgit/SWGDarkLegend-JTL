@@ -25,6 +25,7 @@ lethargic_behemoth = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_flit.iff"},
 	controlDeviceTemplate = "object/intangible/pet/flit_hue.iff",

@@ -27,6 +27,7 @@ naboo_nomad_patrol = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "cityPatrol",
 
 	templates = {"object/mobile/dressed_naboo_nomad.iff",

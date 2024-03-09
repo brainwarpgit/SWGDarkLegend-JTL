@@ -25,6 +25,7 @@ dac_axfow = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_greeter_kor_vella_imperial_officer.iff"},
 	lootGroups = {},

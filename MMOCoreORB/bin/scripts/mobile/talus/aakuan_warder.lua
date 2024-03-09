@@ -27,6 +27,7 @@ aakuan_warder = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_aakuan_warder_zabrak_female_01.iff",

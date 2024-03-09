@@ -27,6 +27,7 @@ janta_shaman = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dantari_male.iff",

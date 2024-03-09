@@ -27,6 +27,7 @@ grecks_henchman = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"thug"},
 	lootGroups = {

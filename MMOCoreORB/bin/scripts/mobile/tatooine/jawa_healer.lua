@@ -27,6 +27,7 @@ jawa_healer = Creature:new {
 	creatureBitmask = PACK + HERD + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/jawa_male.iff"},
 	lootGroups = {

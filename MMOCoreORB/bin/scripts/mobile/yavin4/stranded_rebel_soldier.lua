@@ -27,6 +27,7 @@ stranded_rebel_soldier = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_stranded_rebel_soldier.iff"},
 	lootGroups = {

@@ -27,6 +27,7 @@ selonian_thief = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_male",
 				"selonian_female"},

@@ -25,6 +25,7 @@ rel_keteris = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + JTLINTERESTING,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_jabba_swooper_leader.iff"},
 	lootGroups = {},

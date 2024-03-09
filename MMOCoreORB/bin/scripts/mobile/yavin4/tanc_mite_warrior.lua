@@ -25,6 +25,7 @@ tanc_mite_warrior = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tanc_mite_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

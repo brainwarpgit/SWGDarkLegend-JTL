@@ -27,6 +27,7 @@ narmle_militia_rifleman = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_narmle_rifleman_rodian_male_01.iff",

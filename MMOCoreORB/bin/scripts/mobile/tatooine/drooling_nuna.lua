@@ -25,6 +25,7 @@ drooling_nuna = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dwarf_nuna.iff"},
 	controlDeviceTemplate = "object/intangible/pet/dwarf_nuna_hue.iff",

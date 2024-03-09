@@ -25,6 +25,7 @@ novice_force_mystic = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_novice_force_mystic.iff"},
 	lootGroups = {

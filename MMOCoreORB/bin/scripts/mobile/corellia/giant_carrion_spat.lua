@@ -25,6 +25,7 @@ giant_carrion_spat = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 	scale = 2.0,
 
 	templates = {"object/mobile/giant_carrion_spat.iff"},

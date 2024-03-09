@@ -25,6 +25,7 @@ tusken_elite_guard = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {"object/mobile/tusken_raider.iff"},
 	lootGroups = {

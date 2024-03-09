@@ -26,6 +26,7 @@ axkva_min = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_nightsister_axkva.iff"},
 	lootGroups = {

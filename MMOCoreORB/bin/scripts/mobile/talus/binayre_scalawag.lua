@@ -27,6 +27,7 @@ binayre_scalawag = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_binayre_scalawag_twk_female_01.iff",

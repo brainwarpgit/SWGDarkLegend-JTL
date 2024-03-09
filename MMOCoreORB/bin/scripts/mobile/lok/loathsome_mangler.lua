@@ -25,6 +25,7 @@ loathsome_mangler = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gurk_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/gurk_hue.iff",

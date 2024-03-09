@@ -26,6 +26,7 @@ meatlump_loon = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_gran_thug_male_01.iff",

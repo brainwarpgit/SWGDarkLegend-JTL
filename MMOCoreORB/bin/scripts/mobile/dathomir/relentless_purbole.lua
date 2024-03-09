@@ -25,6 +25,7 @@ relentless_purbole = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/purbole_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/purbole_hue.iff",

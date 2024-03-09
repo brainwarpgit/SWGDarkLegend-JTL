@@ -27,6 +27,7 @@ narmle_militia_colonel = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_narmle_colonel_rodian_male_01.iff",

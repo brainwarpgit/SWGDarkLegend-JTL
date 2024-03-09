@@ -26,6 +26,7 @@ ecik = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mercenary_messanger_rod_m.iff"},
 	lootGroups = {},

@@ -27,6 +27,7 @@ gungan_grand_army_soldier = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_male.iff"},
 	lootGroups = {

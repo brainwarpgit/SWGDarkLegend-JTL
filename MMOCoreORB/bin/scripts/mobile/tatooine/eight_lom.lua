@@ -25,6 +25,7 @@ eight_lom = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/theme_park_record_keeper_jabba.iff"},
 	lootGroups = {},

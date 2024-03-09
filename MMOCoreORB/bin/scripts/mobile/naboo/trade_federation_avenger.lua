@@ -27,6 +27,7 @@ trade_federation_avenger = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_trade_federation_avenger.iff"},
 	lootGroups = {

@@ -26,6 +26,7 @@ hidden_daggers_extremist = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ravager_human_female_01.iff",

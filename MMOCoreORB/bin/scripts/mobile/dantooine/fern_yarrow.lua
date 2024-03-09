@@ -25,6 +25,7 @@ fern_yarrow = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED + JTLINTERESTING,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_greeter_dantooine_brother_imperial.iff"},
 	lootGroups = {},

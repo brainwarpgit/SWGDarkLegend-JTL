@@ -25,6 +25,7 @@ feral_forest_mite_king = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/forest_mite.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

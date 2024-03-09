@@ -27,6 +27,7 @@ wise_gondula_ritualist = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ewok_f_02.iff",

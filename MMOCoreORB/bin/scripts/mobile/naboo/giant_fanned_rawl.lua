@@ -26,6 +26,7 @@ giant_fanned_rawl = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/fanned_rawl_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

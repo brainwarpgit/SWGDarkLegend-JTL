@@ -27,6 +27,7 @@ spiderclan_protector = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_spider_nightsister_protector.iff"},
 	lootGroups = {

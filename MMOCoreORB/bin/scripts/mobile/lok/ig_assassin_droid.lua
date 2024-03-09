@@ -25,6 +25,7 @@ ig_assassin_droid = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = NONE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/ig_assassin_droid.iff"},
 	lootGroups = {

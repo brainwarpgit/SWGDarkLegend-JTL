@@ -25,6 +25,7 @@ sap_covered_forest_mite_queen = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/forest_mite.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

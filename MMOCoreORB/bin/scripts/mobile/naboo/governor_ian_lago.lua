@@ -26,6 +26,7 @@ governor_ian_lago = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_govenor_ian_lago.iff"},
 	lootGroups = {},

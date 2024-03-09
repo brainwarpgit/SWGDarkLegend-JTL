@@ -26,6 +26,7 @@ capt_loftus = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_lt_hantor_loftus.iff"},
 	lootGroups = {},

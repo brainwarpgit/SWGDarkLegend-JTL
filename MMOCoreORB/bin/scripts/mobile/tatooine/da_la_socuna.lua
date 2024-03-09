@@ -27,6 +27,7 @@ da_la_socuna = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_rebel_tier1_tatooine_socuna.iff"},
 	lootGroups = {},

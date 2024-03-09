@@ -27,6 +27,7 @@ singing_mountain_clan_scout = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_sing_mt_clan_scout.iff"},
 	lootGroups = {

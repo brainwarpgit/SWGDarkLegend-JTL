@@ -26,6 +26,7 @@ ayn_eckener = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_ayn_eckener.iff"},
 	lootGroups = {},

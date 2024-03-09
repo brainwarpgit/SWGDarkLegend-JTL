@@ -27,6 +27,7 @@ neo_cobral_boss = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_cobral_boss_twk_female_01.iff",

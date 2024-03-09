@@ -27,6 +27,7 @@ swamp_villager = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_swamp_villager.iff"},
 	lootGroups = {

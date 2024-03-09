@@ -26,6 +26,7 @@ elder_snorbal_female = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/elder_snorbal_female.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

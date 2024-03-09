@@ -27,6 +27,7 @@ valarian_henchman = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_valarian_henchman.iff"},
 	lootGroups = {

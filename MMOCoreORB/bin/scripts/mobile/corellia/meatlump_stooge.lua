@@ -26,6 +26,7 @@ meatlump_stooge = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"thug"},
 	lootGroups = {

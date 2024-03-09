@@ -27,6 +27,7 @@ lost_aqualish_marksman = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_lost_aqualish_marksman_female_01.iff",

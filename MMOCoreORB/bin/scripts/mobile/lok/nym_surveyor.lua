@@ -27,6 +27,7 @@ nym_surveyor = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_surveyer_rod_m.iff",
 		"object/mobile/dressed_nym_surveyer_hum_m.iff",

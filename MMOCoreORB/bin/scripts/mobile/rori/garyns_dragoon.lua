@@ -27,6 +27,7 @@ garyns_dragoon = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_garyn_dragoon_bith_male_01.iff",

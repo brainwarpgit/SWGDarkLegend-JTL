@@ -27,6 +27,7 @@ aakuan_champion = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_aakuan_champion_zabrak_female_01.iff",

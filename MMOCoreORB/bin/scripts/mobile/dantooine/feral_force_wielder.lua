@@ -27,6 +27,7 @@ feral_force_wielder = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_feral_force_wielder.iff"},
 	lootGroups = {

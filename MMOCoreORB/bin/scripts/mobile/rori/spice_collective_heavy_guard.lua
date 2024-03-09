@@ -27,6 +27,7 @@ spice_collective_heavy_guard = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_heavyguard_zabrak_female_01.iff",

@@ -25,6 +25,7 @@ bachelor_gualama = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gualama_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/gualama_hue.iff",

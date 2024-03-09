@@ -27,6 +27,7 @@ nightsister_initiate = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_nightsister_initiate.iff"},
 	lootGroups = {

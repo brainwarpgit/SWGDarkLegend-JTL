@@ -28,6 +28,7 @@ rodian_sif = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_talus_sif_mercenary_rodian_01.iff"},
 	lootGroups = {

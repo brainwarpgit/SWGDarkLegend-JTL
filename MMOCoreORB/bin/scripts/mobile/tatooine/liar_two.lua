@@ -26,6 +26,7 @@ liar_two = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_quest_liar_02.iff"},
 	lootGroups = {},

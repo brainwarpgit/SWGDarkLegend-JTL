@@ -1,19 +1,19 @@
-skreeg_warrior_elite = Creature:new {
-	objectName = "@mob/creature_names:skreeg_warrior_elite",
+skreeg_warrior = Creature:new {
+	objectName = "@mob/creature_names:skreeg_warrior",
 	socialGroup = "skreeg",
 	faction = "",
 	mobType = MOB_CARNIVORE,
-	level = 30,
-	chanceHit = 0.39,
-	damageMin = 290,
-	damageMax = 300,
-	baseXp = 3005,
-	baseHAM = 8400,
-	baseHAMmax = 10200,
+	level = 28,
+	chanceHit = 0.36,
+	damageMin = 250,
+	damageMax = 260,
+	baseXp = 2822,
+	baseHAM = 7700,
+	baseHAMmax = 9400,
 	armor = 0,
-	resists = {-1,175,20,-1,200,-1,-1,-1,-1},
+	resists = {105,155,15,-1,160,-1,-1,-1,-1},
 	meatType = "meat_herbivore",
-	meatAmount = 5,
+	meatAmount = 7,
 	hideType = "hide_bristley",
 	hideAmount = 9,
 	boneType = "bone_mammal",
@@ -25,11 +25,12 @@ skreeg_warrior_elite = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 2,
 
 	templates = {"object/mobile/skreeg_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },
 	controlDeviceTemplate = "object/intangible/pet/skreeg_hue.iff",
-	scale = 1.25,
+	scale = 1.2,
 	lootGroups = {},
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
@@ -40,8 +41,8 @@ skreeg_warrior_elite = Creature:new {
 	
 	-- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
 	-- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
-	primaryAttacks = { {"stunattack",""}, {"dizzyattack",""} },
+	primaryAttacks = { {"posturedownattack",""}, {"stunattack",""} },
 	secondaryAttacks = { }
 }
 
-CreatureTemplates:addCreatureTemplate(skreeg_warrior_elite, "skreeg_warrior_elite")
+CreatureTemplates:addCreatureTemplate(skreeg_warrior, "skreeg_warrior_elite")

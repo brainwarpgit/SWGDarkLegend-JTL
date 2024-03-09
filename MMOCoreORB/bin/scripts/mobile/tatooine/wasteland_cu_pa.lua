@@ -25,6 +25,7 @@ wasteland_cu_pa = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/cu_pa_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

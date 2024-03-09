@@ -26,6 +26,7 @@ jom_irimore = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_army_captain_human_male_01.iff"},
 	lootGroups = {},

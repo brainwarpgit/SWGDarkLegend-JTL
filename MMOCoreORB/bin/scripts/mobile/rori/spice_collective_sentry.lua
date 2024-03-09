@@ -26,6 +26,7 @@ spice_collective_sentry = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_sentry_twk_female_01.iff",

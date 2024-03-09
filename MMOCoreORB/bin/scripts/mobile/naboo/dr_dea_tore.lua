@@ -25,6 +25,7 @@ dr_dea_tore = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dr_dea_tore.iff"},
 	lootGroups = {},

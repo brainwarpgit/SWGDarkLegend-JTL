@@ -27,6 +27,7 @@ valarian_assassin = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_valarian_assassin.iff"},
 	lootGroups = {

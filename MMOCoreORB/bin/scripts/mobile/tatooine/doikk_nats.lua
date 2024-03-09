@@ -26,6 +26,7 @@ doikk_nats = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tatooine_npc/figrin_dan.iff"},
 	lootGroups = {},

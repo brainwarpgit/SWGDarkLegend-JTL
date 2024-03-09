@@ -26,6 +26,7 @@ gundark_rogue = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_criminal_thug_zabrak_female_01.iff",

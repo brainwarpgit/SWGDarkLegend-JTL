@@ -25,6 +25,7 @@ female_razor_cat = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/corellian_sand_panther_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

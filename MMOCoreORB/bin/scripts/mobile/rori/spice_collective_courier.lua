@@ -26,6 +26,7 @@ spice_collective_courier = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_spice_collective_courier_rodian_female_01.iff"},
 	lootGroups = {

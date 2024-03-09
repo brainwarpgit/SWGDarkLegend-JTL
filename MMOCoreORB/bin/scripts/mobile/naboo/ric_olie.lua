@@ -26,6 +26,7 @@ ric_olie = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_capt_ric_olie.iff"},
 	lootGroups = {},

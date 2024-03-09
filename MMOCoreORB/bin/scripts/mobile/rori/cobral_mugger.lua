@@ -28,6 +28,7 @@ cobral_mugger = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_cobral_mugger_human_male_01.iff",

@@ -27,6 +27,7 @@ naboo_pirate_cutthroat = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_criminal_assassin_human_female_01.iff",

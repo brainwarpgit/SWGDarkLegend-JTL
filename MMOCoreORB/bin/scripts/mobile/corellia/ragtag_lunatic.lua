@@ -26,6 +26,7 @@ ragtag_lunatic = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ravager_human_female_01.iff",

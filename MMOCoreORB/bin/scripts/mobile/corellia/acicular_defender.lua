@@ -25,6 +25,7 @@ acicular_defender = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/paralope.iff"},
 	controlDeviceTemplate = "object/intangible/pet/swirl_prong_hue.iff",

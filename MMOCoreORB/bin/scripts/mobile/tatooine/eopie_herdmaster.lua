@@ -25,6 +25,7 @@ eopie_herdmaster = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/eopie_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

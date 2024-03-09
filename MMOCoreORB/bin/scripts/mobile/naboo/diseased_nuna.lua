@@ -25,6 +25,7 @@ diseased_nuna = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/nuna_hue.iff"},
 	scale = 0.9,

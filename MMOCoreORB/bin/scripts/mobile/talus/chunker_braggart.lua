@@ -27,6 +27,7 @@ chunker_braggart = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/human_male.iff"},
 	lootGroups = {

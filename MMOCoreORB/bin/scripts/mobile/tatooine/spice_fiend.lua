@@ -26,6 +26,7 @@ spice_fiend = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_spice_fiend.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ sludge_panther = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/minor_sludge_panther.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

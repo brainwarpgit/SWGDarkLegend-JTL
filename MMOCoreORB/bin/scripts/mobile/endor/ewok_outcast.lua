@@ -27,6 +27,7 @@ ewok_outcast = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_ewok_m_04.iff"},
 	lootGroups = {

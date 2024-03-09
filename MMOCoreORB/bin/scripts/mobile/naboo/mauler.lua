@@ -24,6 +24,7 @@ mauler = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = PACK + KILLER + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mauler.iff"},
 	lootGroups = {

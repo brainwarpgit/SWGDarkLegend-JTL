@@ -25,6 +25,7 @@ ferine_razorfang = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kima_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/kima_hue.iff",

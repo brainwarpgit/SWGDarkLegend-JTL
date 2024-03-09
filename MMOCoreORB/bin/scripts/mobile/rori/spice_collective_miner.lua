@@ -26,6 +26,7 @@ spice_collective_miner = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_miner_human_female_01.iff",

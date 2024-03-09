@@ -25,6 +25,7 @@ poisonous_krevol_queen = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/poisonous_krevol_queen.iff"},
 	scale = 1.15,

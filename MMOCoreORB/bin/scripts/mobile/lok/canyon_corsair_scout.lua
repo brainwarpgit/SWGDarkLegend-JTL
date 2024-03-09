@@ -27,6 +27,7 @@ canyon_corsair_scout = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_corsair_scout_hum_f.iff",

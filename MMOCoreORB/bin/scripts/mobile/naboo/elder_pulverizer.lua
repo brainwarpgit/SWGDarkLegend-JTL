@@ -25,6 +25,7 @@ elder_pulverizer = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bolle_bol_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bolle_bol_hue.iff",

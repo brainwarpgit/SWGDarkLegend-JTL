@@ -25,6 +25,7 @@ juntah_herm = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_greeter_dantooine_imperial_pilot.iff"},
 	lootGroups = {},

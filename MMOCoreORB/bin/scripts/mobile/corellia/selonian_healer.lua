@@ -27,6 +27,7 @@ selonian_healer = Creature:new {
 	creatureBitmask = PACK + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_female"},
 	lootGroups = {

@@ -27,6 +27,7 @@ spiderclan_web_dancer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_spider_nightsister_web_dancer.iff"},
 	lootGroups = {

@@ -26,6 +26,7 @@ nym_guard_weak = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_guard_weak_hum_f.iff",
 		"object/mobile/dressed_nym_guard_weak_rod_m.iff",

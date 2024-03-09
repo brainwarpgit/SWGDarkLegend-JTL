@@ -27,6 +27,7 @@ gifted_panshee_shaman = Creature:new {
 	creatureBitmask = PACK + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ewok_m_07.iff",

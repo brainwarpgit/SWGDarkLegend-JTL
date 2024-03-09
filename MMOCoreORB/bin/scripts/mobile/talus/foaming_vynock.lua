@@ -25,6 +25,7 @@ foaming_vynock = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/vynock_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

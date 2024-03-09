@@ -25,6 +25,7 @@ gunham = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_lieutenant_m.iff"},
 	lootGroups = {},

@@ -25,6 +25,7 @@ tusk_cat_rider = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tusk_cat_rider.iff"},
 	lootGroups = {

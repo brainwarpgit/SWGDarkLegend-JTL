@@ -27,6 +27,7 @@ ragtag_thug = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_hooligan_rodian_female_01.iff",

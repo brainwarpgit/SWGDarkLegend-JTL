@@ -26,6 +26,7 @@ lesser_plains_bol = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bol_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bol_hue.iff",

@@ -26,6 +26,7 @@ skaak_tipper_bandit = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_robber_twk_male_01.iff",

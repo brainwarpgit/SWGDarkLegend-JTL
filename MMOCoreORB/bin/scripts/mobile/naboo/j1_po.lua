@@ -25,6 +25,7 @@ j1_po = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED + JTLINTERESTING,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/3po_protocol_droid_silver.iff"},
 	lootGroups = {},

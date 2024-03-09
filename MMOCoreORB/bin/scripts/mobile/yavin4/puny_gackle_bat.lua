@@ -25,6 +25,7 @@ puny_gackle_bat = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/puny_gackle_bat.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

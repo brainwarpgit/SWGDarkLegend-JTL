@@ -25,6 +25,7 @@ female_narglatch = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/narglatch_female.iff"},
 	controlDeviceTemplate = "object/intangible/pet/narglatch_hue.iff",

@@ -26,6 +26,7 @@ thune_grassland_guardian = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/thune_grassland_guardian.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

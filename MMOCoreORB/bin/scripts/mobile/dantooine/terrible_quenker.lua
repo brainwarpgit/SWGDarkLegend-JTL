@@ -25,6 +25,7 @@ terrible_quenker = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/quenker_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/quenker_hue.iff",

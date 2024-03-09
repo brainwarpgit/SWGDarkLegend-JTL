@@ -25,6 +25,7 @@ razor_cat_cub = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/corellian_sand_panther_cub.iff"},
 	scale = 0.8,

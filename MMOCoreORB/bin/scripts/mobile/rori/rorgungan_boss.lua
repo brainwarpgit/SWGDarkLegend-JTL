@@ -26,6 +26,7 @@ rorgungan_boss = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_s03_male.iff"},
 	lootGroups = {

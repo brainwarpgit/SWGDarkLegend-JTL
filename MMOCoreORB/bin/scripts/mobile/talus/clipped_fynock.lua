@@ -25,6 +25,7 @@ clipped_fynock = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/clipped_fynock.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -27,6 +27,7 @@ binayre_chief = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_binayre_chief_human_female_01.iff",

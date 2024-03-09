@@ -27,6 +27,7 @@ kobola_miner = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_kobola_miner_human_male_01.iff",

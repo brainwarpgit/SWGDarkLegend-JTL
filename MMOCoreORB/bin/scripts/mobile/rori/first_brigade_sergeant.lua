@@ -27,6 +27,7 @@ first_brigade_sergeant = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_brigade_sergeant_zabrak_male_01.iff",

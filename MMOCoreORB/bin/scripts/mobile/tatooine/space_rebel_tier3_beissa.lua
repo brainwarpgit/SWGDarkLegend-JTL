@@ -25,6 +25,7 @@ space_rebel_tier3_beissa = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_rebel_tier3_beissa.iff"},
 	lootGroups = {},

@@ -26,6 +26,7 @@ sleemo_vandal = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_hoodlum_zabrak_female_01.iff"},
 	lootGroups = {

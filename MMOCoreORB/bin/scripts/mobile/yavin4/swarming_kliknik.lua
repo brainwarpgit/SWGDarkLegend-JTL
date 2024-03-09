@@ -25,6 +25,7 @@ swarming_kliknik = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kliknik_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/kliknik_hue.iff",

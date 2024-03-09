@@ -27,6 +27,7 @@ selonian_assassin = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_male",
 				"selonian_female"},

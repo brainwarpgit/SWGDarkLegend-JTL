@@ -26,6 +26,7 @@ mayor = Creature:new {
 	pvpBitmask = NONE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mayor.iff"},
 	lootGroups = {},

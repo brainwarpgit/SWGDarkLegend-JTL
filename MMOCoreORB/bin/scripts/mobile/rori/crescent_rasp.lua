@@ -25,6 +25,7 @@ crescent_rasp = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/horned_rasp_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

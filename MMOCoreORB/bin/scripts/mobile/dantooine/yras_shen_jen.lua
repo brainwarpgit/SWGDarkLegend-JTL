@@ -25,6 +25,7 @@ yras_shen_jen = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_greeter_dantooine_old_pilot.iff"},
 	lootGroups = {},

@@ -27,6 +27,7 @@ nightsister_rancor_tamer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_nightsister_rancor_tamer.iff"},
 	lootGroups = {

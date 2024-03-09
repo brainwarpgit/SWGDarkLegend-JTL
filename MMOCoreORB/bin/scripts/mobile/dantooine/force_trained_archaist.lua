@@ -27,6 +27,7 @@ force_trained_archaist = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_force_trained_archaist.iff"},
 	lootGroups = {

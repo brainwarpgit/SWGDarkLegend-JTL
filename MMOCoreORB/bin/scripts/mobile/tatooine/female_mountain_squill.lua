@@ -25,6 +25,7 @@ female_mountain_squill = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mountain_squill.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

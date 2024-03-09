@@ -25,6 +25,7 @@ diminutive_bounding_jax = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bearded_jax_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bearded_jax_hue.iff",

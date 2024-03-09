@@ -26,6 +26,7 @@ flail_butcher = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mugger.iff",
 		"object/mobile/dressed_goon_twk_female_01.iff",

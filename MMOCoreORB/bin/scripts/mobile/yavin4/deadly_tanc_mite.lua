@@ -25,6 +25,7 @@ deadly_tanc_mite = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tanc_mite_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/tanc_mite_hue.iff",

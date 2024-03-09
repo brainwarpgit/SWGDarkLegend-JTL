@@ -27,6 +27,7 @@ kobola_thief = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_kobola_thief_rodian_female_01.iff",

@@ -26,6 +26,7 @@ bageraset = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bageraset_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bageraset_hue.iff",

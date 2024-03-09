@@ -26,6 +26,7 @@ wonderous_cu_pa = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/cu_pa_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/cu_pa_hue.iff",

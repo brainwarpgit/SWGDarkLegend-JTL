@@ -27,6 +27,7 @@ grassland_blood_marauder = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.35,
 
 	templates = {"object/mobile/dressed_grassland_blood_marauder.iff"},

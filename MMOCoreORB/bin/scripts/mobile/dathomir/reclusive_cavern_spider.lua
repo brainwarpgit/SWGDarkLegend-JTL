@@ -25,6 +25,7 @@ reclusive_cavern_spider = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gaping_spider_recluse.iff"},
 	scale = 1.25,

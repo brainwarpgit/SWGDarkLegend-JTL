@@ -27,6 +27,7 @@ spice_collective_elite_guard = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_eliteguard_zabrak_female_01.iff",

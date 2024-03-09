@@ -25,6 +25,7 @@ zo_ssa = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_army_captain_zabrak_female.iff"},
 	lootGroups = {},

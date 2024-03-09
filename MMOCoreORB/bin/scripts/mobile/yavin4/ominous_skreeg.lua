@@ -25,6 +25,7 @@ ominous_skreeg = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/skreeg.iff"},
 	controlDeviceTemplate = "object/intangible/pet/skreeg_hue.iff",

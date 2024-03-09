@@ -26,6 +26,7 @@ flail_killer = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"thug",
 		"object/mobile/dressed_desperado_bith_female_01.iff",

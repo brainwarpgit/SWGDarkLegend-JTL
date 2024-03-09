@@ -25,6 +25,7 @@ young_baz_nitch = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/young_baz_nitch.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

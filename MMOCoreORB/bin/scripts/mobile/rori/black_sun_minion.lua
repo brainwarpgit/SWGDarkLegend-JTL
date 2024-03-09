@@ -27,6 +27,7 @@ black_sun_minion = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.15,
 
 	templates = {"object/mobile/dressed_black_sun_guard.iff"},

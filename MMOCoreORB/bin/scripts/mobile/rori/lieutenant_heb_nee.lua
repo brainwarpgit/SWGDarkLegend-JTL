@@ -25,6 +25,7 @@ lieutenant_heb_nee = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/lieutenant_heb_nee.iff"},
 	lootGroups = {

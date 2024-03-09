@@ -27,6 +27,7 @@ nym_pirate_weak = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_pirate_weak_hum_f.iff",
 		"object/mobile/dressed_nym_pirate_weak_rod_m.iff",

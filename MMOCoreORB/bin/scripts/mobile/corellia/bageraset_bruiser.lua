@@ -25,6 +25,7 @@ bageraset_bruiser = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bageraset_hue.iff"},
 	scale = 1.2,

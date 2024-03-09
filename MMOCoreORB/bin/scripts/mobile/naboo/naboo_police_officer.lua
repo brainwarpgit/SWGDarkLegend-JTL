@@ -27,6 +27,7 @@ naboo_police_officer = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_police.iff"},
 	lootGroups = {

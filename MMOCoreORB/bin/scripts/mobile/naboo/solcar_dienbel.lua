@@ -26,6 +26,7 @@ solcar_dienbel = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_solcar_dienbel.iff"},
 	lootGroups = {},

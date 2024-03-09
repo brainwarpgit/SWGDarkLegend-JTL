@@ -27,6 +27,7 @@ nightsister_ranger = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_nightsister_ranger.iff"},
 	lootGroups = {

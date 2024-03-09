@@ -27,6 +27,7 @@ talus_liberation_party_activist = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_talus_sif_mercenary_rodian_01.iff"},
 	lootGroups = {

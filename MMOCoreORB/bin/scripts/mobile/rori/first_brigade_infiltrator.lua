@@ -27,6 +27,7 @@ first_brigade_infiltrator = Creature:new {
 	creatureBitmask = PACK + HERD + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_brigade_infiltrator_human_male_01.iff",

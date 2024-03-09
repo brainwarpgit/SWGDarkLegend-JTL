@@ -25,6 +25,7 @@ mutated_krevol_clicker = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mutated_krevol_clicker.iff"},
 	controlDeviceTemplate = "object/intangible/pet/horned_krevol_hue.iff",

@@ -27,6 +27,7 @@ rodian_clan_medic = Creature:new {
 	creatureBitmask = HERD + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_rodian_clan_medic.iff"},
 	lootGroups = {

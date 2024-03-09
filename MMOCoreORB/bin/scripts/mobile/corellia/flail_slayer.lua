@@ -26,6 +26,7 @@ flail_slayer = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_ravager_human_female_01.iff",
 		"object/mobile/dressed_ravager_human_male_01.iff",

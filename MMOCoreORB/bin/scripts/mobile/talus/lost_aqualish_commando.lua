@@ -27,6 +27,7 @@ lost_aqualish_commando = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_lost_aqualish_commando_female_01.iff",

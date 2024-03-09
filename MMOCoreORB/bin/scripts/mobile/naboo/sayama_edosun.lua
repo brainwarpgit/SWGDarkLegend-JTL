@@ -26,6 +26,7 @@ sayama_edosun = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_sayama_edosun.iff"},
 	lootGroups = {},

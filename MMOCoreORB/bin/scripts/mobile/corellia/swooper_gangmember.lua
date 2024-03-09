@@ -28,6 +28,7 @@ swooper_gangmember = Creature:new {
 	creatureBitmask = STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_swooper_zabrak_female_01.iff",
 		"object/mobile/dressed_criminal_swooper_human_male_01.iff"},

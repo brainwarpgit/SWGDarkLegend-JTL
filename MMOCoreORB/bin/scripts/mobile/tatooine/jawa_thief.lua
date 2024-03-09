@@ -27,6 +27,7 @@ jawa_thief = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/jawa_male.iff"},
 	lootGroups = {

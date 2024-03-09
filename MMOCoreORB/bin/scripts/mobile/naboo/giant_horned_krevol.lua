@@ -25,6 +25,7 @@ giant_horned_krevol = Creature:new {
 	creatureBitmask = PACK + HERD + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_horned_krevol.iff"},
 	controlDeviceTemplate = "object/intangible/pet/horned_krevol_hue.iff",

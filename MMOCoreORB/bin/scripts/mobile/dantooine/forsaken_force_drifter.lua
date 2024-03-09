@@ -27,6 +27,7 @@ forsaken_force_drifter = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_forsaken_force_drifter.iff"},
 	lootGroups = {

@@ -26,6 +26,7 @@ gilad_pellaeon = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_captain_gilad_pellaeon.iff"},
 	lootGroups = {},

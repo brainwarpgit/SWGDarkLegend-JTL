@@ -26,6 +26,7 @@ etheli_drenel = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_noble_bothan_male_01.iff"},
 	lootGroups = { },

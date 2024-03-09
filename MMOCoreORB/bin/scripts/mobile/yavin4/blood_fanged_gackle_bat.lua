@@ -25,6 +25,7 @@ blood_fanged_gackle_bat = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bloodfanged_gackle_bat.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

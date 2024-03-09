@@ -27,6 +27,7 @@ spiderclan_auspex = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_spider_nightsister_spellweaver.iff"},
 	lootGroups = {

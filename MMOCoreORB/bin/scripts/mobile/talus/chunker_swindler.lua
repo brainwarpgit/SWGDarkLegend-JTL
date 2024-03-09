@@ -26,6 +26,7 @@ chunker_swindler = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_thug_rodian_female_01.iff",
 		"object/mobile/dressed_crook_zabrak_female_01.iff",

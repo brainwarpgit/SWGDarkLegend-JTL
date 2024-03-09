@@ -26,6 +26,7 @@ poki_wirqi = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_noble_old_twk_female_02.iff"},
 	lootGroups = {},

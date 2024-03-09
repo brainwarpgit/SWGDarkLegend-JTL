@@ -26,6 +26,7 @@ chunker_goon = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mugger.iff",
 		"object/mobile/dressed_robber_human_male_01.iff",

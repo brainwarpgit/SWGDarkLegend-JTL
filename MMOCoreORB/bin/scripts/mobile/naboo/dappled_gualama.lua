@@ -26,6 +26,7 @@ dappled_gualama = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dappled_gualama.iff"},
 	controlDeviceTemplate = "object/intangible/pet/gualama_hue.iff",

@@ -25,6 +25,7 @@ rifea_eicik = Creature:new {
 	pvpBitmask = NONE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_noble_human_female_04.iff"},
 	lootGroups = {},

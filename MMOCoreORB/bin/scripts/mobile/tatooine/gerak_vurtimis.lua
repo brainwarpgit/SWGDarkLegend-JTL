@@ -26,6 +26,7 @@ gerak_vurtimis = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED + INTERESTING + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_commoner_fat_human_male_01.iff"},
 	lootGroups = {},

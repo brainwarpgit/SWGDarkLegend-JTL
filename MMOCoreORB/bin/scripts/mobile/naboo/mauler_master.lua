@@ -27,6 +27,7 @@ mauler_master = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mauler_master.iff"},
 	lootGroups = {

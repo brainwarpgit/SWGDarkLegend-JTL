@@ -27,6 +27,7 @@ canyon_corsair_elite_pirate = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {
 		"object/mobile/dressed_corsair_pirate_elite_hum_f.iff",

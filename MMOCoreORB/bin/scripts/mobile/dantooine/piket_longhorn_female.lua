@@ -26,6 +26,7 @@ piket_longhorn_female = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/piket_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

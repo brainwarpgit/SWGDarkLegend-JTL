@@ -25,6 +25,7 @@ greater_desert_womp_rat = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/greater_desert_womp_rat.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -27,6 +27,7 @@ mokk_herbalist = Creature:new {
 	creatureBitmask = PACK + HERD + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dantari_female.iff",

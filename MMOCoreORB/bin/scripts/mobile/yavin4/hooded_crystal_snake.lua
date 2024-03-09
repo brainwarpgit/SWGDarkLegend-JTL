@@ -25,6 +25,7 @@ hooded_crystal_snake = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/crystal_snake.iff"},
 	controlDeviceTemplate = "object/intangible/pet/crystal_snake.iff",

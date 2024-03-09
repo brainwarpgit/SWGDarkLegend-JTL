@@ -25,6 +25,7 @@ insane_mantigrue_berserker = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mantigrue_night_stalker.iff"},
 	controlDeviceTemplate = "object/intangible/pet/perlek_hue.iff",

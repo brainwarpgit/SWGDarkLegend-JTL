@@ -25,6 +25,7 @@ kimo_commoner = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {	"commoner" },
 	lootGroups = {

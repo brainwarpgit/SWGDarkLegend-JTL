@@ -27,6 +27,7 @@ young_mos_taike_guard = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mos_taike_guard_young.iff"},
 	lootGroups = {

@@ -26,6 +26,7 @@ queen_kylantha_gazebo = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_queen_kylantha_02.iff"},
 	lootGroups = {},

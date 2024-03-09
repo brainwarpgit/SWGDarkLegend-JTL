@@ -25,6 +25,7 @@ monstrous_brute = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/rancor_hue.iff"},
 	scale = 1.35,

@@ -27,6 +27,7 @@ bothan_information_broker = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_bth_spynet_pilot_m_01.iff",

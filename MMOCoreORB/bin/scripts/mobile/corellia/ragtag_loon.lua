@@ -26,6 +26,7 @@ ragtag_loon = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_mugger.iff",

@@ -25,6 +25,7 @@ dwarf_gronda = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dwarf_gronda.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

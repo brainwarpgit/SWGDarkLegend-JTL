@@ -25,6 +25,7 @@ sunstained_dune_lizard = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dune_lizard.iff"},
 	controlDeviceTemplate = "object/intangible/pet/dune_lizard_hue.iff",

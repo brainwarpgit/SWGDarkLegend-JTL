@@ -26,6 +26,7 @@ chunker_punk = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_goon_twk_female_01.iff",
 		"object/mobile/dressed_mugger.iff",

@@ -27,6 +27,7 @@ trade_federation_loyalist = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_trade_federation_loyalist.iff"},
 	lootGroups = {

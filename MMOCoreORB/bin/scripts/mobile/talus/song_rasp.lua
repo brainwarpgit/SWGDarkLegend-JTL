@@ -25,6 +25,7 @@ song_rasp = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/flite_rasp_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

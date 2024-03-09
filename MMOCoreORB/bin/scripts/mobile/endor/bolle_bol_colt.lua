@@ -25,6 +25,7 @@ bolle_bol_colt = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bolle_bol_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

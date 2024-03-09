@@ -26,6 +26,7 @@ mummer_thug = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"thug"},
 	lootGroups = {

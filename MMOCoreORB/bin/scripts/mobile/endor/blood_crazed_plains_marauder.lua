@@ -25,6 +25,7 @@ blood_crazed_plains_marauder = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_blood_crazed_plains_marauder.iff"},
 	lootGroups = {

@@ -27,6 +27,7 @@ sleemo_scamp = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_hoodlum_zabrak_male_01.iff"},
 	lootGroups = {

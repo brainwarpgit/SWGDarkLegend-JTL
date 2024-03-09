@@ -27,6 +27,7 @@ escaped_nightsister_slave = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_nightsister_escaped_slave.iff"},
 	lootGroups = {

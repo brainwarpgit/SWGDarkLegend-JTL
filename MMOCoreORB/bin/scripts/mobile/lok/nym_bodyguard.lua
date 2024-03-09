@@ -27,6 +27,7 @@ nym_bodyguard = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_bodyguard_rod_m.iff",
 		"object/mobile/dressed_nym_bodyguard_hum_m.iff",

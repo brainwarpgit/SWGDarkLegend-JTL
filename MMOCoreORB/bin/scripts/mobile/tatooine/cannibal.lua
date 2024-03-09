@@ -25,6 +25,7 @@ cannibal = Creature:new {
 	creatureBitmask = STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_cannibal.iff"},
 	lootGroups = {

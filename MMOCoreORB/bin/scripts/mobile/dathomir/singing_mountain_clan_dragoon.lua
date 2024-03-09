@@ -27,6 +27,7 @@ singing_mountain_clan_dragoon = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_sing_mt_clan_dragoon.iff"},
 	lootGroups = {

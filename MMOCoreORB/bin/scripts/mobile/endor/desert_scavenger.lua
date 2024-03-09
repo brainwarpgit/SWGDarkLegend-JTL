@@ -25,6 +25,7 @@ desert_scavenger = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/borgle_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

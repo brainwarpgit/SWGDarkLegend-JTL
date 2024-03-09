@@ -27,6 +27,7 @@ bothan_diplomat = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_bth_spynet_pilot_m_01.iff",

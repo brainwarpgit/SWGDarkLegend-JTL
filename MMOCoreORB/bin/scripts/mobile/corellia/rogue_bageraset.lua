@@ -26,6 +26,7 @@ rogue_bageraset = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bageraset_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bageraset_hue.iff",

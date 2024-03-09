@@ -26,6 +26,7 @@ herald_dathomir_denbar = Creature:new {
 	creatureBitmask = PACK + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_herald_nsister_rancor_cave_01.iff"},
 	lootGroups = {},

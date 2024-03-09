@@ -28,6 +28,7 @@ insane_miner = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_kobola_miner_human_male_01.iff",
 		"object/mobile/dressed_kobola_miner_human_female_01.iff"

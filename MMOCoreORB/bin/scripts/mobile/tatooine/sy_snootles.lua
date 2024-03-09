@@ -25,6 +25,7 @@ sy_snootles = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/sy_snootles.iff"},
 	lootGroups = {},

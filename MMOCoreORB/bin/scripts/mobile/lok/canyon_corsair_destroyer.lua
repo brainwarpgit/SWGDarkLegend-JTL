@@ -27,6 +27,7 @@ canyon_corsair_destroyer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_corsair_destroyer_hum_f.iff",

@@ -27,6 +27,7 @@ disciple_of_lord_nyax = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_patron_nikto_01.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ razor_cat_eviscerator = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/corellian_sand_panther_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

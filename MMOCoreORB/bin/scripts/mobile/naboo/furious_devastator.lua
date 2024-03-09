@@ -25,6 +25,7 @@ furious_devastator = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/fambaa_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/fambaa_hue.iff",

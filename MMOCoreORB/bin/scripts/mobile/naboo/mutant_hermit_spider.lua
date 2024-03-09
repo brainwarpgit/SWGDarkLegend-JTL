@@ -26,6 +26,7 @@ mutant_hermit_spider = Creature:new {
 	creatureBitmask = STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/hermit_spider_hue.iff"},
 	scale = 1.5,

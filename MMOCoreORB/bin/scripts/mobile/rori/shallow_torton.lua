@@ -25,6 +25,7 @@ shallow_torton = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/shallow_torton.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

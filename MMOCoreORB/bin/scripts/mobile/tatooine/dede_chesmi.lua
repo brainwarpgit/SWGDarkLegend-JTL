@@ -26,6 +26,7 @@ dede_chesmi = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_noble_fat_human_female_01.iff"},
 	lootGroups = {},

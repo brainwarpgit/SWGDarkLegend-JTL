@@ -27,6 +27,7 @@ gungan_kaadu_rider = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_s02_male.iff"},
 	lootGroups = {

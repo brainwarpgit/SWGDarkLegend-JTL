@@ -25,6 +25,7 @@ enraged_defender = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/piket_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/piket_hue.iff",

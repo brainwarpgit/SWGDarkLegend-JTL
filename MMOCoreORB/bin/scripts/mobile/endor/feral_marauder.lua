@@ -27,6 +27,7 @@ feral_marauder = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.35,
 
 	templates = {"object/mobile/dressed_feral_marauder.iff"},

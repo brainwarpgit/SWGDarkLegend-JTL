@@ -24,6 +24,7 @@ mind_of_solitude = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/human_male.iff"},
 	lootGroups = {

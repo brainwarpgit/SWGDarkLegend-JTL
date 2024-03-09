@@ -27,6 +27,7 @@ rogue_corsec_trooper = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_corsec_officer_human_male_01.iff",

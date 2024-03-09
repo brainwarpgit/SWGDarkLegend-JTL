@@ -27,6 +27,7 @@ canyon_corsair_cutthroat = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_corsair_cutthroat_hum_f.iff",

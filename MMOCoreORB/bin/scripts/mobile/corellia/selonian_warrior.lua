@@ -27,6 +27,7 @@ selonian_warrior = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_male",
 				"selonian_female"},

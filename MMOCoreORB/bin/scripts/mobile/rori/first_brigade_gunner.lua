@@ -27,6 +27,7 @@ first_brigade_gunner = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_brigade_gunner_bith_male_01.iff",

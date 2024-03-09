@@ -25,6 +25,7 @@ rotten_gut_remmer_king = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/rotten_gut_remmer_king.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -28,6 +28,7 @@ borvos_soldier = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_borvos_soldier.iff"},
 	lootGroups = {

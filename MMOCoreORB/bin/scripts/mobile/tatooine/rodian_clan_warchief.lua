@@ -27,6 +27,7 @@ rodian_clan_warchief = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_rodian_clan_warchief.iff"},
 	lootGroups = {

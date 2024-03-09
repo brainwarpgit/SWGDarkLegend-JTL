@@ -25,6 +25,7 @@ stunted_woolamander = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/woolamander_hue.iff"},
 	scale = 0.75,

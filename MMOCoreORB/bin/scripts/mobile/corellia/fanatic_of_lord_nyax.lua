@@ -27,6 +27,7 @@ fanatic_of_lord_nyax = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dark_jedi_human_female_01.iff"},
 	lootGroups = {

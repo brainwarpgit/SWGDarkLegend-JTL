@@ -26,6 +26,7 @@ grand_tybis = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tybis_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/tybis_hue.iff",

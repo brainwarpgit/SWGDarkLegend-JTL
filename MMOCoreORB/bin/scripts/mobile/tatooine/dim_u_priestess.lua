@@ -27,6 +27,7 @@ dim_u_priestess = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_dim_u_priestess.iff"},
 	lootGroups = {

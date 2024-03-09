@@ -27,6 +27,7 @@ ankura_gungan = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/ankura_gungan.iff"},
 	lootGroups = {

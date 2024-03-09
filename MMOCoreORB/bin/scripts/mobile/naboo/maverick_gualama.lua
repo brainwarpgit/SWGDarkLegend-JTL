@@ -25,6 +25,7 @@ maverick_gualama = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gualama_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

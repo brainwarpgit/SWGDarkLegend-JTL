@@ -26,6 +26,7 @@ rorgungan_warchief = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_s02_male.iff"},
 	lootGroups = {

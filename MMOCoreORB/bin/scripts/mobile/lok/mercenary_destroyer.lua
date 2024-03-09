@@ -27,6 +27,7 @@ mercenary_destroyer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_mercenary_destroyer_hum_f.iff",

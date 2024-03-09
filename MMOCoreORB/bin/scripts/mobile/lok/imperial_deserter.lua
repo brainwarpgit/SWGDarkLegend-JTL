@@ -25,6 +25,7 @@ imperial_deserter = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_defector.iff"},
 	lootGroups = {

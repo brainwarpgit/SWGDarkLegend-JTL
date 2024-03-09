@@ -25,6 +25,7 @@ tusken_carnage_champion = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tusken_raider.iff"},
 	lootGroups = {

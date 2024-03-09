@@ -27,6 +27,7 @@ selonian_captain = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_male"},
 	lootGroups = {

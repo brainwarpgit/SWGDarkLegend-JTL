@@ -25,6 +25,7 @@ frightened_borgle = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/borgle_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

@@ -26,6 +26,7 @@ desert_eopie = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/eopie_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

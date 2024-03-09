@@ -26,6 +26,7 @@ gundark_hooligan = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_hooligan_rodian_female_01.iff",

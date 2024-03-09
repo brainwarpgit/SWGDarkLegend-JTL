@@ -26,6 +26,7 @@ bolma_youth = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bolma_youth.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

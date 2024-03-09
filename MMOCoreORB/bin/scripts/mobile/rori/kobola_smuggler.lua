@@ -27,6 +27,7 @@ kobola_smuggler = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_kobola_smuggler_trandoshan_male_01.iff",

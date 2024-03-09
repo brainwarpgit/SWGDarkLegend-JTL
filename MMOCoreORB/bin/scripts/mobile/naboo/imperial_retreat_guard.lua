@@ -24,6 +24,7 @@ imperial_retreat_guard = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/emperor_royal_guard.iff"},
 	lootGroups = {

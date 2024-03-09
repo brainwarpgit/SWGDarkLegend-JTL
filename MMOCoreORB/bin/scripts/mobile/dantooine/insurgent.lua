@@ -24,6 +24,7 @@ insurgent = Creature:new {
 	pvpBitmask = NONE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_imperial_tier4_corellia_nin_gursawe.iff"},
 	lootGroups = {},

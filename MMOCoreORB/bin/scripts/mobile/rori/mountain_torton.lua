@@ -25,6 +25,7 @@ mountain_torton = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/torton_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

@@ -25,6 +25,7 @@ slinking_voritor_hunter = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/slinking_voritor_hunter.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

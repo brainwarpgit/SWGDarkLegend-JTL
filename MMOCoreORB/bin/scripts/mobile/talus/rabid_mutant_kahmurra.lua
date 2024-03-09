@@ -25,6 +25,7 @@ rabid_mutant_kahmurra = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mutated_kahmurra.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

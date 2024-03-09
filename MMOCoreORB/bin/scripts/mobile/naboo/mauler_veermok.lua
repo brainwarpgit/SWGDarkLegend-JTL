@@ -25,6 +25,7 @@ mauler_veermok = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/veermok_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

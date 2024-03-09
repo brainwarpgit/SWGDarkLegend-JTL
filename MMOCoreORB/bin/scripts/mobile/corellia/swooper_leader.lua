@@ -27,6 +27,7 @@ swooper_leader = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_swooper_zabrak_male_01.iff"},
 	lootGroups = {

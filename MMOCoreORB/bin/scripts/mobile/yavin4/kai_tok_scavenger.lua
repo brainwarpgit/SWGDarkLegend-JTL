@@ -25,6 +25,7 @@ kai_tok_scavenger = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kai_tok_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

@@ -27,6 +27,7 @@ garyns_marauder = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_garyn_marauder_zabrak_male_01.iff",

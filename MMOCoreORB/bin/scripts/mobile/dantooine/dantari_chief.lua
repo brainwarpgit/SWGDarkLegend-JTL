@@ -27,6 +27,7 @@ dantari_chief = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dantari_male.iff"},
 	lootGroups = {

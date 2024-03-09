@@ -25,6 +25,7 @@ tusken_king = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tusken_raider.iff"},
 	lootGroups = {

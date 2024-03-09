@@ -27,6 +27,7 @@ untrained_wielder_of_the_dark_side = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_untrained_wielder_of_the_darkside.iff"},
 	lootGroups = {

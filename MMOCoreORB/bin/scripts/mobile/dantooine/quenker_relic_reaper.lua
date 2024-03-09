@@ -25,6 +25,7 @@ quenker_relic_reaper = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/quenker_relic_reaper.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

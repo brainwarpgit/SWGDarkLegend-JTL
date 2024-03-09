@@ -25,6 +25,7 @@ majestic_whisper_bird = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/whisper_bird_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/lantern_bird_hue.iff",

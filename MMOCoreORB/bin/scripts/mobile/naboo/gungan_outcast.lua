@@ -27,6 +27,7 @@ gungan_outcast = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_outcast.iff"},
 	lootGroups = {

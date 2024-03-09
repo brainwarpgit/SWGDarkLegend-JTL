@@ -25,6 +25,7 @@ dewback = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dewback_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -26,6 +26,7 @@ chunker_mooch = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_thug_zabrak_male_01.iff",
 		"object/mobile/dressed_goon_twk_male_01.iff",

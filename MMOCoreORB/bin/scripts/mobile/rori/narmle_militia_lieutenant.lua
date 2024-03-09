@@ -27,6 +27,7 @@ narmle_militia_lieutenant = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_narmle_lieutenant_twk_female_01.iff",

@@ -27,6 +27,7 @@ plasma_thieving_swamp_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_swamp_trooper.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ bomarr_monk = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bomarr_monk_spider_droid.iff"},
 	lootGroups = {},

@@ -25,6 +25,7 @@ giant_decay_mite_soldier = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/decay_mite.iff"},
 	scale = 1.5,

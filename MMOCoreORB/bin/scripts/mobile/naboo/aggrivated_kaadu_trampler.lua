@@ -25,6 +25,7 @@ aggrivated_kaadu_trampler = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kaadu_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/kaadu_hue.iff",

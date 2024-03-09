@@ -25,6 +25,7 @@ woolamander = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/woolamander_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

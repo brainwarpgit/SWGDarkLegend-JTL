@@ -27,6 +27,7 @@ sleemo_delinquent = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_thug_zabrak_male_01.iff",
 		"object/mobile/dressed_hooligan_rodian_male_01.iff",

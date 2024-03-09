@@ -26,6 +26,7 @@ settler_thug = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_commoner_tatooine_bith_female_03.iff",

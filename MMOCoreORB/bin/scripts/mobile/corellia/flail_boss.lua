@@ -26,6 +26,7 @@ flail_boss = Creature:new {
 	pvpBitmask = ATTACKABLE + AGGRESSIVE + ENEMY,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_criminal_thug_human_male_01.iff",
 		"object/mobile/dressed_criminal_thug_human_male_02.iff",

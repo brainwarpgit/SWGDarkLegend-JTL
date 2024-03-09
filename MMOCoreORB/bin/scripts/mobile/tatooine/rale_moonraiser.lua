@@ -26,6 +26,7 @@ rale_moonraiser = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/darklight_guard.iff"},
 	lootGroups = {},

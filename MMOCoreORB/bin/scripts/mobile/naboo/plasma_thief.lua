@@ -26,6 +26,7 @@ plasma_thief = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_plasma_thief.iff"},
 	lootGroups = {

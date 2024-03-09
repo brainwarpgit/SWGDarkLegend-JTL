@@ -25,6 +25,7 @@ demolishing_snorbal_titan = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/snorbal_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/snorbal_hue.iff",

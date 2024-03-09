@@ -25,6 +25,7 @@ ev_9d9 = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/ev_9d9.iff"},
 	lootGroups = {},

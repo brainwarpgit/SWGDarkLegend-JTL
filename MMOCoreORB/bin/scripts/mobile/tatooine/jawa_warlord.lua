@@ -27,6 +27,7 @@ jawa_warlord = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/jawa_male.iff"},
 	lootGroups = {

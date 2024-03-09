@@ -26,6 +26,7 @@ spice_collective_workchief = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_workchief_twk_female_01.iff",

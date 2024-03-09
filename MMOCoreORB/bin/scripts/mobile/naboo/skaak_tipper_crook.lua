@@ -26,6 +26,7 @@ skaak_tipper_crook = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_crook_zabrak_female_01.iff",

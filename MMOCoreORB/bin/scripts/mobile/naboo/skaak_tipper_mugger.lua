@@ -26,6 +26,7 @@ skaak_tipper_mugger = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mugger.iff"},
 	lootGroups = {

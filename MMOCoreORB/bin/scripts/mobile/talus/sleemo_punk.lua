@@ -27,6 +27,7 @@ sleemo_punk = Creature:new {
 	creatureBitmask = STALKER + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_hooligan_rodian_male_01.iff"},
 	lootGroups = {

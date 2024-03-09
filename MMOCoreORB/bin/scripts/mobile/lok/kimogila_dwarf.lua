@@ -25,6 +25,7 @@ kimogila_dwarf = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kimogila_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

@@ -27,6 +27,7 @@ stranded_rebel_scout = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_scout_human_male_01.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ corellia_times_investigator = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_fed_dub_investigator_twk_female_01.iff"},
 	lootGroups = {},

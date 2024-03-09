@@ -25,6 +25,7 @@ bloodstained_prowler = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gurreck_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/gurreck_hue.iff",

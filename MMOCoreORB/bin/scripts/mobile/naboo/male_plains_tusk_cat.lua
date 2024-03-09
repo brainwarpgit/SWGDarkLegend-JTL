@@ -25,6 +25,7 @@ male_plains_tusk_cat = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tusk_cat_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/tusk_cat_hue.iff",

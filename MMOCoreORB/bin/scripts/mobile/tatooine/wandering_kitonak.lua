@@ -25,6 +25,7 @@ wandering_kitonak = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kitonak_male.iff"},
 	lootGroups = {

@@ -26,6 +26,7 @@ wuher = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "cityPatrol",
 
 	templates = {"object/mobile/dressed_tatooine_wuher.iff"},

@@ -25,6 +25,7 @@ lord_nyax = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_lord_nyax.iff"},
 	lootGroups = {

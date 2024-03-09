@@ -25,6 +25,7 @@ war_gronda = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/war_gronda.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -26,6 +26,7 @@ rhys_dallows = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_captain_dallows.iff"},
 	lootGroups = {},

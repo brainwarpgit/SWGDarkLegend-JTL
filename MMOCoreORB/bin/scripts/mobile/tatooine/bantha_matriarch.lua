@@ -26,6 +26,7 @@ bantha_matriarch = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/matriarch_bantha.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

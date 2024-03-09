@@ -26,6 +26,7 @@ gundark_ruffian = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ruffian_zabrak_female_01.iff"},

@@ -25,6 +25,7 @@ borgle_life_sapper = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/borgle_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

@@ -25,6 +25,7 @@ chasmal_spider = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gaping_spider_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/gaping_spider_hue.iff",

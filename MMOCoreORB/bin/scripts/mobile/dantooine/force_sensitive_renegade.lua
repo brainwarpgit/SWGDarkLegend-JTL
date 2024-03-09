@@ -27,6 +27,7 @@ force_sensitive_renegade = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_force_sensitive_renegade.iff"},
 	lootGroups = {

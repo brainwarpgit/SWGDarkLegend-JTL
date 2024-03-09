@@ -28,6 +28,7 @@ weequay_captain = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_weequay_captain.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ bordok_herd_master = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bordok_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

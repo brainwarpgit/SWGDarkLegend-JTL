@@ -27,6 +27,7 @@ miner_patrol = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "cityPatrol",
 
 	templates = {"object/mobile/dressed_mand_miner_bith.iff",

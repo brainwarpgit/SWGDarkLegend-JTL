@@ -25,6 +25,7 @@ sulfur_pool_mynock = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/riverside_sulfur_mynock.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

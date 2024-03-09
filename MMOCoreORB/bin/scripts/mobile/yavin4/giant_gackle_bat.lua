@@ -24,6 +24,7 @@ giant_gackle_bat = Creature:new {
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_gackle_bat.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

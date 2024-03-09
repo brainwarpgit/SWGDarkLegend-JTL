@@ -25,6 +25,7 @@ bull_ronto = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/ronto_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/ronto_hue.iff",

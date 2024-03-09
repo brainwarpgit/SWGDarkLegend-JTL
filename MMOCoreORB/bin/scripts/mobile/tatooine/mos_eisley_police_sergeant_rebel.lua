@@ -27,6 +27,7 @@ mos_eisley_police_sergeant_rebel = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_mos_eisley_police_sergeant.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ veneral_devourer = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/pugoriss.iff"},
 	controlDeviceTemplate = "object/intangible/pet/pugoriss_hue.iff",

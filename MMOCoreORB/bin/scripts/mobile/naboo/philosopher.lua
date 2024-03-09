@@ -27,6 +27,7 @@ philosopher = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_philosopher.iff"},
 	lootGroups = {

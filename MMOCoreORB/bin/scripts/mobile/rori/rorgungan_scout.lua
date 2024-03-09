@@ -26,6 +26,7 @@ rorgungan_scout = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_s04_male.iff"},
 

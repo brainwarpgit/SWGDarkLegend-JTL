@@ -27,6 +27,7 @@ borvos_champion = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_borvos_champion.iff"},
 	lootGroups = {

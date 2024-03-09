@@ -25,6 +25,7 @@ eryk_chinn = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_stormtrooper_black_black.iff"},
 	lootGroups = {},

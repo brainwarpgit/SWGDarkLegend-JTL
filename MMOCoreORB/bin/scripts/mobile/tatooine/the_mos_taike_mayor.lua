@@ -27,6 +27,7 @@ the_mos_taike_mayor = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mayor.iff"},
 	lootGroups = {

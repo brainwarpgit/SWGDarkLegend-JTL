@@ -25,6 +25,7 @@ tusken_commoner = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tusken_raider.iff"},
 	lootGroups = {

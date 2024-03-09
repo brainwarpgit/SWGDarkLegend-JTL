@@ -26,6 +26,7 @@ mummer_bully = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_crook_zabrak_female_01.iff",

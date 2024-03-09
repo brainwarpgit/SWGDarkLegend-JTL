@@ -27,6 +27,7 @@ feral_selonian = Creature:new {
 	creatureBitmask = KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_selonian_m_06.iff"},
 	lootGroups = {

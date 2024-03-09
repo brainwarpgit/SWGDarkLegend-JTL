@@ -27,6 +27,7 @@ aakuan_follower = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_aakuan_follower_trandoshan_female_01.iff",

@@ -27,6 +27,7 @@ kobola_assassin = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_kobola_assassin_zabrak_male_01.iff",

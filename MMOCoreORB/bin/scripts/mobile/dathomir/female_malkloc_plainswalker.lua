@@ -26,6 +26,7 @@ female_malkloc_plainswalker = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/malkloc_hue.iff"},
 	scale = 1.15,

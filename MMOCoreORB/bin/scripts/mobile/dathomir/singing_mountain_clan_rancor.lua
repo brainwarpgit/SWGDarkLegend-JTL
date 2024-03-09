@@ -25,6 +25,7 @@ singing_mountain_clan_rancor = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/rancor_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

@@ -25,6 +25,7 @@ bolle_bol_herd_leader = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bolle_bol_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

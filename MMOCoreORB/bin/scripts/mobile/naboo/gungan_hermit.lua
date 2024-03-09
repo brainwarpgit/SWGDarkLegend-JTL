@@ -27,6 +27,7 @@ gungan_hermit = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_male.iff"},
 	lootGroups = {

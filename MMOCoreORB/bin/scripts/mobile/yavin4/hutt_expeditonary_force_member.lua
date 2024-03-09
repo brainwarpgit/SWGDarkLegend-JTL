@@ -27,6 +27,7 @@ hutt_expeditonary_force_member = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_hutt_expedition_force_member.iff"},
 	lootGroups = {

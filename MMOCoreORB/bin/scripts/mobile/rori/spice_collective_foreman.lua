@@ -26,6 +26,7 @@ spice_collective_foreman = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_spice_collective_foreman_trandoshan_female_01.iff",

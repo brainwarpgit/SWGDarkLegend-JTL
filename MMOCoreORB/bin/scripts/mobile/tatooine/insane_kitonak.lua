@@ -24,6 +24,7 @@ insane_kitonak = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/kitonak_male.iff"},
 	lootGroups = {

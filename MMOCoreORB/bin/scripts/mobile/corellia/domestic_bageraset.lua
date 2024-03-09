@@ -26,6 +26,7 @@ domestic_bageraset = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bageraset_hue.iff"},
 	lootGroups = {},

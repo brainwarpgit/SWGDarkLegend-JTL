@@ -26,6 +26,7 @@ queen_kylantha_throne = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_queen_kylantha_01.iff"},
 	lootGroups = {},

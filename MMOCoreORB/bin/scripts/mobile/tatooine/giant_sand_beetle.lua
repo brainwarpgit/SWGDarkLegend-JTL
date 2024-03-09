@@ -25,6 +25,7 @@ giant_sand_beetle = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_sand_beetle.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

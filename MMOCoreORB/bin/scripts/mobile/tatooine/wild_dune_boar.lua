@@ -25,6 +25,7 @@ wild_dune_boar = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/zucca_boar_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

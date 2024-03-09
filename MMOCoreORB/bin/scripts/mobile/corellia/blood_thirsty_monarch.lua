@@ -25,6 +25,7 @@ blood_thirsty_monarch = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/corellian_butterfly_monarch.iff"},
 	controlDeviceTemplate = "object/intangible/pet/corellian_butterfly_hue.iff",

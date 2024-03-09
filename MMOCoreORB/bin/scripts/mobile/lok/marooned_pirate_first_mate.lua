@@ -27,6 +27,7 @@ marooned_pirate_first_mate = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_marooned_pirate_first_mate_hum_f.iff",

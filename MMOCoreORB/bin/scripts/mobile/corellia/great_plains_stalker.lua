@@ -25,6 +25,7 @@ great_plains_stalker = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/corellian_sand_panther_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

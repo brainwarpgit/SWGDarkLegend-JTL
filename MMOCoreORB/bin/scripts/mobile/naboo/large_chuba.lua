@@ -25,6 +25,7 @@ large_chuba = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/chuba_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/chuba_hue.iff",

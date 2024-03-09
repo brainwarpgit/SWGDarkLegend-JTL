@@ -27,6 +27,7 @@ binayre_hooligan = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_binayre_hooligan_zabrak_female_01.iff",

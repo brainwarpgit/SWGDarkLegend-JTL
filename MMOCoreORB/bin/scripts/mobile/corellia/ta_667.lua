@@ -25,6 +25,7 @@ ta_667 = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.5,
 
 	templates = {"object/mobile/dark_trooper.iff"},

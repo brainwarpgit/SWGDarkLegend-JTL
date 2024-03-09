@@ -27,6 +27,7 @@ singing_mountain_clan_arch_witch = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_sing_mt_clan_arch_witch.iff"},
 	lootGroups = {

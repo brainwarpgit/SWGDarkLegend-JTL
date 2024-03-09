@@ -27,6 +27,7 @@ neo_cobral_runner = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_cobral_runner_trandoshan_female_01.iff",

@@ -27,6 +27,7 @@ neo_cobral_thug = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_cobral_thug_rodian_female_01.iff",

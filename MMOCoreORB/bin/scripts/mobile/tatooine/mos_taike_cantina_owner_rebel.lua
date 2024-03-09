@@ -27,6 +27,7 @@ mos_taike_cantina_owner_rebel = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/mos_taike_cantina_owner.iff"},
 		lootGroups = {

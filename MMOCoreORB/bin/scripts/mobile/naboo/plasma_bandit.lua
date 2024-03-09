@@ -28,6 +28,7 @@ plasma_bandit = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_plasma_bandit.iff"},
 	lootGroups = {

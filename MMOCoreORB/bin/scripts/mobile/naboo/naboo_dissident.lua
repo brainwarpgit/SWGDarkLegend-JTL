@@ -26,6 +26,7 @@ naboo_dissident = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_dissident.iff"},
 	lootGroups = {

@@ -27,6 +27,7 @@ fed_dub_captain = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_fed_dub_captain_twk_female_01.iff",

@@ -26,6 +26,7 @@ hidden_daggers_activist = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_crook_zabrak_female_01.iff",

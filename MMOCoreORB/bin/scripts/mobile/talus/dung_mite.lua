@@ -25,6 +25,7 @@ dung_mite = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dung_mite.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

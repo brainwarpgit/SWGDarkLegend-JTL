@@ -1,19 +1,19 @@
-nym_guard_elite = Creature:new {
-	objectName = "@mob/creature_names:nym_guard_elite",
+nym_guard = Creature:new {
+	objectName = "@mob/creature_names:nym_guard",
 	randomNameType = NAME_GENERIC,
 	randomNameTag = true,
 	mobType = MOB_NPC,
 	socialGroup = "nym",
 	faction = "nym",
-	level = 38,
-	chanceHit = 0.43,
-	damageMin = 335,
-	damageMax = 380,
-	baseXp = 3824,
-	baseHAM = 9100,
-	baseHAMmax = 11100,
-	armor = 1,
-	resists = {150,15,15,15,160,-1,-1,-1,-1},
+	level = 9,
+	chanceHit = 0.27,
+	damageMin = 80,
+	damageMax = 90,
+	baseXp = 356,
+	baseHAM = 675,
+	baseHAMmax = 825,
+	armor = 0,
+	resists = {0,0,0,0,0,0,115,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -27,10 +27,12 @@ nym_guard_elite = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
-	templates = {"object/mobile/dressed_nym_guard_elite_rod_m.iff",
-		"object/mobile/dressed_nym_guard_elite_nikto_m.iff",
-		"object/mobile/dressed_nym_guard_elite_hum_m.iff"},
+	templates = {"object/mobile/dressed_nym_guard_strong_hum_f.iff",
+		"object/mobile/dressed_nym_guard_strong_rod_m.iff",
+		"object/mobile/dressed_nym_guard_strong_nikto_m.iff",
+		"object/mobile/dressed_nym_guard_strong_hum_m.iff"},
 	lootGroups = {
 		{
 			groups = {
@@ -45,7 +47,7 @@ nym_guard_elite = Creature:new {
 
 	-- Primary and secondary weapon should be different types (rifle/carbine, carbine/pistol, rifle/unarmed, etc)
 	-- Unarmed should be put on secondary unless the mobile doesn't use weapons, in which case "unarmed" should be put primary and "none" as secondary
-	primaryWeapon = "pirate_weapons_heavy",
+	primaryWeapon = "pirate_weapons_medium",
 	secondaryWeapon = "unarmed",
 	thrownWeapon = "thrown_weapons",
 
@@ -54,8 +56,8 @@ nym_guard_elite = Creature:new {
 
 	-- primaryAttacks and secondaryAttacks should be separate skill groups specific to the weapon type listed in primaryWeapon and secondaryWeapon
 	-- Use merge() to merge groups in creatureskills.lua together. If a weapon is set to "none", set the attacks variable to empty brackets
-	primaryAttacks = merge(bountyhuntermaster,marksmanmaster,brawlermaster),
+	primaryAttacks = merge(marksmannovice,brawlernovice),
 	secondaryAttacks = { }
 }
 
-CreatureTemplates:addCreatureTemplate(nym_guard_elite, "nym_guard_elite")
+CreatureTemplates:addCreatureTemplate(nym_guard, "nym_guard_elite")

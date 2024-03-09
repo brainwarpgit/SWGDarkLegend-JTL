@@ -27,6 +27,7 @@ alkhara_lieutenant = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_alkhara_lieutenant.iff"},
 	lootGroups = {

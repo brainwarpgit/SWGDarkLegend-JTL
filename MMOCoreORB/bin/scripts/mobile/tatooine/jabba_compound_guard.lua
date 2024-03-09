@@ -27,6 +27,7 @@ jabba_compound_guard = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_jabba_henchman.iff"},
 	lootGroups = {

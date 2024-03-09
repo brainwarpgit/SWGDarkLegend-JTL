@@ -25,6 +25,7 @@ angry_baz_nitch_avenger = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/baz_nitch_hue.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

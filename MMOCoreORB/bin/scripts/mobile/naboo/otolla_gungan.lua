@@ -26,6 +26,7 @@ otolla_gungan = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_s04_male.iff", "object/mobile/gungan_male.iff"},
 	lootGroups = {

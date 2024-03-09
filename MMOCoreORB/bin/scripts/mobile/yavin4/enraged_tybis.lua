@@ -24,6 +24,7 @@ enraged_tybis = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/tybis_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

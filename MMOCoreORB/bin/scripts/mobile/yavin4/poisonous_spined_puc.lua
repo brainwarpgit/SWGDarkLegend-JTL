@@ -25,6 +25,7 @@ poisonous_spined_puc = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/spined_puc_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/spined_puc_hue.iff",

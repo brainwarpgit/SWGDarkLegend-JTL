@@ -27,6 +27,7 @@ sennex_lookout = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"sennex_pirate"},
 	lootGroups = {

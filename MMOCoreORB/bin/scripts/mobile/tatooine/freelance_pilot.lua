@@ -27,6 +27,7 @@ freelance_pilot = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_privateer_broker_retired_pilot.iff"},
 	lootGroups = {},

@@ -27,6 +27,7 @@ aakuan_defender = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_aakuan_defender_human_male_01.iff",

@@ -27,6 +27,7 @@ outcast_gungan = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_outcast.iff"},
 	lootGroups = {

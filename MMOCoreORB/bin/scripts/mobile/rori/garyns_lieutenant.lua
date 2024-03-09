@@ -27,6 +27,7 @@ garyns_lieutenant = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_garyn_lieutenant_zabrak_male_01.iff",

@@ -25,6 +25,7 @@ swamp_gurrcat = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gurrcat.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },

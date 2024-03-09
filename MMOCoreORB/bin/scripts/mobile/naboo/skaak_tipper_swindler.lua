@@ -26,6 +26,7 @@ skaak_tipper_swindler = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER + HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_desperado_bith_female_01.iff",

@@ -27,6 +27,7 @@ marooned_pirate_engineer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_marooned_pirate_engr_bith_m.iff",

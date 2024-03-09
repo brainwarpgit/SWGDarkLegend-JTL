@@ -25,6 +25,7 @@ aged_lantern_bird = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/lantern_bird_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/lantern_bird_hue.iff",

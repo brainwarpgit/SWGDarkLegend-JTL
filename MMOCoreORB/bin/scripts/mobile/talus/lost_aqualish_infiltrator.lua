@@ -27,6 +27,7 @@ lost_aqualish_infiltrator = Creature:new {
 	creatureBitmask = PACK + HERD + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_lost_aqualish_infiltrator_female_01.iff",

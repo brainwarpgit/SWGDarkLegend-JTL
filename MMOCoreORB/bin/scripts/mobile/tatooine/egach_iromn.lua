@@ -26,6 +26,7 @@ egach_iromn = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	
 	templates = {"object/mobile/dressed_bestine_capitol04.iff"},
 	lootGroups = {},

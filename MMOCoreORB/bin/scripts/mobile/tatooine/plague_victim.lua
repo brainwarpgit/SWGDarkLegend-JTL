@@ -24,6 +24,7 @@ plague_victim = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_plague_victim.iff"},
 	lootGroups = {

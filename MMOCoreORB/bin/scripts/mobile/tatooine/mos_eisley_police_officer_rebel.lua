@@ -27,6 +27,7 @@ mos_eisley_police_officer_rebel = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"police_tatooine"},
 	lootGroups = {

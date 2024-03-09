@@ -26,6 +26,7 @@ ragtag_kook = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_criminal_thug_aqualish_female_01.iff",

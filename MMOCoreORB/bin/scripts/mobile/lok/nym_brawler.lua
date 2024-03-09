@@ -27,6 +27,7 @@ nym_brawler = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_brawler_hum_f.iff",
 		"object/mobile/dressed_nym_brawler_hum_m.iff",

@@ -25,6 +25,7 @@ furious_ronto = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/ronto_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/ronto_hue.iff",

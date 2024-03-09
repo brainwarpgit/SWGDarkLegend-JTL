@@ -25,6 +25,7 @@ cas_vankoo = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_lok_cas_vankoo.iff"},
 	lootGroups = {

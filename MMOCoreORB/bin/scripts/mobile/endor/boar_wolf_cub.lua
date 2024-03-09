@@ -25,6 +25,7 @@ boar_wolf_cub = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/boar_wolf_cub.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

@@ -27,6 +27,7 @@ shamdon_kree = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/space_privateer_tier2_shamdon.iff"},
 	lootGroups = {},

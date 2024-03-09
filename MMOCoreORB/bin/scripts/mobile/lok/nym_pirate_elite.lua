@@ -27,6 +27,7 @@ nym_pirate_elite = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {"object/mobile/dressed_nym_pirate_elite_rod_m.iff",
 		"object/mobile/dressed_nym_pirate_elite_nikto_m.iff",

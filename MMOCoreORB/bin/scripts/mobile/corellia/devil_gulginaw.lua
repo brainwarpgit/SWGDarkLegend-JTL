@@ -25,6 +25,7 @@ devil_gulginaw = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/devil_gulginaw.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },

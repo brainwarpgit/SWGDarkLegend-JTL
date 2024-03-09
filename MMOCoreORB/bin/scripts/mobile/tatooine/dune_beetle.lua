@@ -25,6 +25,7 @@ dune_beetle = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/giant_sand_beetle.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

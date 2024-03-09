@@ -25,6 +25,7 @@ potbellied_vrobal = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 	scale = 0.9,
 
 	templates = {"object/mobile/vrobal.iff"},

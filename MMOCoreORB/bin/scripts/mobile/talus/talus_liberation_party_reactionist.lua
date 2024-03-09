@@ -27,6 +27,7 @@ talus_liberation_party_reactionist = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_talus_sif_mercenary_trand_01.iff"},
 	lootGroups = {

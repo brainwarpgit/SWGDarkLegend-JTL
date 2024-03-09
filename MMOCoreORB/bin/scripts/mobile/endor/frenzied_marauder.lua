@@ -27,6 +27,7 @@ frenzied_marauder = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_frenzied_marauder.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ bonecracker_bantha = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/bantha_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/bantha_hue.iff",

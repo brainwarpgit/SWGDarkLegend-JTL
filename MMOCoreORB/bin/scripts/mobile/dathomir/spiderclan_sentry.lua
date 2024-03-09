@@ -27,6 +27,7 @@ spiderclan_sentry = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dathomir_spider_nightsister_guardian.iff"},
 	lootGroups = {

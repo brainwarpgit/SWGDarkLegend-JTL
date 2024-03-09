@@ -26,6 +26,7 @@ lt_porro_dolphe = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_lt_porro_dolphe.iff"},
 	lootGroups = {},

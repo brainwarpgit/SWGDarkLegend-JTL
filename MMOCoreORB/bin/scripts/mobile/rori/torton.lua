@@ -25,6 +25,7 @@ torton = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/torton_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

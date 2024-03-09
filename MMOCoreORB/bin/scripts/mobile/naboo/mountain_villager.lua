@@ -26,6 +26,7 @@ mountain_villager = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mountain_villager.iff"},
 	lootGroups = {

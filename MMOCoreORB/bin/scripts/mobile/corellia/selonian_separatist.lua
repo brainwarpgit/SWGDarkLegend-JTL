@@ -27,6 +27,7 @@ selonian_separatist = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"selonian_male",
 				"selonian_female"},

@@ -27,6 +27,7 @@ force_crystal_hunter = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_dark_force_crystal_hunter.iff"},
 	lootGroups = {

@@ -25,6 +25,7 @@ captain_hassk = Creature:new {
 	creatureBitmask = PACK + HERD + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/captain_hassk.iff"},
 	lootGroups = {

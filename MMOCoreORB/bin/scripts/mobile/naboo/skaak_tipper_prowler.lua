@@ -26,6 +26,7 @@ skaak_tipper_prowler = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_ravager_human_female_01.iff",

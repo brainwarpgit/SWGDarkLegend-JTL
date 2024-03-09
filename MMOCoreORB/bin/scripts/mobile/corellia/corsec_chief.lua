@@ -27,6 +27,7 @@ corsec_chief = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_corellia_local_corsec_chief.iff"},
 	lootGroups = {

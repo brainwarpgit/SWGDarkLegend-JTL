@@ -27,6 +27,7 @@ nym_guard_strong = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_guard_strong_hum_f.iff",
 		"object/mobile/dressed_nym_guard_strong_rod_m.iff",

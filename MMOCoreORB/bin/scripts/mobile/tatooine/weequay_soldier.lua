@@ -27,6 +27,7 @@ weequay_soldier = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_tatooine_weequay_soldier.iff"},
 	lootGroups = {

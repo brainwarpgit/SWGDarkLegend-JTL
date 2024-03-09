@@ -27,6 +27,7 @@ nym_destroyer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_nym_destroyer_rod_m.iff",
 		"object/mobile/dressed_nym_destroyer_hum_m.iff",

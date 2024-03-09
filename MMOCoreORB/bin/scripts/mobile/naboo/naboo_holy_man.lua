@@ -26,6 +26,7 @@ naboo_holy_man = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = HERD,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_naboo_holy_man.iff",
 		"object/mobile/dressed_commoner_naboo_human_female_08.iff"},

@@ -25,6 +25,7 @@ lowland_salt_mynock = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/salt_mynock_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },

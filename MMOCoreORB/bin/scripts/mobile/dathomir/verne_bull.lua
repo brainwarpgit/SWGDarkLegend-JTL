@@ -26,6 +26,7 @@ verne_bull = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/verne_bull.iff"},
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },

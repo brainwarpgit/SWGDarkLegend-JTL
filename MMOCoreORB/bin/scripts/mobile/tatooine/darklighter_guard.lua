@@ -27,6 +27,7 @@ darklighter_guard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/darklight_guard.iff"},
 	lootGroups = {

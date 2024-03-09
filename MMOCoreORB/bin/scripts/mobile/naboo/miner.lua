@@ -27,6 +27,7 @@ miner = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_mand_miner_bith.iff",
 		"object/mobile/dressed_mand_miner_aqualish.iff",

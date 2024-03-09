@@ -25,6 +25,7 @@ spiked_slasher = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/voritor_lizard_hue.iff"},
 	controlDeviceTemplate = "object/intangible/pet/voritor_lizard_hue.iff",

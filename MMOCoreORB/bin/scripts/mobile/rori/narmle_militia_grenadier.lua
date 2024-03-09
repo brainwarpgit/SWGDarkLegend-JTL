@@ -27,6 +27,7 @@ narmle_militia_grenadier = Creature:new {
 	creatureBitmask = PACK + HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_narmle_grenadier_zabrak_female_01.iff",

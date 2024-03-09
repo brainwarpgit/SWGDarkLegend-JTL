@@ -27,6 +27,7 @@ corsec_master_sergeant = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_corsec_officer_human_female_01.iff",

@@ -25,6 +25,7 @@ ceth_laike = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + JTLINTERESTING + CONVERSABLE + INVULNERABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_officer_m_2.iff"},
 	lootGroups = {},

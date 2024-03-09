@@ -27,6 +27,7 @@ mercenary_elite = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {
 		"object/mobile/dressed_mercenary_elite_hum_f.iff",
