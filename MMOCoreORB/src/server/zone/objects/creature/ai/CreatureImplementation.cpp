@@ -181,6 +181,9 @@ void CreatureImplementation::fillAttributeList(AttributeListMessage* alm, Creatu
 		StringBuffer damageMsg;
 		damageMsg << getDamageMin() << "-" << getDamageMax();
 		alm->insertAttribute("cat_wpn_damage", damageMsg.toString());
+//		StringBuffer difficultyMsg;
+//		difficultyMsg << npcTemplate->getMaxDifficulty();
+//		alm->insertAttribute("MaxDifficulty",difficultyMsg.toString());
 	}
 }
 

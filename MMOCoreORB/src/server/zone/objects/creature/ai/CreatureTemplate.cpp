@@ -63,6 +63,7 @@ CreatureTemplate::CreatureTemplate() {
 	tauntable = true;
 	healerType = "";
 	lightsaberColor = 0;
+	maxdifficulty = 0;
 
 	primaryWeapon = "";
 	secondaryWeapon = "";
@@ -139,7 +140,12 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 	tauntable = templateData->getBooleanField("tauntable", true);
 	healerType = templateData->getStringField("healerType").trim();
 	lightsaberColor = templateData->getIntField("lightsaberColor");
-
+	maxdifficulty = templateData->getIntField("maxdifficulty");
+	if (maxdifficulty == 0)
+		maxdifficulty = 1; 
+	
+	//baseXp *= (1 - 1.0 / maxdifficulty) + 1;
+	
 	if(!templateData->getStringField("defaultAttack").isEmpty())
 		defaultAttack = templateData->getStringField("defaultAttack");
 
@@ -147,7 +153,37 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 		customAiMap = templateData->getStringField("customAiMap").hashCode();
 
 	scale = templateData->getFloatField("scale");
-
+	scale *= .6;
+	
+	if (maxdifficulty == 2) {
+		scale *= 1.1;
+		baseXp *= 1.1;
+		meatAmount *= 1.1;
+		hideAmount *= 1.1;
+		boneAmount *= 1.1;
+		milk *= 1.5;
+		level *= 1.1;
+		chanceHit *= 1.1;
+		ferocity *= 1.1;
+	}
+	if (maxdifficulty == 3) {
+		scale *= 1.25;
+		baseXp *= 1.25;
+		meatAmount *= 1.25;
+		hideAmount *= 1.25;
+		boneAmount *= 1.25;
+		milk *= 2;
+		level *= 1.25;
+		chanceHit *= 1.25;
+		ferocity *= 1.25;
+	}
+	
+	damageMin = (damageMin * .25) * maxdifficulty;
+	damageMax = (damageMax * .25) * maxdifficulty;
+	
+	baseHAM = (baseHAM * .25) * maxdifficulty;
+	baseHAMmax = (baseHAMmax * .25) * maxdifficulty;
+	
 	if (!templateData->getStringField("milkType").isEmpty()) {
 		milkType = templateData->getStringField("milkType").trim();
 	}
@@ -155,14 +191,86 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 	LuaObject res = templateData->getObjectField("resists");
 	if (res.getTableSize() == 9) {
 		kinetic = res.getFloatAt(1);
+		if (kinetic > 100) {
+			kinetic = (((kinetic - 100) *.25) * maxdifficulty + 100);
+		} else {
+			kinetic = (kinetic * .25) * maxdifficulty;
+		}
+		if (kinetic < 0) {
+			kinetic = -1;
+		}
 		energy = res.getFloatAt(2);
+		if (energy > 100) {
+			energy = (((energy - 100) * .25) * maxdifficulty + 100);
+		} else {
+			energy = (energy * .25) * maxdifficulty;
+		}
+		if (energy < 0) {
+			energy = -1;
+		}
 		blast = res.getFloatAt(3);
+		if (blast > 100) {
+			blast = (((blast - 100) * .25) * maxdifficulty + 100);
+		} else {
+			blast = (blast * .25) * maxdifficulty;
+		}
+		if (blast < 0) {
+			blast = -1;
+		}
 		heat = res.getFloatAt(4);
+		if (heat > 100) {
+			heat = (((heat - 100) * .25) * maxdifficulty + 100);
+		} else {
+			heat = (heat * .25) * maxdifficulty;
+		}
+		if (heat < 0) {
+			heat = -1;
+		}
 		cold = res.getFloatAt(5);
+		if (cold > 100) {
+			cold = (((cold - 100) * .25) * maxdifficulty + 100);
+		} else {
+			cold = (cold * .25) * maxdifficulty;
+		}
+		if (cold < 0) {
+			cold = -1;
+		}
 		electricity = res.getFloatAt(6);
+		if (electricity > 100) {
+			electricity = (((electricity - 100) * .25) * maxdifficulty + 100);
+		} else {
+			electricity = (electricity * .25) * maxdifficulty;
+		}
+		if (electricity < 0) {
+			electricity = -1;
+		}
 		acid = res.getFloatAt(7);
+		if (acid > 100) {
+			acid = (((acid - 100) * .25) * maxdifficulty + 100);
+		} else {
+			acid = (acid * .25) * maxdifficulty;
+		}
+		if (acid < 0) {
+			acid = -1;
+		}
 		stun = res.getFloatAt(8);
+		if (stun > 100) {
+			stun = (((stun - 100) * .25) * maxdifficulty + 100);
+		} else {
+			stun = (stun * .25) * maxdifficulty;
+		}
+		if (stun < 0) {
+			stun = -1;
+		}
 		lightSaber = res.getFloatAt(9);
+		if (lightSaber > 100) {
+			lightSaber = (((lightSaber - 100) * .25) * maxdifficulty + 100);
+		} else {
+			lightSaber = (lightSaber * .25) * maxdifficulty;
+		}
+		if (lightSaber < 0) {
+			lightSaber = -1;
+		}	
 	}
 
 	res.pop();

@@ -87,6 +87,7 @@ protected:
 	unsigned int creatureBitmask;
 	unsigned int diet;
 	int lightsaberColor;
+	int maxdifficulty;
 
 	Vector<int> hues;
 
@@ -127,10 +128,11 @@ public:
 	void readObject(LuaObject* templateData);
 
 	inline float getKinetic() const {
-		if (isSpecialProtection(SharedWeaponObjectTemplate::KINETIC))
+		if (isSpecialProtection(SharedWeaponObjectTemplate::KINETIC)) 
 			return kinetic - 100;
-		else
+		else 
 			return kinetic;
+		
 	}
 
 	inline float getEnergy() const {
@@ -233,6 +235,11 @@ public:
 		return milkType;
 	}
 
+	
+	inline unsigned int getMaxDifficulty() const {
+		return maxdifficulty;
+	}
+		
 	inline const String& getCustomName() const {
 		return customName;
 	}

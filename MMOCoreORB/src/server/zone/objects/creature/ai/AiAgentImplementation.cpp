@@ -177,20 +177,16 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 
 	level = getTemplateLevel();
 
-	int lvlrand = 10000;
-
-	int lvlmod = System::random(lvlrand);
-
-	int difficulty = lvlrand - lvlmod;
+	int difficulty = getMaxDifficulty();
 
 	String strdifficulty = "";
 	
-	if (difficulty >= (lvlrand * .8)) {
-		strdifficulty = "(Elite)";
+	if (difficulty == 2) {
+		strdifficulty = "Elite";
 	}
-	if (difficulty >= (lvlrand * .95)) {
-		strdifficulty = "(Legendary)";
-	}
+	if (difficulty == 3) {
+		strdifficulty = "Heroic";
+	}	
 
 	planetMapCategory = npcTemplate->getPlanetMapCategory();
 	mapCategoryName = npcTemplate->getPlanetMapCategoryName();
@@ -211,15 +207,7 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 	if (petDeed == nullptr) {
 		for (int i = 0; i < 9; ++i) {
 			if (i % 3 == 0) {
-				if (strdifficulty == "(Legendary)" ) {
-					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1 * ((difficulty / lvlrand) + 2);
-				}
-				if (strdifficulty == "(Elite)") {
-					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1 * ((difficulty / lvlrand) + 1);
-				}
-				if (strdifficulty == "") {
-					ham = (System::random(getHamMaximum() - getHamBase()) + getHamBase()) * 0.1;
-				}
+				ham = System::random(getHamMaximum() - getHamBase()) + getHamBase();
 				if (isDroidObject() && isPet())
 					ham = getHamMaximum();
 				baseHAM.add(ham);
@@ -254,36 +242,36 @@ void AiAgentImplementation::loadTemplateData(CreatureTemplate* templateData) {
 	}
 
 	objectName = npcTemplate->getObjectName();
-
+//	String strattackable = std::to_string(npcTemplate->getPvpBitmask());
+		
 	if (npcTemplate->getRandomNameType() != NameManagerType::TAG) {
 		NameManager* nm = server->getNameManager();
 
 		int templSpecies = getSpecies();
-
+			
 		if (!npcTemplate->getRandomNameTag()) {
-			if (strdifficulty != "") {			
+			if (difficulty >= 2) {			
 				setCustomObjectName(nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies) + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
 			} else {
 				setCustomObjectName(nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies) + "\\#C0C0C0" + " [" + level + "]", false);
 			}
 		} else {
 			String newName = nm->makeCreatureName(npcTemplate->getRandomNameType(), templSpecies);
-			newName += " (";
-
+			if (difficulty >= 2) {			
+				newName += " " + strdifficulty + " (";
+			} else {
+				newName += " (";
+			}
 			if (objectName == "")
 				newName += templateData->getCustomName();
 			else
 				newName += StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString();
 
 			newName += ")";
-			if (strdifficulty != "") {			
-				setCustomObjectName(newName + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
-			} else {
-				setCustomObjectName(newName + "\\#C0C0C0" + " [" + level + "]", false);
-			}
+			setCustomObjectName(newName + "\\#C0C0C0" + " [" + level + "]", false);
 		}
 	} else {
-		if (strdifficulty != "") {			
+		if (difficulty >= 2) {			
 			setCustomObjectName(templateData->getCustomName() + StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString() + " " + strdifficulty + " \\#C0C0C0" + " [" + level + "]", false);
 		} else {
 			setCustomObjectName(templateData->getCustomName() + StringIdManager::instance()->getStringId(objectName.getFullPath().hashCode()).toString() + "\\#C0C0C0" + " [" + level + "]", false);

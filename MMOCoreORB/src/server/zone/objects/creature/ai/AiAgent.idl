@@ -1172,6 +1172,14 @@ class AiAgent extends CreatureObject {
 		return npcTemplate.get().getFaction();
 	}
 
+	@read
+	public unsigned int getMaxDifficulty() {
+		if (npcTemplate.get() == null)
+			return 1;
+		
+		return npcTemplate.get().getMaxDifficulty();	
+	}
+	
 	@dirty
 	public string getSocialGroup() {
 		if (npcTemplate.get() == null)
@@ -1631,7 +1639,7 @@ class AiAgent extends CreatureObject {
 	}
 
 	@read
-	public int getMaxDaamge() {
+	public int getMaxDamage() {
 		return maxDamage;
 	}
 
