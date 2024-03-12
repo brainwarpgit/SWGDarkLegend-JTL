@@ -40,15 +40,17 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
---Determines how often exceptional and legendary items can drop.
-yellowChance = 500 -- 1 in 1,000
-exceptionalChance = 5000 --1 in 100,000
-legendaryChance = 50000 --1 in 1,000,000
---yellowChance = 50 --1 in 50 for testing
---exceptionalChance = 100 --1 in 100 for testing
---legendaryChance = 1000 --1 in 1000 for testing
+--Chance divisor for attribute bonus modifiers
+levelChance = 100
 
---Determines how much of an increase in the base stats will be applied to the object.
+--Chance dividend for attribute bonus modifiers
+baseChance = 100
+yellowChance = 500
+exceptionalChance =1000
+legendaryChance = 5000
+
+--Multiplier values for bonus modifiers
+baseModifier = 1
 yellowModifier = 1.5
 exceptionalModifier = 3.0
 legendaryModifier = 6.0
