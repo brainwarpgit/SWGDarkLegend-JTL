@@ -1,5 +1,5 @@
 endor_bolle_bol_bark_biter_neutral_none = Lair:new {
-	mobiles = {{"bolle_bol_bark_biter",1}},
+	mobiles = {{"mobiles=bolle_bol_bark_biter",15},{"mobiles=bolle_bol_bark_biter_elite",5},{"mobiles=bolle_bol_bark_biter_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

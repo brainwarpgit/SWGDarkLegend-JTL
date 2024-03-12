@@ -1,5 +1,5 @@
 dathomir_rancor_enraged_lair_neutral_large = Lair:new {
-	mobiles = {{"enraged_rancor",1}},
+	mobiles = {{"mobiles=enraged_rancor",15},{"mobiles=enraged_rancor_elite",5},{"mobiles=enraged_rancor_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_large_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_large_fog_mustard.iff"},

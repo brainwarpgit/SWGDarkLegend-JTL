@@ -1,6 +1,5 @@
 corellia_sharnaff_lair_neutral_large_boss_01 = Lair:new {
-	mobiles = {{"sharnaff",1}, {"sharnaff_bull",1}},
-	bossMobiles = {{"sharnaff_reckless_ravager",1}},
+	mobiles = {{"mobiles=sharnaff",15},{"mobiles=sharnaff_elite",5},{"mobiles=sharnaff_heroic",1},{"sharnaff_bull",15},{"sharnaff_bull_elite",5},{"sharnaff_bull_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},

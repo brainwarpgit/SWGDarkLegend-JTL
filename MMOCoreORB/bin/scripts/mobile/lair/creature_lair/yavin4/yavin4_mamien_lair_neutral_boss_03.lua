@@ -1,6 +1,5 @@
 yavin4_mamien_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"female_mamien",1},{"male_mamien",1}},
-	bossMobiles = {{"ancient_mamien",1}},
+	mobiles = {{"mobiles=female_mamien",15},{"mobiles=female_mamien_elite",5},{"mobiles=female_mamien_heroic",1},{"male_mamien",15},{"male_mamien_elite",5},{"male_mamien_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_gray.iff"},

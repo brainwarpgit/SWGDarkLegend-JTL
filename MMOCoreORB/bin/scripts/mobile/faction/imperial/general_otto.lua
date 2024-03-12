@@ -25,6 +25,7 @@ general_otto = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_general_m.iff"},
 	lootGroups = {

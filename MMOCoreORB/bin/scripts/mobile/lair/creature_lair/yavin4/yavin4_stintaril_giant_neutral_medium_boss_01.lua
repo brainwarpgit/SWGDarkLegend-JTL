@@ -1,6 +1,5 @@
 yavin4_stintaril_giant_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"giant_stintaril",1}},
-	bossMobiles = {{"stintaril_prowler",1}},
+	mobiles = {{"mobiles=giant_stintaril",15},{"mobiles=giant_stintaril_elite",5},{"mobiles=giant_stintaril_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_large_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_large_fog_gray.iff"},

@@ -1,5 +1,5 @@
 rori_elder_pugoriss_pack_neutral_none = Lair:new {
-	mobiles = {{"elder_pugoriss", 1},{"pugoriss", 2}},
+	mobiles = {{"mobiles=elder_pugoriss",15},{"mobiles=elder_pugoriss_elite",5},{"mobiles=elder_pugoriss_heroic",1},{"pugoriss",30},{"pugoriss_elite",10},{"pugoriss_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

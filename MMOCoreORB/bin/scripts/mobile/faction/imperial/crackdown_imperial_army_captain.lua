@@ -27,6 +27,7 @@ crackdown_imperial_army_captain = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_stormtrooper_captain_white_white.iff",

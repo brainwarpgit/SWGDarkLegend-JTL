@@ -1,5 +1,5 @@
 talus_fed_dub_investigator_patrol_neutral_none = Lair:new {
-	mobiles = {{"fed_dub_investigator",1}},
+	mobiles = {{"mobiles=fed_dub_investigator",15},{"mobiles=fed_dub_investigator_elite",5},{"mobiles=fed_dub_investigator_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

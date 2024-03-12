@@ -26,6 +26,7 @@ imperial_officer = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	optionsBitmask = AIENABLED,
 
 	templates = { "imperial_officer" },

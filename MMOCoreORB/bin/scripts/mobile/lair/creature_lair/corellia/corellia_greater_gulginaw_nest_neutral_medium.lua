@@ -1,5 +1,5 @@
 corellia_greater_gulginaw_nest_neutral_medium = Lair:new {
-	mobiles = {{"greater_gulginaw",1}},
+	mobiles = {{"mobiles=greater_gulginaw",15},{"mobiles=greater_gulginaw_elite",5},{"mobiles=greater_gulginaw_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_evil_fire_small.iff"},

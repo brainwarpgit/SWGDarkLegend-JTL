@@ -1,5 +1,5 @@
 global_hunter_neutral_none = Lair:new {
-	mobiles = {{"hunter",1}},
+	mobiles = {{"mobiles=hunter",15},{"mobiles=hunter_elite",5},{"mobiles=hunter_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 naboo_mott_lair_neutral_medium = Lair:new {
-	mobiles = {{"mott",1}},
+	mobiles = {{"mobiles=mott",15},{"mobiles=mott_elite",5},{"mobiles=mott_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},

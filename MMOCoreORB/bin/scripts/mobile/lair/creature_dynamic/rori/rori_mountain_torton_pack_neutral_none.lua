@@ -1,5 +1,5 @@
 rori_mountain_torton_pack_neutral_none = Lair:new {
-	mobiles = {{"mountain_torton", 1}},
+	mobiles = {{"mobiles=mountain_torton",15},{"mobiles=mountain_torton_elite",5},{"mobiles=mountain_torton_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

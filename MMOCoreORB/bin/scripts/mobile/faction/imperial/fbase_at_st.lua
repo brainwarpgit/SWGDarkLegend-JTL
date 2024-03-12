@@ -25,6 +25,7 @@ fbase_at_st = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = NONE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/atst.iff"},
 	lootGroups = {},

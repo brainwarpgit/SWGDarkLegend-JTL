@@ -1,5 +1,5 @@
 peko_peko = Lair:new {
-	mobiles = {{"peko_peko",1}},
+	mobiles = {{"mobiles=peko_peko",15},{"mobiles=peko_peko_elite",5},{"mobiles=peko_peko_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small.iff"},

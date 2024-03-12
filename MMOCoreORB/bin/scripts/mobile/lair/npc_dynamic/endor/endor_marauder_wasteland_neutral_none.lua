@@ -1,5 +1,5 @@
 endor_marauder_wasteland_neutral_none = Lair:new {
-	mobiles = {{"wasteland_marauder",1}},
+	mobiles = {{"mobiles=wasteland_marauder",15},{"mobiles=wasteland_marauder_elite",5},{"mobiles=wasteland_marauder_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

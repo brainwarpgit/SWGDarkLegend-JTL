@@ -1,7 +1,5 @@
 dathomir_mtn_clan_initiate_squad_neutral_none = Lair:new {
-	mobiles = {
-		{"singing_mountain_clan_initiate",1}
-	},
+	mobiles = {{"mobiles=singing_mountain_clan_initiate",15},{"mobiles=singing_mountain_clan_initiate_elite",5},{"mobiles=singing_mountain_clan_initiate_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

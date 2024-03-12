@@ -1,5 +1,5 @@
 rori_rorgungan_scouts_neutral_none = Lair:new {
-	mobiles = {{"rorgungan_scout",1}},
+	mobiles = {{"mobiles=rorgungan_scout",15},{"mobiles=rorgungan_scout_elite",5},{"mobiles=rorgungan_scout_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

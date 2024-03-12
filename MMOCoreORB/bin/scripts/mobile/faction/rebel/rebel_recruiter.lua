@@ -27,6 +27,7 @@ rebel_recruiter = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_recruiter_human_female_01.iff",

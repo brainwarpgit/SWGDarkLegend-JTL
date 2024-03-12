@@ -1,5 +1,5 @@
 naboo_bark_mite_lair_neutral_small_03 = Lair:new {
-	mobiles = {{"grizzled_bark_mite",1}},
+	mobiles = {{"mobiles=grizzled_bark_mite",15},{"mobiles=grizzled_bark_mite_elite",5},{"mobiles=grizzled_bark_mite_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_fog_mustard.iff"},

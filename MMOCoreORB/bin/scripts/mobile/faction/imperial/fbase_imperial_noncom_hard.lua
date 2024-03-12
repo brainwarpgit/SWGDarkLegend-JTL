@@ -26,6 +26,7 @@ fbase_imperial_noncom_hard = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "imperial_officer" },
 	lootGroups = {

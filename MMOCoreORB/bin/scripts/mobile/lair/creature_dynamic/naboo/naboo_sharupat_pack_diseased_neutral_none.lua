@@ -1,5 +1,5 @@
 naboo_sharupat_pack_diseased_neutral_none = Lair:new {
-	mobiles = {{"rabid_shaupaut",1}},
+	mobiles = {{"mobiles=rabid_shaupaut",15},{"mobiles=rabid_shaupaut_elite",5},{"mobiles=rabid_shaupaut_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

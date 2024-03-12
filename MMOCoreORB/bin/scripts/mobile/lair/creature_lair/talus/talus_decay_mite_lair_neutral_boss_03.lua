@@ -1,6 +1,5 @@
 talus_decay_mite_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"puss_covered_decay_mite_soldier",1}},
-	bossMobiles = {{"sickly_decay_mite_queen",1}},
+	mobiles = {{"mobiles=puss_covered_decay_mite_soldier",15},{"mobiles=puss_covered_decay_mite_soldier_elite",5},{"mobiles=puss_covered_decay_mite_soldier_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_green.iff"},

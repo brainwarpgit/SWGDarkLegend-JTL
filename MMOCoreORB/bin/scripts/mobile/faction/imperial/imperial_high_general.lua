@@ -27,6 +27,7 @@ imperial_high_general = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_general_m.iff"},
 	lootGroups = {

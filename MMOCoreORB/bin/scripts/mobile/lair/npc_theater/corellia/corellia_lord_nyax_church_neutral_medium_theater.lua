@@ -1,5 +1,5 @@
 corellia_lord_nyax_church_neutral_medium_theater = Lair:new {
-	mobiles = {{"fanatic_of_lord_nyax",1},{"disciple_of_lord_nyax",1}},
+	mobiles = {{"mobiles=fanatic_of_lord_nyax",15},{"mobiles=fanatic_of_lord_nyax_elite",5},{"mobiles=fanatic_of_lord_nyax_heroic",1},{"disciple_of_lord_nyax",15},{"disciple_of_lord_nyax_elite",5},{"disciple_of_lord_nyax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},

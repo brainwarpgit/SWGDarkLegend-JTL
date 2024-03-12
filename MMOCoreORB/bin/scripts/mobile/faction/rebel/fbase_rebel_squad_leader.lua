@@ -27,6 +27,7 @@ fbase_rebel_squad_leader = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_specforce_pathfinder_human_male_01.iff",

@@ -27,6 +27,7 @@ crackdown_stormtrooper_sniper = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 	customAiMap = "crackdown",
 

@@ -27,6 +27,7 @@ crackdown_imperial_noncom = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_imperial_medic3_human_male_01.iff"},

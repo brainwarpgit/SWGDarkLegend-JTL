@@ -27,6 +27,7 @@ imperial_surface_marshall = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "imperial_officer" },
 	lootGroups = {

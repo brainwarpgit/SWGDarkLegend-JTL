@@ -27,6 +27,7 @@ rebel_surface_marshall = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_surface_marshal_moncal_female_01.iff",

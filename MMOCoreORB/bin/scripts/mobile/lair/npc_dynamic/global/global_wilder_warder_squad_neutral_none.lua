@@ -1,5 +1,5 @@
 global_wilder_warder_squad_neutral_none = Lair:new {
-	mobiles = {{"warder",1}},
+	mobiles = {{"mobiles=warder",15},{"mobiles=warder_elite",5},{"mobiles=warder_heroic",1}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

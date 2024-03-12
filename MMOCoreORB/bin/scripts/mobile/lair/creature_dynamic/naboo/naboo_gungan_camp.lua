@@ -1,9 +1,5 @@
 naboo_gungan_camp = Lair:new {
-	mobiles = {
-		{"gungan_scout", 2},
-		{"gungan_guard", 1},
-		{"gungan_fambaa", 1},
-	},
+	mobiles = {{"mobiles=gungan_scout",30},{"mobiles=gungan_scout_elite",10},{"mobiles=gungan_scout_heroic",2},{"gungan_guard",15},{"gungan_guard_elite",5},{"gungan_guard_heroic",1},{"gungan_fambaa",15},{"gungan_fambaa_elite",5},{"gungan_fambaa_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

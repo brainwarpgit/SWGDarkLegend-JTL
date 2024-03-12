@@ -1,5 +1,5 @@
 tatooine_jawa_troop_neutral_none = Lair:new {
-	mobiles = {{"jawa_avenger",1},{"jawa_protector",1}},
+	mobiles = {{"mobiles=jawa_avenger",15},{"mobiles=jawa_avenger_elite",5},{"mobiles=jawa_avenger_heroic",1},{"jawa_protector",15},{"jawa_protector_elite",5},{"jawa_protector_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

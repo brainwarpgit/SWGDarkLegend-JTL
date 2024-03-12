@@ -1,5 +1,5 @@
 talus_foaming_vynock_lair_neutral_medium = Lair:new {
-	mobiles = {{"foaming_vynock",1}},
+	mobiles = {{"mobiles=foaming_vynock",15},{"mobiles=foaming_vynock_elite",5},{"mobiles=foaming_vynock_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_small_evil_fire_small.iff"},

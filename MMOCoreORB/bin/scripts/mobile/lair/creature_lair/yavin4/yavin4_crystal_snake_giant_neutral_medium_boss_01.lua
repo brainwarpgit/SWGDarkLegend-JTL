@@ -1,6 +1,5 @@
 yavin4_crystal_snake_giant_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"giant_crystal_snake", 1}},
-	bossMobiles = {{"hooded_crystal_snake",3}},
+	mobiles = {{"mobiles=giant_crystal_snake",15},{"mobiles=giant_crystal_snake_elite",5},{"mobiles=giant_crystal_snake_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_green.iff"},

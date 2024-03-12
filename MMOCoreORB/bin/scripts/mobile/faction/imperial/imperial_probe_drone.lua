@@ -25,6 +25,7 @@ imperial_probe_drone = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/probot.iff"},
 	lootGroups = {},

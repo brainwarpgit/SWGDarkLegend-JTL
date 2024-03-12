@@ -1,6 +1,5 @@
 tatooine_worrt_giant_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"giant_worrt",1}},
-	bossMobiles = {{"worrt_gutbuster",1}},
+	mobiles = {{"mobiles=giant_worrt",15},{"mobiles=giant_worrt_elite",5},{"mobiles=giant_worrt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},

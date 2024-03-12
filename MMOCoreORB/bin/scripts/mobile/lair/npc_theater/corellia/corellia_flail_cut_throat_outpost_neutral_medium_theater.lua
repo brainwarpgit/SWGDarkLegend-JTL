@@ -1,5 +1,5 @@
 corellia_flail_cut_throat_outpost_neutral_medium_theater = Lair:new {
-	mobiles = {{"flail_boss",1},{"flail_butcher",1},{"flail_executioner",1}},
+	mobiles = {{"mobiles=flail_boss",15},{"mobiles=flail_boss_elite",5},{"mobiles=flail_boss_heroic",1},{"flail_butcher",15},{"flail_butcher_elite",5},{"flail_butcher_heroic",1},{"flail_executioner",15},{"flail_executioner_elite",5},{"flail_executioner_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_flail_large1.iff","object/building/poi/corellia_flail_large2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_flail_large1.iff","object/building/poi/corellia_flail_large2.iff"},

@@ -1,5 +1,5 @@
 endor_boar_wolf_ravager = Lair:new {
-	mobiles = {{"boar_wolf_ravager",1}},
+	mobiles = {{"mobiles=boar_wolf_ravager",15},{"mobiles=boar_wolf_ravager_elite",5},{"mobiles=boar_wolf_ravager_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

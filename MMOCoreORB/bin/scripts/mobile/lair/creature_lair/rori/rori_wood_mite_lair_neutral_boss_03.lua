@@ -1,6 +1,5 @@
 rori_wood_mite_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"wood_mite",1}},
-	bossMobiles = {{"wood_mite_matriarch",1},{"confused_wood_mite_hatchling",4}},
+	mobiles = {{"mobiles=wood_mite",15},{"mobiles=wood_mite_elite",5},{"mobiles=wood_mite_heroic",1},{"confused_wood_mite_hatchling",60},{"confused_wood_mite_hatchling_elite",20},{"confused_wood_mite_hatchling_heroic",4}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_gray.iff"},

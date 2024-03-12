@@ -27,6 +27,7 @@ fbase_imperial_sharpshooter = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_gunner_m.iff"},
 	lootGroups = {

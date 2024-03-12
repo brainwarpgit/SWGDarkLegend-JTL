@@ -25,6 +25,7 @@ at_at = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = NONE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/atat.iff"},
 	conversationTemplate = "",

@@ -1,5 +1,5 @@
 corellia_corellian_butterfly_flight_neutral_none = Lair:new {
-	mobiles = {{"corellian_butterfly",1}},
+	mobiles = {{"mobiles=corellian_butterfly",15},{"mobiles=corellian_butterfly_elite",5},{"mobiles=corellian_butterfly_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

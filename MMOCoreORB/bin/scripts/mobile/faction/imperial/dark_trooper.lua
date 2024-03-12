@@ -27,6 +27,7 @@ dark_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER + NOINTIMIDATE + NODOT,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.5,
 
 	templates = {"object/mobile/dark_trooper.iff"},

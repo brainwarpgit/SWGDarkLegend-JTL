@@ -1,5 +1,5 @@
 endor_hanadak_stoneskin_neutral_none = Lair:new {
-	mobiles = {{"stoneskin_hanadak",1}},
+	mobiles = {{"mobiles=stoneskin_hanadak",15},{"mobiles=stoneskin_hanadak_elite",5},{"mobiles=stoneskin_hanadak_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

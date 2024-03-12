@@ -1,5 +1,5 @@
 naboo_flewt_swarm_neutral_none = Lair:new {
-	mobiles = {{"flewt",1}},
+	mobiles = {{"mobiles=flewt",15},{"mobiles=flewt_elite",5},{"mobiles=flewt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

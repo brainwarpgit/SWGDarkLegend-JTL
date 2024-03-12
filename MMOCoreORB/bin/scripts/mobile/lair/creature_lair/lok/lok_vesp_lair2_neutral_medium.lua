@@ -1,5 +1,5 @@
 lok_vesp_lair2_neutral_medium = Lair:new {
-	mobiles = {{"gorge_vesp",1},{"vesp_hunter",1}},
+	mobiles = {{"mobiles=gorge_vesp",15},{"mobiles=gorge_vesp_elite",5},{"mobiles=gorge_vesp_heroic",1},{"vesp_hunter",15},{"vesp_hunter_elite",5},{"vesp_hunter_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},

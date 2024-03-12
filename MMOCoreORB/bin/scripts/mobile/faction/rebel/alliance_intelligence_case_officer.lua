@@ -27,6 +27,7 @@ alliance_intelligence_case_officer = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_army_captain_zabrak_female.iff"},
 	lootGroups = {

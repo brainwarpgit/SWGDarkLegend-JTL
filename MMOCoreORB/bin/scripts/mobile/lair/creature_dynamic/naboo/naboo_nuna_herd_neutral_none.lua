@@ -1,5 +1,5 @@
 naboo_nuna_herd_neutral_none = Lair:new {
-	mobiles = {{"nuna",1}},
+	mobiles = {{"mobiles=nuna",15},{"mobiles=nuna_elite",5},{"mobiles=nuna_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

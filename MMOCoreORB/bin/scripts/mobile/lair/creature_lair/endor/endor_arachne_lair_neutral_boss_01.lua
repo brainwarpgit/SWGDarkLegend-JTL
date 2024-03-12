@@ -1,6 +1,5 @@
 endor_arachne_lair_neutral_boss_01 = Lair:new {
-	mobiles = {{"arachne_hatchling",1}},
-	bossMobiles = {{"arachne_fleshripper",1}},
+	mobiles = {{"mobiles=arachne_hatchling",15},{"mobiles=arachne_hatchling_elite",5},{"mobiles=arachne_hatchling_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small.iff"},

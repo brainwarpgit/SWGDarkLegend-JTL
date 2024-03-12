@@ -1,6 +1,5 @@
 dantooine_piket_protector_herd_neutral_none_boss_01 = Lair:new {
-	mobiles = {{"fierce_piket_protector",1},{"piket",1}},
-	bossMobiles = {{"enraged_defender",1}},
+	mobiles = {{"mobiles=fierce_piket_protector",15},{"mobiles=fierce_piket_protector_elite",5},{"mobiles=fierce_piket_protector_heroic",1},{"piket",15},{"piket_elite",5},{"piket_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},

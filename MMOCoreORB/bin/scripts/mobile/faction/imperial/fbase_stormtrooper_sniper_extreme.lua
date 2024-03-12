@@ -26,6 +26,7 @@ fbase_stormtrooper_sniper_extreme = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_stormtrooper_black_black.iff"},

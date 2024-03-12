@@ -1,9 +1,5 @@
 global_imperial_civil_patrol_captain_camp_imperial_small_theater = Lair:new {
-	mobiles = {
-		{"civil_patrol_captain",1},
-		{"civil_patrol_sergeant",2},
-		{"civil_patrol_corporal",3}
-	},
+	mobiles = {{"mobiles=civil_patrol_captain",15},{"mobiles=civil_patrol_captain_elite",5},{"mobiles=civil_patrol_captain_heroic",1},{"civil_patrol_sergeant",30},{"civil_patrol_sergeant_elite",10},{"civil_patrol_sergeant_heroic",2},{"civil_patrol_corporal",45},{"civil_patrol_corporal_elite",15},{"civil_patrol_corporal_heroic",3}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},

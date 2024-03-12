@@ -1,5 +1,5 @@
 dathomir_graul_mauler_lair_neutral_large = Lair:new {
-	mobiles = {{"graul",1}},
+	mobiles = {{"mobiles=graul",15},{"mobiles=graul_elite",5},{"mobiles=graul_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/cave_small_light.iff"},
 	buildingsEasy = {"object/tangible/lair/base/cave_small_light.iff"},

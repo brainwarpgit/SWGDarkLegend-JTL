@@ -1,6 +1,5 @@
 corellia_diseased_vrelt_lair_neutral_boss_02 = Lair:new {
-	mobiles = {{"diseased_vrelt",1}},
-	bossMobiles = {{"diseased_vrelt_matriarch",1}},
+	mobiles = {{"mobiles=diseased_vrelt",15},{"mobiles=diseased_vrelt_elite",5},{"mobiles=diseased_vrelt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_gray.iff"},

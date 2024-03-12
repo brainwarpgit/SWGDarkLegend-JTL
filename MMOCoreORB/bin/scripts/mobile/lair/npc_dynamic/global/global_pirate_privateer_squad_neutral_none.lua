@@ -1,5 +1,5 @@
 global_pirate_privateer_squad_neutral_none = Lair:new {
-	mobiles = {{"pirate_privateer",1}},
+	mobiles = {{"mobiles=pirate_privateer",15},{"mobiles=pirate_privateer_elite",5},{"mobiles=pirate_privateer_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

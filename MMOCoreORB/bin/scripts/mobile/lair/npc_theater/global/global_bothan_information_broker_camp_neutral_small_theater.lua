@@ -1,5 +1,5 @@
 global_bothan_information_broker_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"bothan_information_broker",1}},
+	mobiles = {{"mobiles=bothan_information_broker",15},{"mobiles=bothan_information_broker_elite",5},{"mobiles=bothan_information_broker_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},

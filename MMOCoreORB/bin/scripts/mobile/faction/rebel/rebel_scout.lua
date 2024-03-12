@@ -26,6 +26,7 @@ rebel_scout = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_scout_bothan_male_01.iff",

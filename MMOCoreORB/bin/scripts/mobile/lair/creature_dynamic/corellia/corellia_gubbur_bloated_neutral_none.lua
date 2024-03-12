@@ -1,5 +1,5 @@
 corellia_gubbur_bloated_neutral_none = Lair:new {
-	mobiles = {{"bloated_gubbur",1}},
+	mobiles = {{"mobiles=bloated_gubbur",15},{"mobiles=bloated_gubbur_elite",5},{"mobiles=bloated_gubbur_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

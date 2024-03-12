@@ -27,6 +27,7 @@ crackdown_rebel_liberator = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {

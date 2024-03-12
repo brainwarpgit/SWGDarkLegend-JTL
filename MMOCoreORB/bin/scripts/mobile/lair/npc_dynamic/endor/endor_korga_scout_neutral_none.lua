@@ -1,5 +1,5 @@
 endor_korga_scout_neutral_none = Lair:new {
-	mobiles = {{"korga_scout",1}},
+	mobiles = {{"mobiles=korga_scout",15},{"mobiles=korga_scout_elite",5},{"mobiles=korga_scout_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

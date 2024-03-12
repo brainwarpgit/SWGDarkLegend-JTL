@@ -1,5 +1,5 @@
 global_wookiee_brawler_neutral_none = Lair:new {
-	mobiles = {{"wookiee_brawler",1}},
+	mobiles = {{"mobiles=wookiee_brawler",15},{"mobiles=wookiee_brawler_elite",5},{"mobiles=wookiee_brawler_heroic",1}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

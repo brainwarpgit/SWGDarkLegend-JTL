@@ -1,5 +1,5 @@
 corellia_monumenter_smuggler_patrol_neutral_none = Lair:new {
-	mobiles = {{"monumenter_smuggler",1}},
+	mobiles = {{"mobiles=monumenter_smuggler",15},{"mobiles=monumenter_smuggler_elite",5},{"mobiles=monumenter_smuggler_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

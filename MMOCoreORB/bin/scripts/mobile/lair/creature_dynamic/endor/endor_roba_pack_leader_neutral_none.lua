@@ -1,5 +1,5 @@
 endor_roba_pack_leader_neutral_none = Lair:new {
-	mobiles = {{"roba_pack_leader",1},{"roba",1}},
+	mobiles = {{"mobiles=roba_pack_leader",15},{"mobiles=roba_pack_leader_elite",5},{"mobiles=roba_pack_leader_heroic",1},{"roba",15},{"roba_elite",5},{"roba_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -27,6 +27,7 @@ civil_patrol_captain = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_officer_m.iff"},
 	lootGroups = {

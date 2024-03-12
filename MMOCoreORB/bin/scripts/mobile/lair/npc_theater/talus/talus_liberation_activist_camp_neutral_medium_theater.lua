@@ -1,5 +1,5 @@
 talus_liberation_activist_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"talus_liberation_party_activist",1}},
+	mobiles = {{"mobiles=talus_liberation_party_activist",15},{"mobiles=talus_liberation_party_activist_elite",5},{"mobiles=talus_liberation_party_activist_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_selonian_separatists_small1.iff","object/building/poi/corellia_selonian_separatists_small2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_selonian_separatists_small1.iff","object/building/poi/corellia_selonian_separatists_small2.iff"},

@@ -27,6 +27,7 @@ crackdown_stormtrooper_captain = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 	customAiMap = "crackdown",
 

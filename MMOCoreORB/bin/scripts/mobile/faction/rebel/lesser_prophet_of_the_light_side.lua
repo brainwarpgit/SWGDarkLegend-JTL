@@ -27,6 +27,7 @@ lesser_prophet_of_the_light_side = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "light_jedi" },
 	lootGroups = {

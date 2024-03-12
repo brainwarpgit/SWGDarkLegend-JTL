@@ -1,5 +1,5 @@
 endor_panshee_tribesman_neutral_none = Lair:new {
-	mobiles = {{"panshee_tribesman",1},{"panshee_warrior",1}},
+	mobiles = {{"mobiles=panshee_tribesman",15},{"mobiles=panshee_tribesman_elite",5},{"mobiles=panshee_tribesman_heroic",1},{"panshee_warrior",15},{"panshee_warrior_elite",5},{"panshee_warrior_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

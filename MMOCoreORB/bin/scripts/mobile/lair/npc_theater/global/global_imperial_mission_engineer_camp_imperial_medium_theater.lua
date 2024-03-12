@@ -1,5 +1,5 @@
 global_imperial_mission_engineer_camp_imperial_medium_theater = Lair:new {
-	mobiles = {{"special_missions_engineer",1}},
+	mobiles = {{"mobiles=special_missions_engineer",15},{"mobiles=special_missions_engineer_elite",5},{"mobiles=special_missions_engineer_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/lok_imperial_medium4.iff","object/building/poi/lok_imperial_medium5.iff"},
 	buildingsEasy = {"object/building/poi/lok_imperial_medium4.iff","object/building/poi/lok_imperial_medium5.iff"},

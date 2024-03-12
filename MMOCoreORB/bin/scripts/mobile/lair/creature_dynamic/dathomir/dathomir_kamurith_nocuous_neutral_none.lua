@@ -1,5 +1,5 @@
 dathomir_kamurith_nocuous_neutral_none = Lair:new {
-	mobiles = {{"nocuous_kamurith",1}},
+	mobiles = {{"mobiles=nocuous_kamurith",15},{"mobiles=nocuous_kamurith_elite",5},{"mobiles=nocuous_kamurith_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

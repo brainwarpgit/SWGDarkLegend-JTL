@@ -1,8 +1,5 @@
 imperial_compforce_base = Lair:new {
-	mobiles = {
-		{"compforce_trooper", 3},
-		{"veteran_compforce_trooper", 1},
-	},
+	mobiles = {{"mobiles=compforce_trooper",45},{"mobiles=compforce_trooper_elite",15},{"mobiles=compforce_trooper_heroic",3},{"veteran_compforce_trooper",15},{"veteran_compforce_trooper_elite",5},{"veteran_compforce_trooper_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/lok_imperial_large2.iff","object/building/poi/anywhere_imperial_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/lok_imperial_large2.iff","object/building/poi/anywhere_imperial_base_large_1.iff"},

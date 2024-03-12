@@ -1,5 +1,5 @@
 naboo_mountain_krevol_click_neutral_none = Lair:new {
-	mobiles = {{"mountain_krevol",1}},
+	mobiles = {{"mobiles=mountain_krevol",15},{"mobiles=mountain_krevol_elite",5},{"mobiles=mountain_krevol_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

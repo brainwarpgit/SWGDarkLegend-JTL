@@ -1,5 +1,5 @@
 dathomir_rhoa_kwi_neutral_none = Lair:new {
-	mobiles = {{"rhoa_kwi",1}},
+	mobiles = {{"mobiles=rhoa_kwi",15},{"mobiles=rhoa_kwi_elite",5},{"mobiles=rhoa_kwi_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

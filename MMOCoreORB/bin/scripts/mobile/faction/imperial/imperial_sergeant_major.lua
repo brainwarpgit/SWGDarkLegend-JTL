@@ -27,6 +27,7 @@ imperial_sergeant_major = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "imperial_officer" },
 	lootGroups = {

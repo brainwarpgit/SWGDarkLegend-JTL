@@ -27,6 +27,7 @@ rebel_gungan_general = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_male.iff"},
 	lootGroups = {

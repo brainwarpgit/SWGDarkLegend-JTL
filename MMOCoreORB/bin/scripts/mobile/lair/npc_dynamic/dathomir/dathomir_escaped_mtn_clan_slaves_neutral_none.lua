@@ -1,5 +1,5 @@
 dathomir_escaped_mtn_clan_slaves_neutral_none = Lair:new {
-	mobiles = {{"escaped_singing_mountain_clan_slave",1}},
+	mobiles = {{"mobiles=escaped_singing_mountain_clan_slave",15},{"mobiles=escaped_singing_mountain_clan_slave_elite",5},{"mobiles=escaped_singing_mountain_clan_slave_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

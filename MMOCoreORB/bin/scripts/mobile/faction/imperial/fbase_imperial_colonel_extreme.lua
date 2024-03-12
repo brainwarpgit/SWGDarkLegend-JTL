@@ -27,6 +27,7 @@ fbase_imperial_colonel_extreme = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_colonel_m.iff"},
 	lootGroups = {

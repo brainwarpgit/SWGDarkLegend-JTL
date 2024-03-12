@@ -1,5 +1,5 @@
 endor_gurreck_desert_charger_neutral_small = Lair:new {
-	mobiles = {{"desert_gurreck_charger",1}},
+	mobiles = {{"mobiles=desert_gurreck_charger",15},{"mobiles=desert_gurreck_charger_elite",5},{"mobiles=desert_gurreck_charger_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_evil_fire_small.iff"},

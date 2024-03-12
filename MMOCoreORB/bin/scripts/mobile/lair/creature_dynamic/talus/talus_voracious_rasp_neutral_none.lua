@@ -1,5 +1,5 @@
 talus_voracious_rasp_neutral_none = Lair:new {
-	mobiles = {{"voracious_rasp",1},{"ravenous_rasp",2}},
+	mobiles = {{"mobiles=voracious_rasp",15},{"mobiles=voracious_rasp_elite",5},{"mobiles=voracious_rasp_heroic",1},{"ravenous_rasp",30},{"ravenous_rasp_elite",10},{"ravenous_rasp_heroic",2}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

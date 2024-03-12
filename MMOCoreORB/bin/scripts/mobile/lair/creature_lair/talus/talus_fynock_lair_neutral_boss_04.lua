@@ -1,6 +1,5 @@
 talus_fynock_lair_neutral_boss_04 = Lair:new {
-	mobiles = {{"frenzied_fynock_guardian",1}},
-	bossMobiles = {{"glutted_fynock_queen",1}},
+	mobiles = {{"mobiles=frenzied_fynock_guardian",15},{"mobiles=frenzied_fynock_guardian_elite",5},{"mobiles=frenzied_fynock_guardian_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_fog_red.iff"},

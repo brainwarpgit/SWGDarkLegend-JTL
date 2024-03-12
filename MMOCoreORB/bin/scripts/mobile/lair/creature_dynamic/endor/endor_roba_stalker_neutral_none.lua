@@ -1,5 +1,5 @@
 endor_roba_stalker_neutral_none = Lair:new {
-	mobiles = {{"ravenous_roba_stalker",1}},
+	mobiles = {{"mobiles=ravenous_roba_stalker",15},{"mobiles=ravenous_roba_stalker_elite",5},{"mobiles=ravenous_roba_stalker_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

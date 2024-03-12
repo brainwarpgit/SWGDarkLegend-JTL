@@ -1,5 +1,5 @@
 rori_mountain_ikopi_herd_neutral_none = Lair:new {
-	mobiles = {{"mountain_ikopi", 1}},
+	mobiles = {{"mobiles=mountain_ikopi",15},{"mobiles=mountain_ikopi_elite",5},{"mobiles=mountain_ikopi_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

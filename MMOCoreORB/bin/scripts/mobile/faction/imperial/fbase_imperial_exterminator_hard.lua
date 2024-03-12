@@ -27,6 +27,7 @@ fbase_imperial_exterminator_hard = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_exterminator.iff"},
 	lootGroups = {

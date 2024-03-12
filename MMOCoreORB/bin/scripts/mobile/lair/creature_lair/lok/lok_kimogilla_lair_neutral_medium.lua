@@ -1,5 +1,5 @@
 lok_kimogilla_lair_neutral_medium = Lair:new {
-	mobiles = {{"kimogila",2},{"giant_kimogila",1},{"kimogila_hatchling",2}},
+	mobiles = {{"mobiles=kimogila",30},{"mobiles=kimogila_elite",10},{"mobiles=kimogila_heroic",2},{"giant_kimogila",15},{"giant_kimogila_elite",5},{"giant_kimogila_heroic",1},{"kimogila_hatchling",30},{"kimogila_hatchling_elite",10},{"kimogila_hatchling_heroic",2}},
 	spawnLimit = 7,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_large.iff"},

@@ -1,10 +1,5 @@
 global_pirate_captain_camp_neutral_medium_theater = Lair:new {
-	mobiles = {
-		{"pirate_captain",1},
-		{"pirate_armsman",2},
-		{"pirate_crewman",2},
-		{"pirate_squab",2}
-	},
+	mobiles = {{"mobiles=pirate_captain",15},{"mobiles=pirate_captain_elite",5},{"mobiles=pirate_captain_heroic",1},{"pirate_armsman",30},{"pirate_armsman_elite",10},{"pirate_armsman_heroic",2},{"pirate_crewman",30},{"pirate_crewman_elite",10},{"pirate_crewman_heroic",2},{"pirate_squab",30},{"pirate_squab_elite",10},{"pirate_squab_heroic",2}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},

@@ -26,6 +26,7 @@ fbase_imperial_noncom = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_imperial_medic1_human_male_01.iff",

@@ -1,5 +1,5 @@
 naboo_mauler_pilgrimage_neutral_none = Lair:new {
-	mobiles = {{"mauler_acolyte",1}},
+	mobiles = {{"mobiles=mauler_acolyte",15},{"mobiles=mauler_acolyte_elite",5},{"mobiles=mauler_acolyte_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

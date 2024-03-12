@@ -1,5 +1,5 @@
 corellia_afarathu_cult_outpost_neutral_medium_theater = Lair:new {
-	mobiles = {{"afarathu_hellion",2},{"afarathu_cult_bodyguard",2},{"afarathu_cult_leader",1}},
+	mobiles = {{"mobiles=afarathu_hellion",30},{"mobiles=afarathu_hellion_elite",10},{"mobiles=afarathu_hellion_heroic",2},{"afarathu_cult_bodyguard",30},{"afarathu_cult_bodyguard_elite",10},{"afarathu_cult_bodyguard_heroic",2},{"afarathu_cult_leader",15},{"afarathu_cult_leader_elite",5},{"afarathu_cult_leader_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_afarathu_small1.iff","object/building/poi/corellia_afarathu_small2.iff","object/building/poi/corellia_afarathu_small3.iff"},
 	buildingsEasy = {"object/building/poi/corellia_afarathu_small1.iff","object/building/poi/corellia_afarathu_small2.iff","object/building/poi/corellia_afarathu_small3.iff"},

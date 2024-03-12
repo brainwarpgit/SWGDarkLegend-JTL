@@ -1,5 +1,5 @@
 endor_bounding_jax_neutral_none = Lair:new {
-	mobiles = {{"bounding_jax",1},{"diminutive_bounding_jax",1}},
+	mobiles = {{"mobiles=bounding_jax",15},{"mobiles=bounding_jax_elite",5},{"mobiles=bounding_jax_heroic",1},{"diminutive_bounding_jax",15},{"diminutive_bounding_jax_elite",5},{"diminutive_bounding_jax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

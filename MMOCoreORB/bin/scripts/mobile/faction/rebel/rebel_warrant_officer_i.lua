@@ -27,6 +27,7 @@ rebel_warrant_officer_i = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_first_lieutenant_bothan_male_01.iff",

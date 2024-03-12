@@ -27,6 +27,7 @@ fbase_rebel_colonel_extreme = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_lieutenant_colonel_human_male_01.iff",

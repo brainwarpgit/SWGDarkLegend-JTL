@@ -1,5 +1,5 @@
 tatooine_jundland_eopie_lair_neutral_medium = Lair:new {
-	mobiles = {{"jundland_eopie",1}},
+	mobiles = {{"mobiles=jundland_eopie",15},{"mobiles=jundland_eopie_elite",5},{"mobiles=jundland_eopie_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_evil_fire_small.iff"},

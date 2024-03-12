@@ -1,5 +1,5 @@
 corellia_murra_herd_neutral_none = Lair:new {
-	mobiles = {{"murra",1}},
+	mobiles = {{"mobiles=murra",15},{"mobiles=murra_elite",5},{"mobiles=murra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

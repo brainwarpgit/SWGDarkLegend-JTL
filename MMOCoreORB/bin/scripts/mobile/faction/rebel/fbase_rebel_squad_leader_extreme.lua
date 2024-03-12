@@ -27,6 +27,7 @@ fbase_rebel_squad_leader_extreme = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_brigadier_general_bith_male.iff",

@@ -27,6 +27,7 @@ rebel_gungan_priest = Creature:new {
 	creatureBitmask = HERD,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_male.iff"},
 	lootGroups = {

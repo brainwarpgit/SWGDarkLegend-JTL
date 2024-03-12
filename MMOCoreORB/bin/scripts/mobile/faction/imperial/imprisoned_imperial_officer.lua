@@ -27,6 +27,7 @@ imprisoned_imperial_officer = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "imperial_officer" },
 	lootGroups = {

@@ -27,6 +27,7 @@ rebel_specforce_sergeant = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_specforce_sergeant_bothan_male_01.iff",

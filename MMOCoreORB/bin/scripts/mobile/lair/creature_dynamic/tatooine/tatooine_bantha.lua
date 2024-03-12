@@ -1,5 +1,5 @@
 tatooine_bantha = Lair:new {
-	mobiles = {{"bantha", 1}},
+	mobiles = {{"mobiles=bantha",15},{"mobiles=bantha_elite",5},{"mobiles=bantha_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

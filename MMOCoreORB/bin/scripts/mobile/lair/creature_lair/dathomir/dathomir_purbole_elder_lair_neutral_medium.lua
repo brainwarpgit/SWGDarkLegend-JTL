@@ -1,5 +1,5 @@
 dathomir_purbole_elder_lair_neutral_medium = Lair:new {
-	mobiles = {{"purbole_elder",1}},
+	mobiles = {{"mobiles=purbole_elder",15},{"mobiles=purbole_elder_elite",5},{"mobiles=purbole_elder_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_green.iff"},

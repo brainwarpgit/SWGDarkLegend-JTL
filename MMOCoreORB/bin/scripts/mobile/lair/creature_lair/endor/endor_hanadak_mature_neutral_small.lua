@@ -1,5 +1,5 @@
 endor_hanadak_mature_neutral_small = Lair:new {
-	mobiles = {{"mature_hanadak",1}},
+	mobiles = {{"mobiles=mature_hanadak",15},{"mobiles=mature_hanadak_elite",5},{"mobiles=mature_hanadak_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},

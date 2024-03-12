@@ -1,5 +1,5 @@
 endor_lantern_bird_radiant_neutral_none = Lair:new {
-	mobiles = {{"radiant_lantern_bird",1}},
+	mobiles = {{"mobiles=radiant_lantern_bird",15},{"mobiles=radiant_lantern_bird_elite",5},{"mobiles=radiant_lantern_bird_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

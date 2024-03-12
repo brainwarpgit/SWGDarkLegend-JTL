@@ -1,7 +1,5 @@
 global_rebel_resistance_agitator_camp_rebel_small_theater = Lair:new {
-	mobiles = {
-		{"rebel_resistance_agitator",1}
-	},
+	mobiles = {{"mobiles=rebel_resistance_agitator",15},{"mobiles=rebel_resistance_agitator_elite",5},{"mobiles=rebel_resistance_agitator_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},

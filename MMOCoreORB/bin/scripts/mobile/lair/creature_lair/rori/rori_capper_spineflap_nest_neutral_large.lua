@@ -1,5 +1,5 @@
 rori_capper_spineflap_nest_neutral_large = Lair:new {
-	mobiles = {{"spineflap_gatherer", 1}},
+	mobiles = {{"mobiles=spineflap_gatherer",15},{"mobiles=spineflap_gatherer_elite",5},{"mobiles=spineflap_gatherer_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_large.iff"},

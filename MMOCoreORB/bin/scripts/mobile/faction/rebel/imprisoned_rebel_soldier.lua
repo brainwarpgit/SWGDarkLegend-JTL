@@ -27,6 +27,7 @@ imprisoned_rebel_soldier = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_scout_human_male_01.iff"},
 	lootGroups = {

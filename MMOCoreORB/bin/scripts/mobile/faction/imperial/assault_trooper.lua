@@ -27,6 +27,7 @@ assault_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_stormtrooper_assault_trooper_m.iff"},

@@ -1,5 +1,5 @@
 naboo_mountain_krevol_lair_neutral_medium = Lair:new {
-	mobiles = {{"mountain_krevol",1}},
+	mobiles = {{"mobiles=mountain_krevol",15},{"mobiles=mountain_krevol_elite",5},{"mobiles=mountain_krevol_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_small_evil_fire_small.iff"},

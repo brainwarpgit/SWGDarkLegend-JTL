@@ -27,6 +27,7 @@ rebel_sergeant = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_sergeant_fat_zabrak_male_01.iff",

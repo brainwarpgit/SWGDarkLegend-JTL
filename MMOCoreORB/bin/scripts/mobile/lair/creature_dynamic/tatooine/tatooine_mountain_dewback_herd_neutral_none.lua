@@ -1,5 +1,5 @@
 tatooine_mountain_dewback_herd_neutral_none = Lair:new {
-	mobiles = {{"mountain_dewback",1}},
+	mobiles = {{"mobiles=mountain_dewback",15},{"mobiles=mountain_dewback_elite",5},{"mobiles=mountain_dewback_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 tatooine_rodian_clan_outpost_neutral_large_theater = Lair:new {
-	mobiles = {{"rodian_clan_warchief",1},{"rodian_clan_captain",1}},
+	mobiles = {{"mobiles=rodian_clan_warchief",15},{"mobiles=rodian_clan_warchief_elite",5},{"mobiles=rodian_clan_warchief_heroic",1},{"rodian_clan_captain",15},{"rodian_clan_captain_elite",5},{"rodian_clan_captain_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/tatooine_rodianhunter_large1.iff","object/building/poi/tatooine_rodianhunter_large2.iff","object/building/poi/tatooine_rodianhunter_medium.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_rodianhunter_large1.iff","object/building/poi/tatooine_rodianhunter_large2.iff","object/building/poi/tatooine_rodianhunter_medium.iff"},

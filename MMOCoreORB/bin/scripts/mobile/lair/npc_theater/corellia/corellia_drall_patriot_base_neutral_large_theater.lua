@@ -1,5 +1,5 @@
 corellia_drall_patriot_base_neutral_large_theater = Lair:new {
-	mobiles = {{"drall_patriot_foot_soldier",2},{"drall_patriot_conqueror",1},{"drall_patriot_legionnaire",2}},
+	mobiles = {{"mobiles=drall_patriot_foot_soldier",30},{"mobiles=drall_patriot_foot_soldier_elite",10},{"mobiles=drall_patriot_foot_soldier_heroic",2},{"drall_patriot_conqueror",15},{"drall_patriot_conqueror_elite",5},{"drall_patriot_conqueror_heroic",1},{"drall_patriot_legionnaire",30},{"drall_patriot_legionnaire_elite",10},{"drall_patriot_legionnaire_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_drall_patriot_large1.iff","object/building/poi/corellia_drall_patriot_large2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_drall_patriot_large1.iff","object/building/poi/corellia_drall_patriot_large2.iff"},

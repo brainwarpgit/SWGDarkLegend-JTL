@@ -27,6 +27,7 @@ fbase_rebel_medic = Creature:new {
 	creatureBitmask = PACK + HEALER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_medic3_moncal_female_01.iff",

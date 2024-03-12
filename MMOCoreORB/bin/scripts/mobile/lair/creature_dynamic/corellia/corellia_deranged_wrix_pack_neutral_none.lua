@@ -1,5 +1,5 @@
 corellia_deranged_wrix_pack_neutral_none = Lair:new {
-	mobiles = {{"deranged_wrix",1}},
+	mobiles = {{"mobiles=deranged_wrix",15},{"mobiles=deranged_wrix_elite",5},{"mobiles=deranged_wrix_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

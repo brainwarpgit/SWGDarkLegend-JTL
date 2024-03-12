@@ -27,6 +27,7 @@ compforce_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_stormtrooper_m.iff"},
 	lootGroups = {

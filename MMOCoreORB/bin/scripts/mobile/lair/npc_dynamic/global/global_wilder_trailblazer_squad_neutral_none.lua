@@ -1,5 +1,5 @@
 global_wilder_trailblazer_squad_neutral_none = Lair:new {
-	mobiles = {{"trailblazer",1}},
+	mobiles = {{"mobiles=trailblazer",15},{"mobiles=trailblazer_elite",5},{"mobiles=trailblazer_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

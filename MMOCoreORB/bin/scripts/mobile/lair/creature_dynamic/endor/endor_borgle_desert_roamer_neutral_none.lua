@@ -1,5 +1,5 @@
 endor_borgle_desert_roamer_neutral_none = Lair:new {
-	mobiles = {{"roaming_desert_borgle",1}},
+	mobiles = {{"mobiles=roaming_desert_borgle",15},{"mobiles=roaming_desert_borgle_elite",5},{"mobiles=roaming_desert_borgle_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

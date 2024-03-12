@@ -1,5 +1,5 @@
 talus_kahmurra_pack_neutral_none = Lair:new {
-	mobiles = {{"kahmurra",1}},
+	mobiles = {{"mobiles=kahmurra",15},{"mobiles=kahmurra_elite",5},{"mobiles=kahmurra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

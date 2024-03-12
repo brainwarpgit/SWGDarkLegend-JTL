@@ -27,6 +27,7 @@ imperial_inquisitor = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_inquisitor_human_male_01.iff"},
 	lootGroups = {

@@ -1,5 +1,5 @@
 tatooine_insane_kitonak_neutral_none = Lair:new {
-	mobiles = {{"insane_kitonak",1}},
+	mobiles = {{"mobiles=insane_kitonak",15},{"mobiles=insane_kitonak_elite",5},{"mobiles=insane_kitonak_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

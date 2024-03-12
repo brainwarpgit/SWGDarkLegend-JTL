@@ -1,5 +1,5 @@
 talus_devil_gulginaw_flight_neutral_none = Lair:new {
-	mobiles = {{"devil_gulginaw",1}},
+	mobiles = {{"mobiles=devil_gulginaw",15},{"mobiles=devil_gulginaw_elite",5},{"mobiles=devil_gulginaw_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

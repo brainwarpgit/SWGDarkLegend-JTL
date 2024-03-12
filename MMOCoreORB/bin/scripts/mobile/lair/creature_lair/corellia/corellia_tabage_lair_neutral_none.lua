@@ -1,5 +1,5 @@
 corellia_tabage_lair_neutral_none = Lair:new {
-	mobiles = {{"tabage_scavenger",1}},
+	mobiles = {{"mobiles=tabage_scavenger",15},{"mobiles=tabage_scavenger_elite",5},{"mobiles=tabage_scavenger_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_small.iff"},

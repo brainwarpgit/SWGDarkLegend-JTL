@@ -1,5 +1,5 @@
 talus_beserk_kahmurra_pack_neutral_none = Lair:new {
-	mobiles = {{"berserk_kahmurra",1}},
+	mobiles = {{"mobiles=berserk_kahmurra",15},{"mobiles=berserk_kahmurra_elite",5},{"mobiles=berserk_kahmurra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

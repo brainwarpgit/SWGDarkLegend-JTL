@@ -1,5 +1,5 @@
 tatooine_hermit_neutral_small_theater = Lair:new {
-	mobiles = {{"hermit",1}},
+	mobiles = {{"mobiles=hermit",15},{"mobiles=hermit_elite",5},{"mobiles=hermit_heroic",1}},
 	spawnLimit = 3,
 	buildingsVeryEasy = {"object/building/poi/tatooine_evil_hermit_small2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_evil_hermit_small2.iff"},

@@ -27,6 +27,7 @@ fbase_scout_trooper_extreme = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_scout_trooper_white_white.iff"},

@@ -1,5 +1,5 @@
 corellia_hidden_daggers_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"hidden_daggers_dissident",1},{"hidden_daggers_activist",1}},
+	mobiles = {{"mobiles=hidden_daggers_dissident",15},{"mobiles=hidden_daggers_dissident_elite",5},{"mobiles=hidden_daggers_dissident_heroic",1},{"hidden_daggers_activist",15},{"hidden_daggers_activist_elite",5},{"hidden_daggers_activist_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},

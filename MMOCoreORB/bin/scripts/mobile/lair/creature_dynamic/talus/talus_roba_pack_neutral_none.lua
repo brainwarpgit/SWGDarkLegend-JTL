@@ -1,5 +1,5 @@
 talus_roba_pack_neutral_none = Lair:new {
-	mobiles = {{"male_roba",1},{"female_roba",1}},
+	mobiles = {{"mobiles=male_roba",15},{"mobiles=male_roba_elite",5},{"mobiles=male_roba_heroic",1},{"female_roba",15},{"female_roba_elite",5},{"female_roba_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

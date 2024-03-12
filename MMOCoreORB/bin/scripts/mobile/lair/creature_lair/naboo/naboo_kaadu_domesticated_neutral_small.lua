@@ -1,5 +1,5 @@
 naboo_kaadu_domesticated_neutral_small = Lair:new {
-	mobiles = {{"motley_kaadu",1}},
+	mobiles = {{"mobiles=motley_kaadu",15},{"mobiles=motley_kaadu_elite",5},{"mobiles=motley_kaadu_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_small.iff"},

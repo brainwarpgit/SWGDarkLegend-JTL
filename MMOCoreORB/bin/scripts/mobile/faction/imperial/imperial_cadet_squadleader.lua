@@ -27,6 +27,7 @@ imperial_cadet_squadleader = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_captain_m.iff"},
 	lootGroups = {

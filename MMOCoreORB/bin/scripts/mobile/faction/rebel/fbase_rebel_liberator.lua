@@ -27,6 +27,7 @@ fbase_rebel_liberator = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_trooper_twk_male_01.iff",

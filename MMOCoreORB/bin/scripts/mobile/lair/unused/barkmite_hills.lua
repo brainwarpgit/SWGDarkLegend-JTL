@@ -1,5 +1,5 @@
 barkmite_hills = Lair:new {
-	mobiles = {{"bark_mite_hatchling", 1}},
+	mobiles = {{"mobiles=bark_mite_hatchling",15},{"mobiles=bark_mite_hatchling_elite",5},{"mobiles=bark_mite_hatchling_heroic",1}},
 	spawnLimit = 21,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_red.iff","object/tangible/lair/base/poi_all_lair_dead_log_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_red.iff","object/tangible/lair/base/poi_all_lair_dead_log_small.iff"},

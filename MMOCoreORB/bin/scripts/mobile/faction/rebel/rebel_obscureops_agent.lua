@@ -27,6 +27,7 @@ rebel_obscureops_agent = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_assassin_mission_giver_reb_01.iff",

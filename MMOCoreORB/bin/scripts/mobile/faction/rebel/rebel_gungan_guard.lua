@@ -27,6 +27,7 @@ rebel_gungan_guard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/gungan_male.iff",
 		"object/mobile/gungan_s02_male.iff"},

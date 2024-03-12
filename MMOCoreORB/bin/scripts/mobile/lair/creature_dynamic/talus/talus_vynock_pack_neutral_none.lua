@@ -1,5 +1,5 @@
 talus_vynock_pack_neutral_none = Lair:new {
-	mobiles = {{"vynock",1}},
+	mobiles = {{"mobiles=vynock",15},{"mobiles=vynock_elite",5},{"mobiles=vynock_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

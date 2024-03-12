@@ -1,5 +1,5 @@
 naboo_capper_spineflap_drone_neutral_none = Lair:new {
-	mobiles = {{"capper_spineflap_drone",1}},
+	mobiles = {{"mobiles=capper_spineflap_drone",15},{"mobiles=capper_spineflap_drone_elite",5},{"mobiles=capper_spineflap_drone_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

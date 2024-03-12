@@ -1,5 +1,5 @@
 lok_nym_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"nym_pirate_weak",1},{"nym_brawler",1},{"nym_surveyor",1}},
+	mobiles = {{"mobiles=nym_pirate_weak",15},{"mobiles=nym_pirate_weak_elite",5},{"mobiles=nym_pirate_weak_heroic",1},{"nym_brawler",15},{"nym_brawler_elite",5},{"nym_brawler_heroic",1},{"nym_surveyor",15},{"nym_surveyor_elite",5},{"nym_surveyor_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/lok_nymshenchman_medium.iff","object/building/poi/lok_nymshenchman_medium2.iff","object/building/poi/lok_nymshenchman_medium3.iff"},
 	buildingsEasy = {"object/building/poi/lok_nymshenchman_medium.iff","object/building/poi/lok_nymshenchman_medium2.iff","object/building/poi/lok_nymshenchman_medium3.iff"},

@@ -27,6 +27,7 @@ fbase_rebel_heavy_trooper_extreme = Creature:new {
 	creatureBitmask = PACK + STALKER + KILLER + NOINTIMIDATE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_ris_01.iff",

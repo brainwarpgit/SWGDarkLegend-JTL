@@ -1,5 +1,5 @@
 lok_blood_razor_pack_neutral_none = Lair:new {
-	mobiles = {{"blood_razor_berzerker", 1},{"blood_razor_destroyer", 1}},
+	mobiles = {{"mobiles=blood_razor_berzerker",15},{"mobiles=blood_razor_berzerker_elite",5},{"mobiles=blood_razor_berzerker_heroic",1},{"blood_razor_destroyer",15},{"blood_razor_destroyer_elite",5},{"blood_razor_destroyer_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

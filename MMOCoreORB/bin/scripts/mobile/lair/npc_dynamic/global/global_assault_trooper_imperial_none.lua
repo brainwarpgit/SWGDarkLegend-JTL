@@ -1,8 +1,5 @@
 global_assault_trooper_imperial_none = Lair:new {
-	mobiles = {
-		{"assault_trooper",3},
-		{"assault_trooper_squad_leader",1}
-	},
+	mobiles = {{"mobiles=assault_trooper",45},{"mobiles=assault_trooper_elite",15},{"mobiles=assault_trooper_heroic",3},{"assault_trooper_squad_leader",15},{"assault_trooper_squad_leader_elite",5},{"assault_trooper_squad_leader_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

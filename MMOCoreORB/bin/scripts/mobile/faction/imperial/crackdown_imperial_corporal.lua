@@ -27,6 +27,7 @@ crackdown_imperial_corporal = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_imperial_officer_m_5.iff",

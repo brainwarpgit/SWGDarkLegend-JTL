@@ -1,5 +1,5 @@
 dantooine_bol_pigmy_neutral_small = Lair:new {
-	mobiles = {{"lesser_plains_bol",1}},
+	mobiles = {{"mobiles=lesser_plains_bol",15},{"mobiles=lesser_plains_bol_elite",5},{"mobiles=lesser_plains_bol_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff","object/tangible/lair/base/poi_all_lair_rocks_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff","object/tangible/lair/base/poi_all_lair_rocks_small.iff"},

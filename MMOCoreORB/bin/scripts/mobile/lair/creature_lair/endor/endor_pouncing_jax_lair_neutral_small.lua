@@ -1,5 +1,5 @@
 endor_pouncing_jax_lair_neutral_small = Lair:new {
-	mobiles = {{"pouncing_jax",1}},
+	mobiles = {{"mobiles=pouncing_jax",15},{"mobiles=pouncing_jax_elite",5},{"mobiles=pouncing_jax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},

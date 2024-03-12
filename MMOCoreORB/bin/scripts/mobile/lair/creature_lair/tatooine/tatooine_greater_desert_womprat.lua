@@ -1,5 +1,5 @@
 tatooine_greater_desert_womprat = Lair:new {
-	mobiles = {{"greater_desert_womp_rat", 1}},
+	mobiles = {{"mobiles=greater_desert_womp_rat",15},{"mobiles=greater_desert_womp_rat_elite",5},{"mobiles=greater_desert_womp_rat_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/womp_rat/lair_womp_rat.iff"},
 	buildingsEasy = {"object/tangible/lair/womp_rat/lair_womp_rat.iff"},

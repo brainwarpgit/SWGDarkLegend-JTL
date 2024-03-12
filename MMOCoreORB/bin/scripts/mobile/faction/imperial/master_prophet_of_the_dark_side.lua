@@ -27,6 +27,7 @@ master_prophet_of_the_dark_side = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_dark_jedi_human_male_01.iff",

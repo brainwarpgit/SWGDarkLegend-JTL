@@ -1,5 +1,5 @@
 lok_snorbal_pack_neutral_none = Lair:new {
-	mobiles = {{"snorbal",1},{"female_snorbal_calf",1},{"male_snorbal_calf",1}},
+	mobiles = {{"mobiles=snorbal",15},{"mobiles=snorbal_elite",5},{"mobiles=snorbal_heroic",1},{"female_snorbal_calf",15},{"female_snorbal_calf_elite",5},{"female_snorbal_calf_heroic",1},{"male_snorbal_calf",15},{"male_snorbal_calf_elite",5},{"male_snorbal_calf_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

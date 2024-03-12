@@ -1,5 +1,5 @@
 tatooine_cannibal_neutral_none = Lair:new {
-	mobiles = {{"cannibal",1}},
+	mobiles = {{"mobiles=cannibal",15},{"mobiles=cannibal_elite",5},{"mobiles=cannibal_heroic",1}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

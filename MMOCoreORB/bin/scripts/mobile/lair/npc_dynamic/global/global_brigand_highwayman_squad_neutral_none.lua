@@ -1,5 +1,5 @@
 global_brigand_highwayman_squad_neutral_none = Lair:new {
-	mobiles = {{"highwayman",1}},
+	mobiles = {{"mobiles=highwayman",15},{"mobiles=highwayman_elite",5},{"mobiles=highwayman_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

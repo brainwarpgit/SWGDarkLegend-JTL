@@ -26,6 +26,7 @@ imperial_second_lieutenant = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_lieutenant_m.iff"},
 	lootGroups = {

@@ -27,6 +27,7 @@ rebel_master_sergeant = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_master_sergeant_sullustan_male_01.iff"},
 	lootGroups = {

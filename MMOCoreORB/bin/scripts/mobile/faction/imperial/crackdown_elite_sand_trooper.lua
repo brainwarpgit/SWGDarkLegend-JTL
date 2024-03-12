@@ -27,6 +27,7 @@ crackdown_elite_sand_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_stormtrooper_sand_trooper_m.iff"},

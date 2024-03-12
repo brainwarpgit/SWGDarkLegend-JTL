@@ -27,6 +27,7 @@ fbase_rebel_guard_captain_hard = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_specforce_captain_human_male_01.iff",

@@ -27,6 +27,7 @@ stormtrooper_major = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_imperial_major_m.iff"},

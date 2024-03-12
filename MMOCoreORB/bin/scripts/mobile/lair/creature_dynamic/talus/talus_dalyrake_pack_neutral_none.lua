@@ -1,5 +1,5 @@
 talus_dalyrake_pack_neutral_none = Lair:new {
-	mobiles = {{"dalyrake",1}},
+	mobiles = {{"mobiles=dalyrake",15},{"mobiles=dalyrake_elite",5},{"mobiles=dalyrake_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

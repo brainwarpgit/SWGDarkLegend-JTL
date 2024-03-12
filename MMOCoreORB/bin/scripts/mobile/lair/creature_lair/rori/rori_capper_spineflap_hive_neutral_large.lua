@@ -1,5 +1,5 @@
 rori_capper_spineflap_hive_neutral_large = Lair:new {
-	mobiles = {{"capper_spineflap", 1}},
+	mobiles = {{"mobiles=capper_spineflap",15},{"mobiles=capper_spineflap_elite",5},{"mobiles=capper_spineflap_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_large.iff"},

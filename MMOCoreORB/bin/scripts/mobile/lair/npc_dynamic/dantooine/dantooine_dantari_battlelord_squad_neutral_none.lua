@@ -1,5 +1,5 @@
 dantooine_dantari_battlelord_squad_neutral_none = Lair:new {
-	mobiles = {{"dantari_battlelord",2},{"dantari_strategist",2},{"domestic_bol_mount",1}},
+	mobiles = {{"mobiles=dantari_battlelord",30},{"mobiles=dantari_battlelord_elite",10},{"mobiles=dantari_battlelord_heroic",2},{"dantari_strategist",30},{"dantari_strategist_elite",10},{"dantari_strategist_heroic",2},{"domestic_bol_mount",15},{"domestic_bol_mount_elite",5},{"domestic_bol_mount_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

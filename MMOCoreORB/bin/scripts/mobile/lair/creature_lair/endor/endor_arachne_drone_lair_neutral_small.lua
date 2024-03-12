@@ -1,5 +1,5 @@
 endor_arachne_drone_lair_neutral_small = Lair:new {
-	mobiles = {{"arachne_drone",1}},
+	mobiles = {{"mobiles=arachne_drone",15},{"mobiles=arachne_drone_elite",5},{"mobiles=arachne_drone_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},

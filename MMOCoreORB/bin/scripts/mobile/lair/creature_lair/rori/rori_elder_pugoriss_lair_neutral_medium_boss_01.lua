@@ -1,6 +1,5 @@
 rori_elder_pugoriss_lair_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"elder_pugoriss", 1}},
-	bossMobiles = {{"veneral_devourer", 1}},
+	mobiles = {{"mobiles=elder_pugoriss",15},{"mobiles=elder_pugoriss_elite",5},{"mobiles=elder_pugoriss_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_large_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_large_fog_green.iff"},

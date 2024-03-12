@@ -27,6 +27,7 @@ command_security_guard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_soldier_m.iff"},
 	lootGroups = {

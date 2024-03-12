@@ -1,5 +1,5 @@
 rori_narmle_camp_neutral_large_theater = Lair:new {
-	mobiles = {{"narmle_militia_lieutenant",1},{"narmle_militia_grenadier",1}},
+	mobiles = {{"mobiles=narmle_militia_lieutenant",15},{"mobiles=narmle_militia_lieutenant_elite",5},{"mobiles=narmle_militia_lieutenant_heroic",1},{"narmle_militia_grenadier",15},{"narmle_militia_grenadier_elite",5},{"narmle_militia_grenadier_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gunrunners_large1.iff","object/building/poi/naboo_gunrunners_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gunrunners_large1.iff","object/building/poi/naboo_gunrunners_large2.iff"},

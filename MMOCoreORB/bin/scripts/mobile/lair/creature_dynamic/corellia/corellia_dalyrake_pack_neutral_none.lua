@@ -1,5 +1,5 @@
 corellia_dalyrake_pack_neutral_none = Lair:new {
-	mobiles = {{"dalyrake",1},{"dalyrake_harvester",1},{"dalyrake_matriarch",1}},
+	mobiles = {{"mobiles=dalyrake",15},{"mobiles=dalyrake_elite",5},{"mobiles=dalyrake_heroic",1},{"dalyrake_harvester",15},{"dalyrake_harvester_elite",5},{"dalyrake_harvester_heroic",1},{"dalyrake_matriarch",15},{"dalyrake_matriarch_elite",5},{"dalyrake_matriarch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

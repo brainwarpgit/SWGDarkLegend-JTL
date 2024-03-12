@@ -1,5 +1,5 @@
 rori_wood_mite_lair_neutral_small = Lair:new {
-	mobiles = {{"wood_mite",2},{"wood_mite_matriarch",1},{"confused_wood_mite_hatchling",2}},
+	mobiles = {{"mobiles=wood_mite",30},{"mobiles=wood_mite_elite",10},{"mobiles=wood_mite_heroic",2},{"wood_mite_matriarch",15},{"wood_mite_matriarch_elite",5},{"wood_mite_matriarch_heroic",1},{"confused_wood_mite_hatchling",30},{"confused_wood_mite_hatchling_elite",10},{"confused_wood_mite_hatchling_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_fog_red.iff"},

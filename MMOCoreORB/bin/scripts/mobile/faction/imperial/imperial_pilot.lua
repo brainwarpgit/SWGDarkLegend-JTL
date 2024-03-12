@@ -25,6 +25,7 @@ imperial_pilot = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_stranded_imperial_pilot.iff"},
 	lootGroups = {

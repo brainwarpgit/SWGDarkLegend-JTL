@@ -26,6 +26,7 @@ crackdown_specialist_noncom = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_imperial_medic3_human_male_01.iff",

@@ -1,5 +1,5 @@
 lok_gurk_lair2_neutral_medium = Lair:new {
-	mobiles = {{"crazed_gurk_destroyer",1}},
+	mobiles = {{"mobiles=crazed_gurk_destroyer",15},{"mobiles=crazed_gurk_destroyer_elite",5},{"mobiles=crazed_gurk_destroyer_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_fog_mustard.iff"},

@@ -27,6 +27,7 @@ imperial_medic = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_imperial_medic1_human_male_01.iff",

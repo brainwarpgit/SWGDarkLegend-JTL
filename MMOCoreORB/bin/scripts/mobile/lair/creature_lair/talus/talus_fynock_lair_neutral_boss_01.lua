@@ -1,6 +1,5 @@
 talus_fynock_lair_neutral_boss_01 = Lair:new {
-	mobiles = {{"fearful_fynock_youth",1},{"feared_fynock_youth",1}},
-	bossMobiles = {{"glutted_fynock_queen",1}},
+	mobiles = {{"mobiles=fearful_fynock_youth",15},{"mobiles=fearful_fynock_youth_elite",5},{"mobiles=fearful_fynock_youth_heroic",1},{"feared_fynock_youth",15},{"feared_fynock_youth_elite",5},{"feared_fynock_youth_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_evil_fire_small.iff"},

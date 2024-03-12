@@ -1,5 +1,5 @@
 corellia_razor_cat_cub_hunt_neutral_none = Lair:new {
-	mobiles = {{"razor_cat_cub",1}},
+	mobiles = {{"mobiles=razor_cat_cub",15},{"mobiles=razor_cat_cub_elite",5},{"mobiles=razor_cat_cub_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

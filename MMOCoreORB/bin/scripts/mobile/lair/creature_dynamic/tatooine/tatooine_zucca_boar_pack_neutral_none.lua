@@ -1,5 +1,5 @@
 tatooine_zucca_boar_pack_neutral_none = Lair:new {
-	mobiles = {{"zucca_boar",1}},
+	mobiles = {{"mobiles=zucca_boar",15},{"mobiles=zucca_boar_elite",5},{"mobiles=zucca_boar_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

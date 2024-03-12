@@ -1,5 +1,5 @@
 global_wilder_frontiersman_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"frontiersman",1}},
+	mobiles = {{"mobiles=frontiersman",15},{"mobiles=frontiersman_elite",5},{"mobiles=frontiersman_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},

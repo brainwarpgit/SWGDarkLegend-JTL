@@ -28,6 +28,7 @@ stormtrooper_black_hole_squad_leader = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_stormtrooper_squad_leader_black_black.iff"},

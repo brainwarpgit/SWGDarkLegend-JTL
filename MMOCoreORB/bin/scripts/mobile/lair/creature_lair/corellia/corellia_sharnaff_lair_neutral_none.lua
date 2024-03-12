@@ -1,5 +1,5 @@
 corellia_sharnaff_lair_neutral_none = Lair:new {
-	mobiles = {{"sharnaff",1}},
+	mobiles = {{"mobiles=sharnaff",15},{"mobiles=sharnaff_elite",5},{"mobiles=sharnaff_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

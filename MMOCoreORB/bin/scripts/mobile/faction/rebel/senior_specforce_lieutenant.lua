@@ -26,6 +26,7 @@ senior_specforce_lieutenant = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_specforce_guerilla_human_male_01.iff",

@@ -1,6 +1,5 @@
 endor_squill_festering_neutral_small_boss_01 = Lair:new {
-	mobiles = {{"festering_squill",1}},
-	bossMobiles = {{"deranged_ravisher",1}},
+	mobiles = {{"mobiles=festering_squill",15},{"mobiles=festering_squill_elite",5},{"mobiles=festering_squill_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_fog_red.iff"},

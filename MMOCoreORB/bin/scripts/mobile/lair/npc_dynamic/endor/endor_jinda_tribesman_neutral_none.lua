@@ -1,7 +1,5 @@
 endor_jinda_tribesman_neutral_none = Lair:new {
-	mobiles = {
-		{"jinda_tribesman",1}
-	},
+	mobiles = {{"mobiles=jinda_tribesman",15},{"mobiles=jinda_tribesman_elite",5},{"mobiles=jinda_tribesman_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

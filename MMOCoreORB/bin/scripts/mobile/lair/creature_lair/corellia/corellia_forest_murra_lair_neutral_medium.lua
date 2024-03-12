@@ -1,5 +1,5 @@
 corellia_forest_murra_lair_neutral_medium = Lair:new {
-	mobiles = {{"forest_murra",1}},
+	mobiles = {{"mobiles=forest_murra",15},{"mobiles=forest_murra_elite",5},{"mobiles=forest_murra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_evil_fire_green.iff"},

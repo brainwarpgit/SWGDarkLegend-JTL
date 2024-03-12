@@ -1,5 +1,5 @@
 dathomir_nightsister_stalker_neutral_none = Lair:new {
-	mobiles = {{"nightsister_stalker",1}},
+	mobiles = {{"mobiles=nightsister_stalker",15},{"mobiles=nightsister_stalker_elite",5},{"mobiles=nightsister_stalker_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

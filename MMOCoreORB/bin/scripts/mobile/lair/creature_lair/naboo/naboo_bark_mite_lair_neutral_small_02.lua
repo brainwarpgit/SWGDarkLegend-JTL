@@ -1,5 +1,5 @@
 naboo_bark_mite_lair_neutral_small_02 = Lair:new {
-	mobiles = {{"grizzled_bark_mite",1},{"bark_mite",1}},
+	mobiles = {{"mobiles=grizzled_bark_mite",15},{"mobiles=grizzled_bark_mite_elite",5},{"mobiles=grizzled_bark_mite_heroic",1},{"bark_mite",15},{"bark_mite_elite",5},{"bark_mite_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},

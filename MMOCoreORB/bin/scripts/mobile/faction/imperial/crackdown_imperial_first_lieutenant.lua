@@ -27,6 +27,7 @@ crackdown_imperial_first_lieutenant = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_imperial_lieutenant_m.iff",

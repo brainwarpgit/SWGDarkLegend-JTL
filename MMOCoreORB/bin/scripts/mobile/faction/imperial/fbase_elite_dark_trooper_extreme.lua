@@ -27,6 +27,7 @@ fbase_elite_dark_trooper_extreme = Creature:new {
 	creatureBitmask = PACK + KILLER + NOINTIMIDATE + NODOT,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 	scale = 1.5,
 
 	templates = {"object/mobile/dark_trooper.iff"},

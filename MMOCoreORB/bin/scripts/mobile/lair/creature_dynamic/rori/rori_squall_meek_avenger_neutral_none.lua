@@ -1,5 +1,5 @@
 rori_squall_meek_avenger_neutral_none = Lair:new {
-	mobiles = {{"meek_avenging_squall", 1}},
+	mobiles = {{"mobiles=meek_avenging_squall",15},{"mobiles=meek_avenging_squall_elite",5},{"mobiles=meek_avenging_squall_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

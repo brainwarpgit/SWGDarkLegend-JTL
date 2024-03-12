@@ -1,5 +1,5 @@
 tatooine_giant_sand_beetle_click_neutral_large = Lair:new {
-	mobiles = {{"giant_sand_beetle",1}},
+	mobiles = {{"mobiles=giant_sand_beetle",15},{"mobiles=giant_sand_beetle_elite",5},{"mobiles=giant_sand_beetle_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_large_evil_fire_red.iff"},

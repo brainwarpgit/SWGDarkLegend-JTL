@@ -1,8 +1,5 @@
 global_wilder_explorer_squad_neutral_none = Lair:new {
-	mobiles = {
-		{"explorer",3},
-		{"veteran_explorer",1}
-	},
+	mobiles = {{"mobiles=explorer",45},{"mobiles=explorer_elite",15},{"mobiles=explorer_heroic",3},{"veteran_explorer",15},{"veteran_explorer_elite",5},{"veteran_explorer_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

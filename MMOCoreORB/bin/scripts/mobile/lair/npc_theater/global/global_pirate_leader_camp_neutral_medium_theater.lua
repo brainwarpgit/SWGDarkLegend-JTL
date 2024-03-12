@@ -1,5 +1,5 @@
 global_pirate_leader_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"pirate_leader",1}},
+	mobiles = {{"mobiles=pirate_leader",15},{"mobiles=pirate_leader_elite",5},{"mobiles=pirate_leader_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},

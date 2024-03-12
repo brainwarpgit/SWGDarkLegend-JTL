@@ -1,5 +1,5 @@
 dantooine_quenker_ravager_pack_neutral_none = Lair:new {
-	mobiles = {{"quenker_ravager",1}},
+	mobiles = {{"mobiles=quenker_ravager",15},{"mobiles=quenker_ravager_elite",5},{"mobiles=quenker_ravager_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

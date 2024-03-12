@@ -1,5 +1,5 @@
 tatooine_nomad_neutral_small_theater = Lair:new {
-	mobiles = {{"nomad", 1}},
+	mobiles = {{"mobiles=nomad",15},{"mobiles=nomad_elite",5},{"mobiles=nomad_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_nomad_squatter_medium1.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_nomad_squatter_medium1.iff"},

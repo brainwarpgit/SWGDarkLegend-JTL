@@ -1,8 +1,5 @@
 dathomir_escaped_nightsister_slave_camp_neutral_medium_theater = Lair:new {
-	mobiles = {
-		{"escaped_nightsister_slave",1},
-		{"domesticated_brackaset",1},
-	},
+	mobiles = {{"mobiles=escaped_nightsister_slave",15},{"mobiles=escaped_nightsister_slave_elite",5},{"mobiles=escaped_nightsister_slave_heroic",1},{"domesticated_brackaset",15},{"domesticated_brackaset_elite",5},{"domesticated_brackaset_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/dathomir_freedprisonerscamp_medium1.iff","object/building/poi/dathomir_freedprisonerscamp_medium2.iff"},
 	buildingsEasy = {"object/building/poi/dathomir_freedprisonerscamp_medium1.iff","object/building/poi/dathomir_freedprisonerscamp_medium2.iff"},

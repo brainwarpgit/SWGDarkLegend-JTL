@@ -1,5 +1,5 @@
 dantooine_mokk_hunter_neutral_none = Lair:new {
-	mobiles = {{"mokk_hunter",1}},
+	mobiles = {{"mobiles=mokk_hunter",15},{"mobiles=mokk_hunter_elite",5},{"mobiles=mokk_hunter_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 dathomir_baz_nitch_kinad_neutral_none = Lair:new {
-	mobiles = {{"kinad_baz_nitch",1}},
+	mobiles = {{"mobiles=kinad_baz_nitch",15},{"mobiles=kinad_baz_nitch_elite",5},{"mobiles=kinad_baz_nitch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -27,6 +27,7 @@ crackdown_scout_trooper = Creature:new {
 	creatureBitmask = NONE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 	customAiMap = "crackdown",
 

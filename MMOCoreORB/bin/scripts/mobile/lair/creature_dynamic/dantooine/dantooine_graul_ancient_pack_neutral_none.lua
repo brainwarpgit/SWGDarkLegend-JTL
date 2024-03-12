@@ -1,5 +1,5 @@
 dantooine_graul_ancient_pack_neutral_none = Lair:new {
-	mobiles = {{"ancient_graul",1}},
+	mobiles = {{"mobiles=ancient_graul",15},{"mobiles=ancient_graul_elite",5},{"mobiles=ancient_graul_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

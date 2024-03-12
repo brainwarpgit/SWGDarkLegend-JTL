@@ -1,5 +1,5 @@
 talus_humbaba_herd_neutral_none = Lair:new {
-	mobiles = {{"humbaba",1}},
+	mobiles = {{"mobiles=humbaba",15},{"mobiles=humbaba_elite",5},{"mobiles=humbaba_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 talus_dung_mite_pack_neutral_none = Lair:new {
-	mobiles = {{"dung_mite",1},{"dung_mite_worker",1}},
+	mobiles = {{"mobiles=dung_mite",15},{"mobiles=dung_mite_elite",5},{"mobiles=dung_mite_heroic",1},{"dung_mite_worker",15},{"dung_mite_worker_elite",5},{"dung_mite_worker_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

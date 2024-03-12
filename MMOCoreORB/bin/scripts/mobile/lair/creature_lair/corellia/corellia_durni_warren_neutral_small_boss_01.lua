@@ -1,6 +1,5 @@
 corellia_durni_warren_neutral_small_boss_01 = Lair:new {
-	mobiles = {{"durni",1}},
-	bossMobiles = {{"vehement_warrior",1}},
+	mobiles = {{"mobiles=durni",15},{"mobiles=durni_elite",5},{"mobiles=durni_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_small.iff"},

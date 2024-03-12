@@ -1,5 +1,5 @@
 global_rodian_tribe_camp = Lair:new {
-	mobiles = {{"rodian_thug",1}, {"tough_thug_male_rodian", 1}},
+	mobiles = {{"mobiles=rodian_thug",15},{"mobiles=rodian_thug_elite",5},{"mobiles=rodian_thug_heroic",1},{"tough_thug_male_rodian",15},{"tough_thug_male_rodian_elite",5},{"tough_thug_male_rodian_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

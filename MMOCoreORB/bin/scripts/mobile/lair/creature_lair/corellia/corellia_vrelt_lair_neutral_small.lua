@@ -1,5 +1,5 @@
 corellia_vrelt_lair_neutral_small = Lair:new {
-	mobiles = {{"vrelt",1}},
+	mobiles = {{"mobiles=vrelt",15},{"mobiles=vrelt_elite",5},{"mobiles=vrelt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},

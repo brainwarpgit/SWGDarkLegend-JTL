@@ -1,5 +1,5 @@
 rori_garyn_raiders_outpost_neutral_large_theater = Lair:new {
-	mobiles = {{"garyns_dragoon",1},{"garyns_vigo",1},{"garyns_lieutenant",1}},
+	mobiles = {{"mobiles=garyns_dragoon",15},{"mobiles=garyns_dragoon_elite",5},{"mobiles=garyns_dragoon_heroic",1},{"garyns_vigo",15},{"garyns_vigo_elite",5},{"garyns_vigo_heroic",1},{"garyns_lieutenant",15},{"garyns_lieutenant_elite",5},{"garyns_lieutenant_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gunrunners_large1.iff","object/building/poi/naboo_gunrunners_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gunrunners_large1.iff","object/building/poi/naboo_gunrunners_large2.iff"},

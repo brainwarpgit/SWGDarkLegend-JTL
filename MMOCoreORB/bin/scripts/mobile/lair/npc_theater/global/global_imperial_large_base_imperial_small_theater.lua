@@ -1,9 +1,5 @@
 global_imperial_large_base_imperial_small_theater = Lair:new {
-	mobiles = {
-		{"imperial_master_sergeant",1},
-		{"imperial_sergeant",2},
-		{"imperial_corporal",4}
-	},
+	mobiles = {{"mobiles=imperial_master_sergeant",15},{"mobiles=imperial_master_sergeant_elite",5},{"mobiles=imperial_master_sergeant_heroic",1},{"imperial_sergeant",30},{"imperial_sergeant_elite",10},{"imperial_sergeant_heroic",2},{"imperial_corporal",60},{"imperial_corporal_elite",20},{"imperial_corporal_heroic",4}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},

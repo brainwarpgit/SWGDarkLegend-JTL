@@ -1,5 +1,5 @@
 endor_blushing_jax_neutral_none = Lair:new {
-	mobiles = {{"blushing_jax",1}},
+	mobiles = {{"mobiles=blushing_jax",15},{"mobiles=blushing_jax_elite",5},{"mobiles=blushing_jax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

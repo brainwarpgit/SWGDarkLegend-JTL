@@ -27,6 +27,7 @@ crackdown_elite_dark_trooper = Creature:new {
 	creatureBitmask = PACK + KILLER + STALKER + NOINTIMIDATE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 	scale = 1.5,
 	customAiMap = "crackdown",
 

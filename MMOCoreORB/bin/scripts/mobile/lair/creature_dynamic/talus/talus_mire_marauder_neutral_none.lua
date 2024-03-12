@@ -1,5 +1,5 @@
 talus_mire_marauder_neutral_none = Lair:new {
-	mobiles = {{"mire_marauder",1}},
+	mobiles = {{"mobiles=mire_marauder",15},{"mobiles=mire_marauder_elite",5},{"mobiles=mire_marauder_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

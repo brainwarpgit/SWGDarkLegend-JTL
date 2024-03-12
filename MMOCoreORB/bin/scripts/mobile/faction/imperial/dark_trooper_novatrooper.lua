@@ -25,6 +25,7 @@ dark_trooper_novatrooper = Creature:new {
 	creatureBitmask = KILLER + NOINTIMIDATE + NODOT,
 	optionsBitmask = AIENABLED,
 	diet = NONE,
+	maxdifficulty = 1,
 	scale = 1.3,
 
 	templates = {"object/mobile/dressed_stormtrooper_black_black.iff"},

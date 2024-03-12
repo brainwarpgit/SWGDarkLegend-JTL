@@ -1,9 +1,5 @@
 global_rebel_sgt_major_camp_rebel_medium_theater = Lair:new {
-	mobiles = {
-		{"rebel_sergeant_major",1},
-		{"rebel_sergeant",2},
-		{"rebel_corporal",4}
-	},
+	mobiles = {{"mobiles=rebel_sergeant_major",15},{"mobiles=rebel_sergeant_major_elite",5},{"mobiles=rebel_sergeant_major_heroic",1},{"rebel_sergeant",30},{"rebel_sergeant_elite",10},{"rebel_sergeant_heroic",2},{"rebel_corporal",60},{"rebel_corporal_elite",20},{"rebel_corporal_heroic",4}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},

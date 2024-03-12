@@ -1,5 +1,5 @@
 dathomir_nightsister_rangers_neutral_none = Lair:new {
-	mobiles = {{"nightsister_ranger",1}},
+	mobiles = {{"mobiles=nightsister_ranger",15},{"mobiles=nightsister_ranger_elite",5},{"mobiles=nightsister_ranger_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

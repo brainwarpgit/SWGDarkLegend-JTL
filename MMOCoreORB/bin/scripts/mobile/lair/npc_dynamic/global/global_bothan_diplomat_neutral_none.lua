@@ -1,5 +1,5 @@
 global_bothan_diplomat_neutral_none = Lair:new {
-	mobiles = {{"bothan_diplomat",1}},
+	mobiles = {{"mobiles=bothan_diplomat",15},{"mobiles=bothan_diplomat_elite",5},{"mobiles=bothan_diplomat_heroic",1}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

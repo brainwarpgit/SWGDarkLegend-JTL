@@ -27,6 +27,7 @@ fbase_rebel_elite_sand_rat_extreme = Creature:new {
 	creatureBitmask = PACK + STALKER + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 
 	templates = {
 		"object/mobile/dressed_rebel_scout_bothan_male_01.iff",

@@ -27,6 +27,7 @@ fbase_rebel_warrant_officer_ii_hard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_second_lieutenant_human_female_01.iff",

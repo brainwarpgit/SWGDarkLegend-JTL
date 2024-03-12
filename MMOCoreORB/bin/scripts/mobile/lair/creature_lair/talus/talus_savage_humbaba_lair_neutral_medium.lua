@@ -1,5 +1,5 @@
 talus_savage_humbaba_lair_neutral_medium = Lair:new {
-	mobiles = {{"savage_humbaba",1}},
+	mobiles = {{"mobiles=savage_humbaba",15},{"mobiles=savage_humbaba_elite",5},{"mobiles=savage_humbaba_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_red.iff"},

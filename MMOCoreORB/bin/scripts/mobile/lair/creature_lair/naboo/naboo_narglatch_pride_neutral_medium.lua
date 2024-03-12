@@ -1,5 +1,5 @@
 naboo_narglatch_pride_neutral_medium = Lair:new {
-	mobiles = {{"narglatch",1}},
+	mobiles = {{"mobiles=narglatch",15},{"mobiles=narglatch_elite",5},{"mobiles=narglatch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff"},

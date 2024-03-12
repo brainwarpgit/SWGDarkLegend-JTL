@@ -1,5 +1,5 @@
 talus_wolf_kima_pack_neutral_none = Lair:new {
-	mobiles = {{"wolf_kima",1}},
+	mobiles = {{"mobiles=wolf_kima",15},{"mobiles=wolf_kima_elite",5},{"mobiles=wolf_kima_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

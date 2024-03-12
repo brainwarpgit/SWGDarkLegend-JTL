@@ -1,6 +1,5 @@
 yavin4_mawgax_male_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"female_mawgax",1},{"male_mawgax",1}},
-	bossMobiles = {{"mawgax_raptor",1}},
+	mobiles = {{"mobiles=female_mawgax",15},{"mobiles=female_mawgax_elite",5},{"mobiles=female_mawgax_heroic",1},{"male_mawgax",15},{"male_mawgax_elite",5},{"male_mawgax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large.iff"},

@@ -1,5 +1,5 @@
 tatooine_diseased_bocatt_lair_neutral_medium = Lair:new {
-	mobiles = {{"diseased_bocatt",1}},
+	mobiles = {{"mobiles=diseased_bocatt",15},{"mobiles=diseased_bocatt_elite",5},{"mobiles=diseased_bocatt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_fog_green.iff"},

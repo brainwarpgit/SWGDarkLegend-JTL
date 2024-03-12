@@ -27,6 +27,7 @@ rebel_second_lieutenant = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_second_lieutenant_human_female_01.iff",

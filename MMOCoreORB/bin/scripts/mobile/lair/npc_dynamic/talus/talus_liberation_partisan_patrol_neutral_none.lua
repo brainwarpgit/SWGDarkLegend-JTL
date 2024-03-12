@@ -1,5 +1,5 @@
 talus_liberation_partisan_patrol_neutral_none = Lair:new {
-	mobiles = {{"talus_liberation_party_partisan",1}},
+	mobiles = {{"mobiles=talus_liberation_party_partisan",15},{"mobiles=talus_liberation_party_partisan_elite",5},{"mobiles=talus_liberation_party_partisan_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

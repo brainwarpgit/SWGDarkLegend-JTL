@@ -1,8 +1,5 @@
 global_imperial_stormtrooper_camp_imperial_small_theater = Lair:new {
-	mobiles = {
-		{"stormtrooper_squad_leader",1},
-		{"stormtrooper",3},
-	},
+	mobiles = {{"mobiles=stormtrooper_squad_leader",15},{"mobiles=stormtrooper_squad_leader_elite",5},{"mobiles=stormtrooper_squad_leader_heroic",1},{"stormtrooper",45},{"stormtrooper_elite",15},{"stormtrooper_heroic",3}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},

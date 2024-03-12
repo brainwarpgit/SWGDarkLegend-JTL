@@ -1,5 +1,5 @@
 naboo_gnort_massive_neutral_none = Lair:new {
-	mobiles = {{"massive_gnort",1}},
+	mobiles = {{"mobiles=massive_gnort",15},{"mobiles=massive_gnort_elite",5},{"mobiles=massive_gnort_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

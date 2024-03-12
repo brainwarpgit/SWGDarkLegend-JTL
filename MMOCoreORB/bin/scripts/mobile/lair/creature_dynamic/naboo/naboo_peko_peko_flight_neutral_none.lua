@@ -1,5 +1,5 @@
 naboo_peko_peko_flight_neutral_none = Lair:new {
-	mobiles = {{"peko_peko",1}},
+	mobiles = {{"mobiles=peko_peko",15},{"mobiles=peko_peko_elite",5},{"mobiles=peko_peko_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

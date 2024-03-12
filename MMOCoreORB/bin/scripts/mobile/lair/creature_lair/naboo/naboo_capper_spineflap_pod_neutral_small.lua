@@ -1,5 +1,5 @@
 naboo_capper_spineflap_pod_neutral_small = Lair:new {
-	mobiles = {{"capper_spineflap",1}},
+	mobiles = {{"mobiles=capper_spineflap",15},{"mobiles=capper_spineflap_elite",5},{"mobiles=capper_spineflap_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small.iff"},

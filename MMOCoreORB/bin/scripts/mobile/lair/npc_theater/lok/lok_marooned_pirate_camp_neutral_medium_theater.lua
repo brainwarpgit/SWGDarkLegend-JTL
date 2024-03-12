@@ -1,5 +1,5 @@
 lok_marooned_pirate_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"marooned_pirate",1}},
+	mobiles = {{"mobiles=marooned_pirate",15},{"mobiles=marooned_pirate_elite",5},{"mobiles=marooned_pirate_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/tatooine_fugitive_camp_large1.iff","object/building/poi/tatooine_fugitive_camp_large2.iff","object/building/poi/tatooine_fugitive_camp_large3.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_fugitive_camp_large1.iff","object/building/poi/tatooine_fugitive_camp_large2.iff","object/building/poi/tatooine_fugitive_camp_large3.iff"},

@@ -1,5 +1,5 @@
 global_dark_trooper_imperial_none = Lair:new {
-	mobiles = {{"dark_trooper",1}},
+	mobiles = {{"mobiles=dark_trooper",15},{"mobiles=dark_trooper_elite",5},{"mobiles=dark_trooper_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

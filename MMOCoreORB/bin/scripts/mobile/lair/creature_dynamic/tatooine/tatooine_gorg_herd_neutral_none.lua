@@ -1,5 +1,5 @@
 tatooine_gorg_herd_neutral_none = Lair:new {
-	mobiles = {{"gorg",1}},
+	mobiles = {{"mobiles=gorg",15},{"mobiles=gorg_elite",5},{"mobiles=gorg_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 rori_mauler_roamers_neutral_none = Lair:new {
-	mobiles = {{"mauler",1}},
+	mobiles = {{"mobiles=mauler",15},{"mobiles=mauler_elite",5},{"mobiles=mauler_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

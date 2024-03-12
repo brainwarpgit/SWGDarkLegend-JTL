@@ -1,5 +1,5 @@
 talus_famished_sludge_panther_pack_neutral_none = Lair:new {
-	mobiles = {{"famished_sludge_panther",1}},
+	mobiles = {{"mobiles=famished_sludge_panther",15},{"mobiles=famished_sludge_panther_elite",5},{"mobiles=famished_sludge_panther_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

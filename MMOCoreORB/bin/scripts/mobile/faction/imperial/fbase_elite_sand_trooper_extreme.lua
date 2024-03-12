@@ -27,6 +27,7 @@ fbase_elite_sand_trooper_extreme = Creature:new {
 	creatureBitmask = PACK + KILLER + NOINTIMIDATE,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 2,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_stormtrooper_sand_trooper_m.iff"},

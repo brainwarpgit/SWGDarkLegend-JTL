@@ -1,5 +1,5 @@
 naboo_borvos_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"borvos_bruiser",1},{"borvos_soldier",1},{"borvos_mercenary",1}},
+	mobiles = {{"mobiles=borvos_bruiser",15},{"mobiles=borvos_bruiser_elite",5},{"mobiles=borvos_bruiser_heroic",1},{"borvos_soldier",15},{"borvos_soldier_elite",5},{"borvos_soldier_heroic",1},{"borvos_mercenary",15},{"borvos_mercenary_elite",5},{"borvos_mercenary_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/naboo_borvos_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_borvos_medium.iff"},

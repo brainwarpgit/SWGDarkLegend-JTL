@@ -1,5 +1,5 @@
 yavin4_kliknik_lair_neutral_small = Lair:new {
-	mobiles = {{"kliknik",1}},
+	mobiles = {{"mobiles=kliknik",15},{"mobiles=kliknik_elite",5},{"mobiles=kliknik_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_small.iff"},

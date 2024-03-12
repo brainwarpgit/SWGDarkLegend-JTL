@@ -1,8 +1,5 @@
 dathomir_mtn_clan_outpost_neutral_large_theater = Lair:new {
-	mobiles = {
-		{"singing_mountain_clan_sentry",1},
-		{"singing_mountain_clan_slave",2}
-	},
+	mobiles = {{"mobiles=singing_mountain_clan_sentry",15},{"mobiles=singing_mountain_clan_sentry_elite",5},{"mobiles=singing_mountain_clan_sentry_heroic",1},{"singing_mountain_clan_slave",30},{"singing_mountain_clan_slave_elite",10},{"singing_mountain_clan_slave_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/dathomir_singingmtnclanpatrol_large1.iff"},
 	buildingsEasy = {"object/building/poi/dathomir_singingmtnclanpatrol_large1.iff"},

@@ -1,6 +1,5 @@
 corellia_corellian_butterfly_hive_neutral_large_boss_01 = Lair:new {
-	mobiles = {{"corellian_butterfly_warrior",1}},
-	bossMobiles = {{"blood_thirsty_monarch",1},{"corellian_butterfly_defender",2}},
+	mobiles = {{"mobiles=corellian_butterfly_warrior",15},{"mobiles=corellian_butterfly_warrior_elite",5},{"mobiles=corellian_butterfly_warrior_heroic",1},{"corellian_butterfly_defender",30},{"corellian_butterfly_defender_elite",10},{"corellian_butterfly_defender_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_red.iff"},

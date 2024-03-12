@@ -1,5 +1,5 @@
 corellia_diseased_vrelt_lair_neutral_small_03 = Lair:new {
-	mobiles = {{"noxious_vrelt_scavenger",1}},
+	mobiles = {{"mobiles=noxious_vrelt_scavenger",15},{"mobiles=noxious_vrelt_scavenger_elite",5},{"mobiles=noxious_vrelt_scavenger_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},

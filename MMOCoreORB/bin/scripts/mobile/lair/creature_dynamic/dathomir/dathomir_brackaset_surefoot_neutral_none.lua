@@ -1,5 +1,5 @@
 dathomir_brackaset_surefoot_neutral_none = Lair:new {
-	mobiles = {{"surefoot_brackaset",1}},
+	mobiles = {{"mobiles=surefoot_brackaset",15},{"mobiles=surefoot_brackaset_elite",5},{"mobiles=surefoot_brackaset_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

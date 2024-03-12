@@ -1,5 +1,5 @@
 talus_crazed_roba_pack_neutral_none = Lair:new {
-	mobiles = {{"crazed_roba",1}},
+	mobiles = {{"mobiles=crazed_roba",15},{"mobiles=crazed_roba_elite",5},{"mobiles=crazed_roba_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 talus_aakuan_champion_camp_neutral_large_theater = Lair:new {
-	mobiles = {{"aakuan_champion",1},{"aakuan_anarchist",1},{"aakuan_assassin",1}},
+	mobiles = {{"mobiles=aakuan_champion",15},{"mobiles=aakuan_champion_elite",5},{"mobiles=aakuan_champion_heroic",1},{"aakuan_anarchist",15},{"aakuan_anarchist_elite",5},{"aakuan_anarchist_heroic",1},{"aakuan_assassin",15},{"aakuan_assassin_elite",5},{"aakuan_assassin_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_selonian_separatists_large1.iff","object/building/poi/corellia_selonian_separatists_large2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_selonian_separatists_large1.iff","object/building/poi/corellia_selonian_separatists_large2.iff"},

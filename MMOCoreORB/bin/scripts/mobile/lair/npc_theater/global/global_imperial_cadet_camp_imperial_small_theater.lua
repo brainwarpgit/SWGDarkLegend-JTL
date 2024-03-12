@@ -1,5 +1,5 @@
 global_imperial_cadet_camp_imperial_small_theater = Lair:new {
-	mobiles = {{"imperial_cadet", 1}},
+	mobiles = {{"mobiles=imperial_cadet",15},{"mobiles=imperial_cadet_elite",5},{"mobiles=imperial_cadet_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_imperial_base_small_1.iff","object/building/poi/lok_imperial_small1.iff","object/building/poi/lok_imperial_small2.iff"},

@@ -1,7 +1,5 @@
 global_rebel_patrol_camp_rebel_small_theater = Lair:new {
-	mobiles = {
-		{"rebel_scout",1}
-	},
+	mobiles = {{"mobiles=rebel_scout",15},{"mobiles=rebel_scout_elite",5},{"mobiles=rebel_scout_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},

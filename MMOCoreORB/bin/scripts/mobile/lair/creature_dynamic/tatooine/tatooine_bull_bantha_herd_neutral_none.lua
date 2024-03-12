@@ -1,5 +1,5 @@
 tatooine_bull_bantha_herd_neutral_none = Lair:new {
-	mobiles = {{"bull_bantha",1}},
+	mobiles = {{"mobiles=bull_bantha",15},{"mobiles=bull_bantha_elite",5},{"mobiles=bull_bantha_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 naboo_swamp_rat_pack_neutral_none = Lair:new {
-	mobiles = {{"swamp_rat",1}},
+	mobiles = {{"mobiles=swamp_rat",15},{"mobiles=swamp_rat_elite",5},{"mobiles=swamp_rat_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

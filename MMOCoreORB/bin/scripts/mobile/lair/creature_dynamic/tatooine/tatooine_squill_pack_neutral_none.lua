@@ -1,5 +1,5 @@
 tatooine_squill_pack_neutral_none = Lair:new {
-	mobiles = {{"squill",1}},
+	mobiles = {{"mobiles=squill",15},{"mobiles=squill_elite",5},{"mobiles=squill_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

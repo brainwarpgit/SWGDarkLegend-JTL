@@ -1,5 +1,5 @@
 talus_gulginaw_nest_neutral_medium = Lair:new {
-	mobiles = {{"gulginaw",1}},
+	mobiles = {{"mobiles=gulginaw",15},{"mobiles=gulginaw_elite",5},{"mobiles=gulginaw_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones.iff"},

@@ -1,5 +1,5 @@
 tatooine_jabba_enforcer_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"jabba_enforcer",1}},
+	mobiles = {{"mobiles=jabba_enforcer",15},{"mobiles=jabba_enforcer_elite",5},{"mobiles=jabba_enforcer_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/tatooine_hutt_assassin_camp_medium1.iff","object/building/poi/tatooine_hutt_assassin_camp_medium2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_hutt_assassin_camp_medium1.iff","object/building/poi/tatooine_hutt_assassin_camp_medium2.iff"},

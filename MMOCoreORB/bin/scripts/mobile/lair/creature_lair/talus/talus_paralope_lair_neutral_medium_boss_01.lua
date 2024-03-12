@@ -1,6 +1,5 @@
 talus_paralope_lair_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"paralope",1}},
-	bossMobiles = {{"acicular_defender",1}},
+	mobiles = {{"mobiles=paralope",15},{"mobiles=paralope_elite",5},{"mobiles=paralope_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_small.iff"},

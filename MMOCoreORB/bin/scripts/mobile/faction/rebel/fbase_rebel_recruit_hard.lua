@@ -27,6 +27,7 @@ fbase_rebel_recruit_hard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_crewman_human_male_01.iff",
 			"object/mobile/dressed_rebel_crewman_human_male_02.iff",

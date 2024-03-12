@@ -1,5 +1,5 @@
 global_bothan_diplomat_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"bothan_diplomat",1}},
+	mobiles = {{"mobiles=bothan_diplomat",15},{"mobiles=bothan_diplomat_elite",5},{"mobiles=bothan_diplomat_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},

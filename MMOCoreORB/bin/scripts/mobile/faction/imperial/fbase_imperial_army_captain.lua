@@ -27,6 +27,7 @@ fbase_imperial_army_captain = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_captain_m.iff"},
 	lootGroups = {

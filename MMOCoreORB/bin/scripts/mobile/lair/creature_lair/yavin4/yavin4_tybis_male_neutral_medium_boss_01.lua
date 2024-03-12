@@ -1,6 +1,5 @@
 yavin4_tybis_male_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"male_tybis", 1},{"female_tybis", 1}},
-	bossMobiles = {{"grand_tybis",1}},
+	mobiles = {{"mobiles=male_tybis",15},{"mobiles=male_tybis_elite",5},{"mobiles=male_tybis_heroic",1},{"female_tybis",15},{"female_tybis_elite",5},{"female_tybis_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},

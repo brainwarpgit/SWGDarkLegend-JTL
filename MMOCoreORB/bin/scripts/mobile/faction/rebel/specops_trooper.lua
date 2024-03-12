@@ -26,6 +26,7 @@ specops_trooper = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + STALKER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_specforce_guerilla_human_male_01.iff",
 		"object/mobile/dressed_rebel_specforce_guerilla_moncal_male_01.iff",

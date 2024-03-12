@@ -1,8 +1,5 @@
 global_rebel_creature_handler_apprentice_razor_cat_camp_rebel_small_theater = Lair:new {
-	mobiles = {
-		{"apprentice_creature_handler",1},
-		{"tamed_razor_cat",3}
-	},
+	mobiles = {{"mobiles=apprentice_creature_handler",15},{"mobiles=apprentice_creature_handler_elite",5},{"mobiles=apprentice_creature_handler_heroic",1},{"tamed_razor_cat",45},{"tamed_razor_cat_elite",15},{"tamed_razor_cat_heroic",3}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_camp_small_1.iff","object/building/poi/anywhere_rebel_camp_small_2.iff","object/building/poi/anywhere_rebel_camp_small_3.iff"},

@@ -26,6 +26,7 @@ imperial_recruiter = Creature:new {
 	pvpBitmask = NONE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	optionsBitmask = INVULNERABLE + CONVERSABLE,
 
 	templates = { "imperial_officer" },

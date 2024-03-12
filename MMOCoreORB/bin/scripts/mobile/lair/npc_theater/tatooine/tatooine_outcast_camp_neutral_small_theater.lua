@@ -1,5 +1,5 @@
 tatooine_outcast_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"squatter",1}},
+	mobiles = {{"mobiles=squatter",15},{"mobiles=squatter_elite",5},{"mobiles=squatter_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/tatooine_evil_settlers_medium.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_evil_settlers_medium.iff"},

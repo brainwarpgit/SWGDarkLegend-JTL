@@ -1,6 +1,5 @@
 dantooine_quenker_savage_lair_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"savage_quenker",1}},
-	bossMobiles = {{"terrible_quenker",1}},
+	mobiles = {{"mobiles=savage_quenker",15},{"mobiles=savage_quenker_elite",5},{"mobiles=savage_quenker_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_red.iff"},

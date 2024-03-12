@@ -26,6 +26,7 @@ imperial_private = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "imperial_officer" },
 	lootGroups = {

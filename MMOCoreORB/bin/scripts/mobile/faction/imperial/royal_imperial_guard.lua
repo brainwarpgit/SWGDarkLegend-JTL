@@ -25,6 +25,7 @@ royal_imperial_guard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/royal_guard.iff"},
 	lootGroups = {},

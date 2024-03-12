@@ -27,6 +27,7 @@ crackdown_imperial_master_sergeant = Creature:new {
 	creatureBitmask = STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_imperial_lieutenant_m.iff"},

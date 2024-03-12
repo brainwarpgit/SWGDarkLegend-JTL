@@ -26,6 +26,7 @@ veteran_compforce_trooper = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 
 	templates = {"object/mobile/dressed_stormtrooper_groupleader_m.iff"},

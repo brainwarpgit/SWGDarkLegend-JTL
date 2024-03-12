@@ -1,5 +1,5 @@
 tatooine_krayt_dragon_ancient_neutral_none = Lair:new {
-	mobiles = {{"krayt_dragon_ancient", 1}},
+	mobiles = {{"mobiles=krayt_dragon_ancient",15},{"mobiles=krayt_dragon_ancient_elite",5},{"mobiles=krayt_dragon_ancient_heroic",1}},
 	spawnLimit = 2,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

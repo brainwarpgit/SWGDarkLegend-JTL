@@ -1,5 +1,5 @@
 tatooine_dwarf_eopie = Lair:new {
-	mobiles = {{"dwarf_eopie", 1}},
+	mobiles = {{"mobiles=dwarf_eopie",15},{"mobiles=dwarf_eopie_elite",5},{"mobiles=dwarf_eopie_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

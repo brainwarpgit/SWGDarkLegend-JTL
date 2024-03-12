@@ -27,6 +27,7 @@ specforce_major = Creature:new {
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_specforce_guerilla_human_male_01.iff",
 		"object/mobile/dressed_rebel_specforce_guerilla_moncal_male_01.iff",

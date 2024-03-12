@@ -26,6 +26,7 @@ senior_specforce_heavy_weapons_specialist = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_second_lieutenant_human_female_01.iff",
 		"object/mobile/dressed_rebel_second_lieutenant_rodian_male_01.iff",

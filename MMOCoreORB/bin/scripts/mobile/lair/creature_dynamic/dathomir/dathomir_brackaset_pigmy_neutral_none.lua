@@ -1,5 +1,5 @@
 dathomir_brackaset_pigmy_neutral_none = Lair:new {
-	mobiles = {{"lowland_brackaset",1}},
+	mobiles = {{"mobiles=lowland_brackaset",15},{"mobiles=lowland_brackaset_elite",5},{"mobiles=lowland_brackaset_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

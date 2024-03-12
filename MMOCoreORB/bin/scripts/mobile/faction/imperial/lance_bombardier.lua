@@ -27,6 +27,7 @@ lance_bombardier = Creature:new {
 	creatureBitmask = PACK + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_imperial_exterminator.iff"},
 	lootGroups = {

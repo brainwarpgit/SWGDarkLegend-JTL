@@ -1,5 +1,5 @@
 global_gambler_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"gambler",1}},
+	mobiles = {{"mobiles=gambler",15},{"mobiles=gambler_elite",5},{"mobiles=gambler_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_hutt_businessmen_camp_small1.iff","object/building/poi/tatooine_hutt_businessmen_camp_small2.iff"},

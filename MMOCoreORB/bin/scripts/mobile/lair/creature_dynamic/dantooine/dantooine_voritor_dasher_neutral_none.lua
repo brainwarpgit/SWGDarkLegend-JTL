@@ -1,5 +1,5 @@
 dantooine_voritor_dasher_neutral_none = Lair:new {
-	mobiles = {{"voritor_dasher",1}},
+	mobiles = {{"mobiles=voritor_dasher",15},{"mobiles=voritor_dasher_elite",5},{"mobiles=voritor_dasher_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

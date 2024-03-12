@@ -1,5 +1,5 @@
 endor_gurreck_prowler_neutral_none = Lair:new {
-	mobiles = {{"prowling_gurreck",1}},
+	mobiles = {{"mobiles=prowling_gurreck",15},{"mobiles=prowling_gurreck_elite",5},{"mobiles=prowling_gurreck_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

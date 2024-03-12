@@ -1,5 +1,5 @@
 endor_blurrg_hunter_lair_neutral_small = Lair:new {
-	mobiles = {{"blurrg_hunter",1}},
+	mobiles = {{"mobiles=blurrg_hunter",15},{"mobiles=blurrg_hunter_elite",5},{"mobiles=blurrg_hunter_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones.iff"},

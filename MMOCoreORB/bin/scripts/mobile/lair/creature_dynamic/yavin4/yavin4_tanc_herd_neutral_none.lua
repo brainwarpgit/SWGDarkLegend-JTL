@@ -1,5 +1,5 @@
 yavin4_tanc_herd_neutral_none = Lair:new {
-	mobiles = {{"tanc_mite",1},{"puny_tanc_mite",2}},
+	mobiles = {{"mobiles=tanc_mite",15},{"mobiles=tanc_mite_elite",5},{"mobiles=tanc_mite_heroic",1},{"puny_tanc_mite",30},{"puny_tanc_mite_elite",10},{"puny_tanc_mite_heroic",2}},
 	spawnLimit = 18,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -27,6 +27,7 @@ fbase_imperial_sergeant_hard = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_imperial_officer_f.iff",

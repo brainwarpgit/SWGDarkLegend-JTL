@@ -1,5 +1,5 @@
 endor_hanadak_matriarch_neutral_small = Lair:new {
-	mobiles = {{"elder_hanadak_matriarch",1}},
+	mobiles = {{"mobiles=elder_hanadak_matriarch",15},{"mobiles=elder_hanadak_matriarch_elite",5},{"mobiles=elder_hanadak_matriarch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_red.iff"},

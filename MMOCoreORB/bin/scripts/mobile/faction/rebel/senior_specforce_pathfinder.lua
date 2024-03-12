@@ -26,6 +26,7 @@ senior_specforce_pathfinder = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {"object/mobile/dressed_rebel_specforce_pathfinder_human_male_01.iff",
 		"object/mobile/dressed_rebel_specforce_pathfinder_moncal_female_01.iff",

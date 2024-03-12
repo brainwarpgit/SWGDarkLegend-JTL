@@ -1,5 +1,5 @@
 rori_hermit_spider_neutral_none = Lair:new {
-	mobiles = {{"hermit_spider",1}},
+	mobiles = {{"mobiles=hermit_spider",15},{"mobiles=hermit_spider_elite",5},{"mobiles=hermit_spider_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

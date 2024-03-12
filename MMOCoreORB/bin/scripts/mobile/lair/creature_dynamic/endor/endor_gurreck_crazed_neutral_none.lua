@@ -1,5 +1,5 @@
 endor_gurreck_crazed_neutral_none = Lair:new {
-	mobiles = {{"crazed_gurreck",1}},
+	mobiles = {{"mobiles=crazed_gurreck",15},{"mobiles=crazed_gurreck_elite",5},{"mobiles=crazed_gurreck_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

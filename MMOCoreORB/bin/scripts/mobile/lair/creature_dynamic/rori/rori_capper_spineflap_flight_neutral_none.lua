@@ -1,5 +1,5 @@
 rori_capper_spineflap_flight_neutral_none = Lair:new {
-	mobiles = {{"capper_spineflap", 1}},
+	mobiles = {{"mobiles=capper_spineflap",15},{"mobiles=capper_spineflap_elite",5},{"mobiles=capper_spineflap_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 tatooine_spice_fiend_neutral_small_theater = Lair:new {
-	mobiles = {{"spice_fiend",1}},
+	mobiles = {{"mobiles=spice_fiend",15},{"mobiles=spice_fiend_elite",5},{"mobiles=spice_fiend_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_spicefiend_medium.iff","object/building/poi/tatooine_spicefiend_medium2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_spicefiend_medium.iff","object/building/poi/tatooine_spicefiend_medium2.iff"},

@@ -27,6 +27,7 @@ crackdown_imperial_sharpshooter = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	customAiMap = "crackdown",
 
 	templates = {"object/mobile/dressed_stormtrooper_sniper_m.iff"},

@@ -1,5 +1,5 @@
 dathomir_baz_nitch_herd_neutral_none = Lair:new {
-	mobiles = {{"baz_nitch",1},{"angry_baz_nitch_avenger",1}},
+	mobiles = {{"mobiles=baz_nitch",15},{"mobiles=baz_nitch_elite",5},{"mobiles=baz_nitch_heroic",1},{"angry_baz_nitch_avenger",15},{"angry_baz_nitch_avenger_elite",5},{"angry_baz_nitch_avenger_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

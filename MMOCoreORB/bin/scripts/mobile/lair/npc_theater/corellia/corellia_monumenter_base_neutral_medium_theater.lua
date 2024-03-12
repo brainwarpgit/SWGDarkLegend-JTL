@@ -1,5 +1,5 @@
 corellia_monumenter_base_neutral_medium_theater = Lair:new {
-	mobiles = {{"monumenter_bandit",1},{"monumenter_smuggler",1},{"monumenter_marauder",1}},
+	mobiles = {{"mobiles=monumenter_bandit",15},{"mobiles=monumenter_bandit_elite",5},{"mobiles=monumenter_bandit_heroic",1},{"monumenter_smuggler",15},{"monumenter_smuggler_elite",5},{"monumenter_smuggler_heroic",1},{"monumenter_marauder",15},{"monumenter_marauder_elite",5},{"monumenter_marauder_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_monumenter_large1.iff","object/building/poi/corellia_monumenter_large2.iff","object/building/poi/corellia_monumenter_large3.iff"},
 	buildingsEasy = {"object/building/poi/corellia_monumenter_large1.iff","object/building/poi/corellia_monumenter_large2.iff","object/building/poi/corellia_monumenter_large3.iff"},

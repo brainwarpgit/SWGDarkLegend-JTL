@@ -26,6 +26,7 @@ prophet_of_the_dark_side = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = PACK + KILLER,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_dark_jedi_human_male_01.iff",

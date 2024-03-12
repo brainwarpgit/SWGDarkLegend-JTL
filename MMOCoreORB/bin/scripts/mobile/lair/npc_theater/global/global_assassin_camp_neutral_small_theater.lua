@@ -1,5 +1,5 @@
 global_assassin_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"assassin",1}},
+	mobiles = {{"mobiles=assassin",15},{"mobiles=assassin_elite",5},{"mobiles=assassin_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_hutt_assassin_camp_small1.iff","object/building/poi/tatooine_hutt_assassin_camp_small2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_hutt_assassin_camp_small1.iff","object/building/poi/tatooine_hutt_assassin_camp_small2.iff"},

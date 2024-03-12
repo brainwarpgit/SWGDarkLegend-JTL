@@ -27,6 +27,7 @@ rebel_trooper = Creature:new {
 	creatureBitmask = PACK,
 	optionsBitmask = AIENABLED + FACTIONAGGRO,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = {
 		"object/mobile/dressed_rebel_trooper_bith_m_01.iff",

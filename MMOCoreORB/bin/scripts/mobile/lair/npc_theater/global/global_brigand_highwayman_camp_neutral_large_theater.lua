@@ -1,5 +1,5 @@
 global_brigand_highwayman_camp_neutral_large_theater = Lair:new {
-	mobiles = {{"highwayman",1}},
+	mobiles = {{"mobiles=highwayman",15},{"mobiles=highwayman_elite",5},{"mobiles=highwayman_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/tatooine_swoop_large1.iff","object/building/poi/tatooine_swoop_large2.iff","object/building/poi/tatooine_swoop_large3.iff","object/building/poi/tatooine_swoop_large4.iff"},
 	buildingsEasy =  {"object/building/poi/tatooine_swoop_large1.iff","object/building/poi/tatooine_swoop_large2.iff","object/building/poi/tatooine_swoop_large3.iff","object/building/poi/tatooine_swoop_large4.iff"},

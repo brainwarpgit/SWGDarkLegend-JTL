@@ -27,6 +27,7 @@ crackdown_stormtrooper_medic = Creature:new {
 	creatureBitmask = PACK + KILLER + HEALER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 	scale = 1.05,
 	customAiMap = "crackdown",
 

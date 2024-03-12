@@ -1,5 +1,5 @@
 endor_remmer_carrion_keeper_neutral_none = Lair:new {
-	mobiles = {{"remmer_carrion_keeper",1}},
+	mobiles = {{"mobiles=remmer_carrion_keeper",15},{"mobiles=remmer_carrion_keeper_elite",5},{"mobiles=remmer_carrion_keeper_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

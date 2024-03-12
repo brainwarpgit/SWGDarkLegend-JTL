@@ -26,6 +26,7 @@ imperial_scientist = Creature:new {
 	pvpBitmask = ATTACKABLE,
 	creatureBitmask = NONE,
 	diet = HERBIVORE,
+	maxdifficulty = 1,
 
 	templates = { "object/mobile/dressed_combatmedic_trainer_human_male_01.iff",
 		"object/mobile/dressed_brigade_captain_human_male_01.iff",

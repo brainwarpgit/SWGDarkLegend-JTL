@@ -1,5 +1,5 @@
 corellia_violent_krahbu_lair_neutral_medium = Lair:new {
-	mobiles = {{"violent_krahbu",1}},
+	mobiles = {{"mobiles=violent_krahbu",15},{"mobiles=violent_krahbu_elite",5},{"mobiles=violent_krahbu_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_red.iff"},
