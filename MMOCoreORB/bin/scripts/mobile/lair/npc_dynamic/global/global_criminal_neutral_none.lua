@@ -1,5 +1,5 @@
 global_criminal_neutral_none = Lair:new {
-	mobiles = {{"mobiles=criminal",15},{"mobiles=criminal_elite",5},{"mobiles=criminal_heroic",1}},
+	mobiles = {{"criminal",15},{"criminal_elite",5},{"criminal_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

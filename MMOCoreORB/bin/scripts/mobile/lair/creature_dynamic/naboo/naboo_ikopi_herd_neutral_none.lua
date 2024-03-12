@@ -1,5 +1,5 @@
 naboo_ikopi_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=ikopi",15},{"mobiles=ikopi_elite",5},{"mobiles=ikopi_heroic",1}},
+	mobiles = {{"ikopi",15},{"ikopi_elite",5},{"ikopi_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

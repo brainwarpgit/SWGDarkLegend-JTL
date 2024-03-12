@@ -1,5 +1,5 @@
 endor_blurrg_sand_crawler_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=blurrg_sand_crawler",15},{"mobiles=blurrg_sand_crawler_elite",5},{"mobiles=blurrg_sand_crawler_heroic",1}},
+	mobiles = {{"blurrg_sand_crawler",15},{"blurrg_sand_crawler_elite",5},{"blurrg_sand_crawler_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_mustard.iff"},

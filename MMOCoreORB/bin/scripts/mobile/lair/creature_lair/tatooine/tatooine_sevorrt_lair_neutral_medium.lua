@@ -1,5 +1,5 @@
 tatooine_sevorrt_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=sevorrt",15},{"mobiles=sevorrt_elite",5},{"mobiles=sevorrt_heroic",1}},
+	mobiles = {{"sevorrt",15},{"sevorrt_elite",5},{"sevorrt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_fog_green.iff"},

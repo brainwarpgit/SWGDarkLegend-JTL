@@ -1,5 +1,5 @@
 endor_remmer_highland_neutral_small = Lair:new {
-	mobiles = {{"mobiles=highland_remmer",15},{"mobiles=highland_remmer_elite",5},{"mobiles=highland_remmer_heroic",1}},
+	mobiles = {{"highland_remmer",15},{"highland_remmer_elite",5},{"highland_remmer_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small_evil_fire_small.iff"},

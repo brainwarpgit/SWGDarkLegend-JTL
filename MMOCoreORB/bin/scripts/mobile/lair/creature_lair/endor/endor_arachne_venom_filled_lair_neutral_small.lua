@@ -1,5 +1,5 @@
 endor_arachne_venom_filled_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=venom_filled_arachne",15},{"mobiles=venom_filled_arachne_elite",5},{"mobiles=venom_filled_arachne_heroic",1}},
+	mobiles = {{"venom_filled_arachne",15},{"venom_filled_arachne_elite",5},{"venom_filled_arachne_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},

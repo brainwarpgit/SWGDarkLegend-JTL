@@ -1,5 +1,5 @@
 global_thief_camp2_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=common_thief",15},{"mobiles=common_thief_elite",5},{"mobiles=common_thief_heroic",1},{"thief",15},{"thief_elite",5},{"thief_heroic",1}},
+	mobiles = {{"common_thief",15},{"common_thief_elite",5},{"common_thief_heroic",1},{"thief",15},{"thief_elite",5},{"thief_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/corellia_meatlump_small1.iff","object/building/poi/corellia_meatlump_small2.iff","object/building/poi/corellia_meatlump_small3.iff"},
 	buildingsEasy = {"object/building/poi/corellia_meatlump_small1.iff","object/building/poi/corellia_meatlump_small2.iff","object/building/poi/corellia_meatlump_small3.iff"},

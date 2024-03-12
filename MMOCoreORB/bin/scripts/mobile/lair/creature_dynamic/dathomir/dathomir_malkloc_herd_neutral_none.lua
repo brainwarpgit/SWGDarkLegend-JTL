@@ -1,5 +1,5 @@
 dathomir_malkloc_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=malkloc",30},{"mobiles=malkloc_elite",10},{"mobiles=malkloc_heroic",2},{"young_malkloc",15},{"young_malkloc_elite",5},{"young_malkloc_heroic",1}},
+	mobiles = {{"malkloc",30},{"malkloc_elite",10},{"malkloc_heroic",2},{"young_malkloc",15},{"young_malkloc_elite",5},{"young_malkloc_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

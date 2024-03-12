@@ -1,5 +1,5 @@
 endor_lantern_bird_gleaming_neutral_small = Lair:new {
-	mobiles = {{"mobiles=gleaming_lantern_bird",15},{"mobiles=gleaming_lantern_bird_elite",5},{"mobiles=gleaming_lantern_bird_heroic",1}},
+	mobiles = {{"gleaming_lantern_bird",15},{"gleaming_lantern_bird_elite",5},{"gleaming_lantern_bird_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_small.iff"},

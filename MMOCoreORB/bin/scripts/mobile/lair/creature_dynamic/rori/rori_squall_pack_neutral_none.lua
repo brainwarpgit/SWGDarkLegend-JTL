@@ -1,5 +1,5 @@
 rori_squall_pack_neutral_none = Lair:new {
-	mobiles = {{"mobiles=vicious_squall",15},{"mobiles=vicious_squall_elite",5},{"mobiles=vicious_squall_heroic",1}},
+	mobiles = {{"vicious_squall",15},{"vicious_squall_elite",5},{"vicious_squall_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

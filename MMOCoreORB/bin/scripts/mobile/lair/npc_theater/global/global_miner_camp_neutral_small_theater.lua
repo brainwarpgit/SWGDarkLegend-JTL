@@ -1,5 +1,5 @@
 global_miner_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=miner",15},{"mobiles=miner_elite",5},{"mobiles=miner_heroic",1}},
+	mobiles = {{"miner",15},{"miner_elite",5},{"miner_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_mineral_farmer_medium1.iff","object/building/poi/tatooine_mineral_farmer_medium2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_mineral_farmer_medium1.iff","object/building/poi/tatooine_mineral_farmer_medium2.iff"},

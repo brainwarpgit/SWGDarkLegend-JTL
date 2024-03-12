@@ -1,5 +1,5 @@
 tatooine_dune_lizard_dune_lizard_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"mobiles=dune_lizard",15},{"mobiles=dune_lizard_elite",5},{"mobiles=dune_lizard_heroic",1}},
+	mobiles = {{"dune_lizard",15},{"dune_lizard_elite",5},{"dune_lizard_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_red.iff"},

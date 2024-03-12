@@ -1,5 +1,5 @@
 rori_dashing_vir_vur_lair_neutral_small_boss_01 = Lair:new {
-	mobiles = {{"mobiles=dashing_vir_vur",15},{"mobiles=dashing_vir_vur_elite",5},{"mobiles=dashing_vir_vur_heroic",1}},
+	mobiles = {{"dashing_vir_vur",15},{"dashing_vir_vur_elite",5},{"dashing_vir_vur_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small_evil_fire_red.iff"},

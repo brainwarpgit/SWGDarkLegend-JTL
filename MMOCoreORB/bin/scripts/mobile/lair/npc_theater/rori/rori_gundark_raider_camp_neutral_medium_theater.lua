@@ -1,5 +1,5 @@
 rori_gundark_raider_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=gundark_raider",15},{"mobiles=gundark_raider_elite",5},{"mobiles=gundark_raider_heroic",1},{"gundark_desperado",15},{"gundark_desperado_elite",5},{"gundark_desperado_heroic",1},{"gundark_ruffian",15},{"gundark_ruffian_elite",5},{"gundark_ruffian_heroic",1}},
+	mobiles = {{"gundark_raider",15},{"gundark_raider_elite",5},{"gundark_raider_heroic",1},{"gundark_desperado",15},{"gundark_desperado_elite",5},{"gundark_desperado_heroic",1},{"gundark_ruffian",15},{"gundark_ruffian_elite",5},{"gundark_ruffian_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_swamp_rat_gang_camp_medium.iff","object/building/poi/naboo_mauler_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_swamp_rat_gang_camp_medium.iff","object/building/poi/naboo_mauler_medium.iff"},

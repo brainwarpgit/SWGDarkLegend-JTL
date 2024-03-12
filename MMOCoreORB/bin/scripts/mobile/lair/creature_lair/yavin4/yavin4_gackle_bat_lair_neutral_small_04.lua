@@ -1,5 +1,5 @@
 yavin4_gackle_bat_lair_neutral_small_04 = Lair:new {
-	mobiles = {{"mobiles=gackle_bat",15},{"mobiles=gackle_bat_elite",5},{"mobiles=gackle_bat_heroic",1}},
+	mobiles = {{"gackle_bat",15},{"gackle_bat_elite",5},{"gackle_bat_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},

@@ -1,5 +1,5 @@
 tatooine_dragonet_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=dragonet",15},{"mobiles=dragonet_elite",5},{"mobiles=dragonet_heroic",1}},
+	mobiles = {{"dragonet",15},{"dragonet_elite",5},{"dragonet_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_small.iff"},

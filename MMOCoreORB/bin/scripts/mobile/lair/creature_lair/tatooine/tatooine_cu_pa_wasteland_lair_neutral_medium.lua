@@ -1,5 +1,5 @@
 tatooine_cu_pa_wasteland_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=wasteland_cu_pa",15},{"mobiles=wasteland_cu_pa_elite",5},{"mobiles=wasteland_cu_pa_heroic",1}},
+	mobiles = {{"wasteland_cu_pa",15},{"wasteland_cu_pa_elite",5},{"wasteland_cu_pa_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_green.iff"},

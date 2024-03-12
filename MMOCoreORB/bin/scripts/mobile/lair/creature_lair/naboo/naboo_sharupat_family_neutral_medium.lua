@@ -1,5 +1,5 @@
 naboo_sharupat_family_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=shaupaut_hunter",15},{"mobiles=shaupaut_hunter_elite",5},{"mobiles=shaupaut_hunter_heroic",1}},
+	mobiles = {{"shaupaut_hunter",15},{"shaupaut_hunter_elite",5},{"shaupaut_hunter_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},

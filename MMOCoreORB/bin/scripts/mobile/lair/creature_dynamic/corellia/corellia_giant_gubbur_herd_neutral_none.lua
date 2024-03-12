@@ -1,5 +1,5 @@
 corellia_giant_gubbur_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=giant_gubbur",15},{"mobiles=giant_gubbur_elite",5},{"mobiles=giant_gubbur_heroic",1}},
+	mobiles = {{"giant_gubbur",15},{"giant_gubbur_elite",5},{"giant_gubbur_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

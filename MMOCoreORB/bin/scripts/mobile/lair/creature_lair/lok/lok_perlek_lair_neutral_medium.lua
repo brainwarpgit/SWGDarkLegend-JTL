@@ -1,5 +1,5 @@
 lok_perlek_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=perlek",15},{"mobiles=perlek_elite",5},{"mobiles=perlek_heroic",1}},
+	mobiles = {{"perlek",15},{"perlek_elite",5},{"perlek_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_small_fog_mustard.iff"},

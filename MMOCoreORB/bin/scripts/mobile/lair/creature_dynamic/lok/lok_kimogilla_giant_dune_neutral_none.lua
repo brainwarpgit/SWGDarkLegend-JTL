@@ -1,5 +1,5 @@
 lok_kimogilla_giant_dune_neutral_none = Lair:new {
-	mobiles = {{"mobiles=giant_dune_kimogila",15},{"mobiles=giant_dune_kimogila_elite",5},{"mobiles=giant_dune_kimogila_heroic",1},{"dune_kimogila",30},{"dune_kimogila_elite",10},{"dune_kimogila_heroic",2}},
+	mobiles = {{"giant_dune_kimogila",15},{"giant_dune_kimogila_elite",5},{"giant_dune_kimogila_heroic",1},{"dune_kimogila",30},{"dune_kimogila_elite",10},{"dune_kimogila_heroic",2}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

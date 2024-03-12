@@ -1,5 +1,5 @@
 corellia_corsec_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=corsec_lieutenant",15},{"mobiles=corsec_lieutenant_elite",5},{"mobiles=corsec_lieutenant_heroic",1},{"corsec_master_sergeant",15},{"corsec_master_sergeant_elite",5},{"corsec_master_sergeant_heroic",1}},
+	mobiles = {{"corsec_lieutenant",15},{"corsec_lieutenant_elite",5},{"corsec_lieutenant_heroic",1},{"corsec_master_sergeant",15},{"corsec_master_sergeant_elite",5},{"corsec_master_sergeant_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},

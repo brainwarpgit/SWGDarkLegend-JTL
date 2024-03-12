@@ -1,5 +1,5 @@
 naboo_otolla_gungan_camp_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=otolla_gungan",15},{"mobiles=otolla_gungan_elite",5},{"mobiles=otolla_gungan_heroic",1}},
+	mobiles = {{"otolla_gungan",15},{"otolla_gungan_elite",5},{"otolla_gungan_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},

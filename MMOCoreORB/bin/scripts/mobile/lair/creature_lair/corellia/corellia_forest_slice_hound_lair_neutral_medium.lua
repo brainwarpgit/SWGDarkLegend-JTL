@@ -1,5 +1,5 @@
 corellia_forest_slice_hound_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=forest_slice_hound",15},{"mobiles=forest_slice_hound_elite",5},{"mobiles=forest_slice_hound_heroic",1}},
+	mobiles = {{"forest_slice_hound",15},{"forest_slice_hound_elite",5},{"forest_slice_hound_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_evil_fire_green.iff"},

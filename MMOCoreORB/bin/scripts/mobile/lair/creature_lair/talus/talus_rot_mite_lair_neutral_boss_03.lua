@@ -1,5 +1,5 @@
 talus_rot_mite_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"mobiles=cyst_covered_rot_mite_guard",15},{"mobiles=cyst_covered_rot_mite_guard_elite",5},{"mobiles=cyst_covered_rot_mite_guard_heroic",1}},
+	mobiles = {{"cyst_covered_rot_mite_guard",15},{"cyst_covered_rot_mite_guard_elite",5},{"cyst_covered_rot_mite_guard_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_mustard.iff"},

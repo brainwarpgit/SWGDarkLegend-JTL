@@ -1,5 +1,5 @@
 yavin4_qurvel_pack_neutral_none = Lair:new {
-	mobiles = {{"mobiles=kai_tok_scavenger",15},{"mobiles=kai_tok_scavenger_elite",5},{"mobiles=kai_tok_scavenger_heroic",1}},
+	mobiles = {{"kai_tok_scavenger",15},{"kai_tok_scavenger_elite",5},{"kai_tok_scavenger_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

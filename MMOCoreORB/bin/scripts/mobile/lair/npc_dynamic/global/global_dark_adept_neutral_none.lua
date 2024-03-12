@@ -1,5 +1,5 @@
 global_dark_adept_neutral_none = Lair:new {
-	mobiles = {{"mobiles=dark_adept",15},{"mobiles=dark_adept_elite",5},{"mobiles=dark_adept_heroic",1}},
+	mobiles = {{"dark_adept",15},{"dark_adept_elite",5},{"dark_adept_heroic",1}},
 	spawnLimit = 3,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 rori_dashing_vir_vur_pack_neutral_none = Lair:new {
-	mobiles = {{"mobiles=dashing_vir_vur",15},{"mobiles=dashing_vir_vur_elite",5},{"mobiles=dashing_vir_vur_heroic",1},{"vir_vur",15},{"vir_vur_elite",5},{"vir_vur_heroic",1}},
+	mobiles = {{"dashing_vir_vur",15},{"dashing_vir_vur_elite",5},{"dashing_vir_vur_heroic",1},{"vir_vur",15},{"vir_vur_elite",5},{"vir_vur_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

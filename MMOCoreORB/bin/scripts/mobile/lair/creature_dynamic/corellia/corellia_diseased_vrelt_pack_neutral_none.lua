@@ -1,5 +1,5 @@
 corellia_diseased_vrelt_pack_neutral_none = Lair:new {
-	mobiles = {{"mobiles=diseased_vrelt",15},{"mobiles=diseased_vrelt_elite",5},{"mobiles=diseased_vrelt_heroic",1}},
+	mobiles = {{"diseased_vrelt",15},{"diseased_vrelt_elite",5},{"diseased_vrelt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

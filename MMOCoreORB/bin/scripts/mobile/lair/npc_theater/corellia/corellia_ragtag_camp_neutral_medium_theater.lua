@@ -1,5 +1,5 @@
 corellia_ragtag_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=ragtag_kook",30},{"mobiles=ragtag_kook_elite",10},{"mobiles=ragtag_kook_heroic",2},{"ragtag_loon",30},{"ragtag_loon_elite",10},{"ragtag_loon_heroic",2}},
+	mobiles = {{"ragtag_kook",30},{"ragtag_kook_elite",10},{"ragtag_kook_heroic",2},{"ragtag_loon",30},{"ragtag_loon_elite",10},{"ragtag_loon_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_meatlump_small1.iff","object/building/poi/corellia_meatlump_small2.iff","object/building/poi/corellia_meatlump_small3.iff"},
 	buildingsEasy = {"object/building/poi/corellia_meatlump_small1.iff","object/building/poi/corellia_meatlump_small2.iff","object/building/poi/corellia_meatlump_small3.iff"},

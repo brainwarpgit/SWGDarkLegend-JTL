@@ -1,5 +1,5 @@
 talus_decay_mite_lair_neutral_small_03 = Lair:new {
-	mobiles = {{"mobiles=rotting_decay_mite_guard",15},{"mobiles=rotting_decay_mite_guard_elite",5},{"mobiles=rotting_decay_mite_guard_heroic",1}},
+	mobiles = {{"rotting_decay_mite_guard",15},{"rotting_decay_mite_guard_elite",5},{"rotting_decay_mite_guard_heroic",1}},
 	spawnLimit = 18,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_green.iff"},

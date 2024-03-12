@@ -1,5 +1,5 @@
 talus_dung_mite_lair_neutral_boss_02 = Lair:new {
-	mobiles = {{"mobiles=dung_mite",15},{"mobiles=dung_mite_elite",5},{"mobiles=dung_mite_heroic",1}},
+	mobiles = {{"dung_mite",15},{"dung_mite_elite",5},{"dung_mite_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},

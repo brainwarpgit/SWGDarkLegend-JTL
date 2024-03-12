@@ -1,5 +1,5 @@
 dantooine_voritor_jungle_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=horned_voritor_lizard",15},{"mobiles=horned_voritor_lizard_elite",5},{"mobiles=horned_voritor_lizard_heroic",1}},
+	mobiles = {{"horned_voritor_lizard",15},{"horned_voritor_lizard_elite",5},{"horned_voritor_lizard_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff","object/tangible/lair/base/poi_all_lair_thicket_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff","object/tangible/lair/base/poi_all_lair_thicket_small.iff"},

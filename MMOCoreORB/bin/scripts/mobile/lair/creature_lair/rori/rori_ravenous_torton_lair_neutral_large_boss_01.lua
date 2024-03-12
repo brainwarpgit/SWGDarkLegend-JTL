@@ -1,5 +1,5 @@
 rori_ravenous_torton_lair_neutral_large_boss_01 = Lair:new {
-	mobiles = {{"mobiles=ravenous_torton",15},{"mobiles=ravenous_torton_elite",5},{"mobiles=ravenous_torton_heroic",1}},
+	mobiles = {{"ravenous_torton",15},{"ravenous_torton_elite",5},{"ravenous_torton_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_evil_fire_red.iff"},

@@ -1,5 +1,5 @@
 dathomir_gaping_spider_queen_neutral_large = Lair:new {
-	mobiles = {{"mobiles=gaping_spider_queen",15},{"mobiles=gaping_spider_queen_elite",5},{"mobiles=gaping_spider_queen_heroic",1}},
+	mobiles = {{"gaping_spider_queen",15},{"gaping_spider_queen_elite",5},{"gaping_spider_queen_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_large_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_large_fog_mustard.iff"},

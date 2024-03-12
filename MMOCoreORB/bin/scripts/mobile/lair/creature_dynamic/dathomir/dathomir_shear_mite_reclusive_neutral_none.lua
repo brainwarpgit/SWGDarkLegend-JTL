@@ -1,5 +1,5 @@
 dathomir_shear_mite_reclusive_neutral_none = Lair:new {
-	mobiles = {{"mobiles=reclusive_shear_mite",15},{"mobiles=reclusive_shear_mite_elite",5},{"mobiles=reclusive_shear_mite_heroic",1}},
+	mobiles = {{"reclusive_shear_mite",15},{"reclusive_shear_mite_elite",5},{"reclusive_shear_mite_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

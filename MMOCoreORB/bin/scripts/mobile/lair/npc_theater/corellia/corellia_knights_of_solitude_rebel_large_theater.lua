@@ -1,5 +1,5 @@
 corellia_knights_of_solitude_rebel_large_theater = Lair:new {
-	mobiles = {{"mobiles=eye_of_solitude",15},{"mobiles=eye_of_solitude_elite",5},{"mobiles=eye_of_solitude_heroic",1},{"foot_of_solitude",15},{"foot_of_solitude_elite",5},{"foot_of_solitude_heroic",1},{"hand_of_solitude",15},{"hand_of_solitude_elite",5},{"hand_of_solitude_heroic",1},{"mind_of_solitude",15},{"mind_of_solitude_elite",5},{"mind_of_solitude_heroic",1},{"will_of_solitude",15},{"will_of_solitude_elite",5},{"will_of_solitude_heroic",1}},
+	mobiles = {{"eye_of_solitude",15},{"eye_of_solitude_elite",5},{"eye_of_solitude_heroic",1},{"foot_of_solitude",15},{"foot_of_solitude_elite",5},{"foot_of_solitude_heroic",1},{"hand_of_solitude",15},{"hand_of_solitude_elite",5},{"hand_of_solitude_heroic",1},{"mind_of_solitude",15},{"mind_of_solitude_elite",5},{"mind_of_solitude_heroic",1},{"will_of_solitude",15},{"will_of_solitude_elite",5},{"will_of_solitude_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_solitude_small4.iff"},
 	buildingsEasy = {"object/building/poi/corellia_solitude_small4.iff"},

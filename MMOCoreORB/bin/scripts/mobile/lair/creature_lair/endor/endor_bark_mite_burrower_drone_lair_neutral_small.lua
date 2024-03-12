@@ -1,5 +1,5 @@
 endor_bark_mite_burrower_drone_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=bark_mite_burrower_drone",15},{"mobiles=bark_mite_burrower_drone_elite",5},{"mobiles=bark_mite_burrower_drone_heroic",1}},
+	mobiles = {{"bark_mite_burrower_drone",15},{"bark_mite_burrower_drone_elite",5},{"bark_mite_burrower_drone_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},

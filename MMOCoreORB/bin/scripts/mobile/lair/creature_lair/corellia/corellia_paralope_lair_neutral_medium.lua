@@ -1,5 +1,5 @@
 corellia_paralope_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=paralope",15},{"mobiles=paralope_elite",5},{"mobiles=paralope_heroic",1}},
+	mobiles = {{"paralope",15},{"paralope_elite",5},{"paralope_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small.iff"},

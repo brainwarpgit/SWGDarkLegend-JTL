@@ -1,5 +1,5 @@
 tatooine_zucca_boar_zucca_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"mobiles=zucca_boar",15},{"mobiles=zucca_boar_elite",5},{"mobiles=zucca_boar_heroic",1}},
+	mobiles = {{"zucca_boar",15},{"zucca_boar_elite",5},{"zucca_boar_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_small_evil_fire_small.iff"},

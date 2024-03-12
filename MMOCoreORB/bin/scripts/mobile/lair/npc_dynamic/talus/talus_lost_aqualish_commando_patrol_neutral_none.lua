@@ -1,5 +1,5 @@
 talus_lost_aqualish_commando_patrol_neutral_none = Lair:new {
-	mobiles = {{"mobiles=lost_aqualish_commando",15},{"mobiles=lost_aqualish_commando_elite",5},{"mobiles=lost_aqualish_commando_heroic",1},{"lost_aqualish_warrior",15},{"lost_aqualish_warrior_elite",5},{"lost_aqualish_warrior_heroic",1}},
+	mobiles = {{"lost_aqualish_commando",15},{"lost_aqualish_commando_elite",5},{"lost_aqualish_commando_heroic",1},{"lost_aqualish_warrior",15},{"lost_aqualish_warrior_elite",5},{"lost_aqualish_warrior_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

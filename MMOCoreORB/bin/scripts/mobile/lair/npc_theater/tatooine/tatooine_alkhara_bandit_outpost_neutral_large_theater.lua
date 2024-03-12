@@ -1,5 +1,5 @@
 tatooine_alkhara_bandit_outpost_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=alkhara_lieutenant",15},{"mobiles=alkhara_lieutenant_elite",5},{"mobiles=alkhara_lieutenant_heroic",1},{"alkhara_bandit",15},{"alkhara_bandit_elite",5},{"alkhara_bandit_heroic",1}},
+	mobiles = {{"alkhara_lieutenant",15},{"alkhara_lieutenant_elite",5},{"alkhara_lieutenant_heroic",1},{"alkhara_bandit",15},{"alkhara_bandit_elite",5},{"alkhara_bandit_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/tatooine_alkahara_large1.iff","object/building/poi/tatooine_alkahara_large2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_alkahara_large1.iff","object/building/poi/tatooine_alkahara_large2.iff"},

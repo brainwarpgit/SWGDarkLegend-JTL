@@ -1,5 +1,5 @@
 tatooine_scyk_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=scyk",15},{"mobiles=scyk_elite",5},{"mobiles=scyk_heroic",1}},
+	mobiles = {{"scyk",15},{"scyk_elite",5},{"scyk_heroic",1}},
 	spawnLimit = 15,
 buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_small_evil_fire_small.iff"},

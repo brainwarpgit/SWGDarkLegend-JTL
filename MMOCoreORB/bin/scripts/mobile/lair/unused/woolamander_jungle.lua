@@ -1,5 +1,5 @@
 woolamander_jungle = Lair:new {
-	mobiles = {{"mobiles=woolamander_reaper",15},{"mobiles=woolamander_reaper_elite",5},{"mobiles=woolamander_reaper_heroic",1}},
+	mobiles = {{"woolamander_reaper",15},{"woolamander_reaper_elite",5},{"woolamander_reaper_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_bones_fog_mustard.iff"},

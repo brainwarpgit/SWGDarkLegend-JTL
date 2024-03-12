@@ -1,5 +1,5 @@
 rori_kobola_smuggler_neutral_none = Lair:new {
-	mobiles = {{"mobiles=kobola_smuggler",15},{"mobiles=kobola_smuggler_elite",5},{"mobiles=kobola_smuggler_heroic",1},{"kobola_guard",15},{"kobola_guard_elite",5},{"kobola_guard_heroic",1}},
+	mobiles = {{"kobola_smuggler",15},{"kobola_smuggler_elite",5},{"kobola_smuggler_heroic",1},{"kobola_guard",15},{"kobola_guard_elite",5},{"kobola_guard_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

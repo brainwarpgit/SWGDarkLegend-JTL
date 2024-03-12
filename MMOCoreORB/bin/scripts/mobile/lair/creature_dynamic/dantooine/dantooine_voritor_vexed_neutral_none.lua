@@ -1,5 +1,5 @@
 dantooine_voritor_vexed_neutral_none = Lair:new {
-	mobiles = {{"mobiles=vexed_voritor_lizard",15},{"mobiles=vexed_voritor_lizard_elite",5},{"mobiles=vexed_voritor_lizard_heroic",1}},
+	mobiles = {{"vexed_voritor_lizard",15},{"vexed_voritor_lizard_elite",5},{"vexed_voritor_lizard_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 rori_rorgungan_warcamp_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=rorgungan_warchief",15},{"mobiles=rorgungan_warchief_elite",5},{"mobiles=rorgungan_warchief_heroic",1},{"rorgungan_warrior",30},{"rorgungan_warrior_elite",10},{"rorgungan_warrior_heroic",2}},
+	mobiles = {{"rorgungan_warchief",15},{"rorgungan_warchief_elite",5},{"rorgungan_warchief_heroic",1},{"rorgungan_warrior",30},{"rorgungan_warrior_elite",10},{"rorgungan_warrior_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gungwar_large1.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gungwar_large1.iff"},

@@ -1,5 +1,5 @@
 talus_fynock_feared_neutral_none = Lair:new {
-	mobiles = {{"mobiles=feared_fynock_youth",15},{"mobiles=feared_fynock_youth_elite",5},{"mobiles=feared_fynock_youth_heroic",1}},
+	mobiles = {{"feared_fynock_youth",15},{"feared_fynock_youth_elite",5},{"feared_fynock_youth_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

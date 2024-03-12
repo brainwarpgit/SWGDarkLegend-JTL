@@ -1,5 +1,5 @@
 global_rodian_thug_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=rodian_thug",15},{"mobiles=rodian_thug_elite",5},{"mobiles=rodian_thug_heroic",1}},
+	mobiles = {{"rodian_thug",15},{"rodian_thug_elite",5},{"rodian_thug_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_rodianhunter_medium.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_rodianhunter_medium.iff"},

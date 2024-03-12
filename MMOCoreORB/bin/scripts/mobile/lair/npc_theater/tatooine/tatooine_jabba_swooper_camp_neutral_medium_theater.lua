@@ -1,5 +1,5 @@
 tatooine_jabba_swooper_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=jabba_swooper",15},{"mobiles=jabba_swooper_elite",5},{"mobiles=jabba_swooper_heroic",1},{"jabba_swooper_leader",15},{"jabba_swooper_leader_elite",5},{"jabba_swooper_leader_heroic",1}},
+	mobiles = {{"jabba_swooper",15},{"jabba_swooper_elite",5},{"jabba_swooper_heroic",1},{"jabba_swooper_leader",15},{"jabba_swooper_leader_elite",5},{"jabba_swooper_leader_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/tatooine_swoop_medium.iff","object/building/poi/tatooine_swoop_medium2.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_swoop_medium.iff","object/building/poi/tatooine_swoop_medium2.iff"},

@@ -1,5 +1,5 @@
 corellia_diseased_vrelt_lair_neutral_small_01 = Lair:new {
-	mobiles = {{"mobiles=diseased_vrelt",15},{"mobiles=diseased_vrelt_elite",5},{"mobiles=diseased_vrelt_heroic",1}},
+	mobiles = {{"diseased_vrelt",15},{"diseased_vrelt_elite",5},{"diseased_vrelt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_evil_fire_small.iff"},

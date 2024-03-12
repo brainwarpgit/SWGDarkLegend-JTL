@@ -1,5 +1,5 @@
 rori_brigade_infiltrator_neutral_none = Lair:new {
-	mobiles = {{"mobiles=first_brigade_infiltrator",15},{"mobiles=first_brigade_infiltrator_elite",5},{"mobiles=first_brigade_infiltrator_heroic",1}},
+	mobiles = {{"first_brigade_infiltrator",15},{"first_brigade_infiltrator_elite",5},{"first_brigade_infiltrator_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

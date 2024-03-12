@@ -1,5 +1,5 @@
 naboo_krevol_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"mobiles=giant_horned_krevol",15},{"mobiles=giant_horned_krevol_elite",5},{"mobiles=giant_horned_krevol_heroic",1}},
+	mobiles = {{"giant_horned_krevol",15},{"giant_horned_krevol_elite",5},{"giant_horned_krevol_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff"},

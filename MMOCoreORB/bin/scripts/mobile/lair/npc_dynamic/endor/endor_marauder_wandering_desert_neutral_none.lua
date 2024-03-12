@@ -1,5 +1,5 @@
 endor_marauder_wandering_desert_neutral_none = Lair:new {
-	mobiles = {{"mobiles=wandering_desert_marauder",15},{"mobiles=wandering_desert_marauder_elite",5},{"mobiles=wandering_desert_marauder_heroic",1}},
+	mobiles = {{"wandering_desert_marauder",15},{"wandering_desert_marauder_elite",5},{"wandering_desert_marauder_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

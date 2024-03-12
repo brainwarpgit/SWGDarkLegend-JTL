@@ -1,5 +1,5 @@
 global_thug_neutral_none = Lair:new {
-	mobiles = {{"mobiles=thug",15},{"mobiles=thug_elite",5},{"mobiles=thug_heroic",1}},
+	mobiles = {{"thug",15},{"thug_elite",5},{"thug_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

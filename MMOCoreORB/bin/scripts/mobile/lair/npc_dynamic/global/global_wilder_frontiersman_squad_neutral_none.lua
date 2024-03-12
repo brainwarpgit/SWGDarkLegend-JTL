@@ -1,5 +1,5 @@
 global_wilder_frontiersman_squad_neutral_none = Lair:new {
-	mobiles = {{"mobiles=frontiersman",15},{"mobiles=frontiersman_elite",5},{"mobiles=frontiersman_heroic",1}},
+	mobiles = {{"frontiersman",15},{"frontiersman_elite",5},{"frontiersman_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

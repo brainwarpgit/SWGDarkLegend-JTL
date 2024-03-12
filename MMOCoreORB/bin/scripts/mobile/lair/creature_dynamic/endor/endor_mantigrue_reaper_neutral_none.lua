@@ -1,5 +1,5 @@
 endor_mantigrue_reaper_neutral_none = Lair:new {
-	mobiles = {{"mobiles=mantigrue_reaper",15},{"mobiles=mantigrue_reaper_elite",5},{"mobiles=mantigrue_reaper_heroic",1}},
+	mobiles = {{"mantigrue_reaper",15},{"mantigrue_reaper_elite",5},{"mantigrue_reaper_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

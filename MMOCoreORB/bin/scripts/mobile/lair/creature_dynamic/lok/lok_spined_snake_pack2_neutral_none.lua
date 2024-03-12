@@ -1,5 +1,5 @@
 lok_spined_snake_pack2_neutral_none = Lair:new {
-	mobiles = {{"mobiles=giant_spined_snake",15},{"mobiles=giant_spined_snake_elite",5},{"mobiles=giant_spined_snake_heroic",1}},
+	mobiles = {{"giant_spined_snake",15},{"giant_spined_snake_elite",5},{"giant_spined_snake_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

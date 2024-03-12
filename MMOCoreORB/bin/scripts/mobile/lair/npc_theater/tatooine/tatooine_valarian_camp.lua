@@ -1,5 +1,5 @@
 tatooine_valarian_camp = Lair:new {
-	mobiles = {{"mobiles=valarian_enforcer",15},{"mobiles=valarian_enforcer_elite",5},{"mobiles=valarian_enforcer_heroic",1},{"valarian_thief",15},{"valarian_thief_elite",5},{"valarian_thief_heroic",1},{"valarian_thug",15},{"valarian_thug_elite",5},{"valarian_thug_heroic",1},{"valarian_scout",15},{"valarian_scout_elite",5},{"valarian_scout_heroic",1}},
+	mobiles = {{"valarian_enforcer",15},{"valarian_enforcer_elite",5},{"valarian_enforcer_heroic",1},{"valarian_thief",15},{"valarian_thief_elite",5},{"valarian_thief_heroic",1},{"valarian_thug",15},{"valarian_thug_elite",5},{"valarian_thug_heroic",1},{"valarian_scout",15},{"valarian_scout_elite",5},{"valarian_scout_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/tatooine_valariangang_medium.iff","object/building/poi/tatooine_valariantrader_medium.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_valariangang_medium.iff","object/building/poi/tatooine_valariantrader_medium.iff"},

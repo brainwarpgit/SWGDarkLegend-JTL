@@ -1,5 +1,5 @@
 corellia_bageraset_lair_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"mobiles=bageraset",15},{"mobiles=bageraset_elite",5},{"mobiles=bageraset_heroic",1}},
+	mobiles = {{"bageraset",15},{"bageraset_elite",5},{"bageraset_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small_evil_fire_small.iff"},

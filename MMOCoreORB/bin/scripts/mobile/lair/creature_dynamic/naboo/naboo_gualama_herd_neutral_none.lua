@@ -1,5 +1,5 @@
 naboo_gualama_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=gualama",30},{"mobiles=gualama_elite",10},{"mobiles=gualama_heroic",2},{"gualama_patriarch",15},{"gualama_patriarch_elite",5},{"gualama_patriarch_heroic",1}},
+	mobiles = {{"gualama",30},{"gualama_elite",10},{"gualama_heroic",2},{"gualama_patriarch",15},{"gualama_patriarch_elite",5},{"gualama_patriarch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

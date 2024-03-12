@@ -1,5 +1,5 @@
 corellia_crazed_durni_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=crazed_durni",15},{"mobiles=crazed_durni_elite",5},{"mobiles=crazed_durni_heroic",1}},
+	mobiles = {{"crazed_durni",15},{"crazed_durni_elite",5},{"crazed_durni_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

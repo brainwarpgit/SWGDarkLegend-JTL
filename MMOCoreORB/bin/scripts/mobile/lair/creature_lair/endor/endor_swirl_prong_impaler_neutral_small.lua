@@ -1,5 +1,5 @@
 endor_swirl_prong_impaler_neutral_small = Lair:new {
-	mobiles = {{"mobiles=swirl_prong_impaler",15},{"mobiles=swirl_prong_impaler_elite",5},{"mobiles=swirl_prong_impaler_heroic",1}},
+	mobiles = {{"swirl_prong_impaler",15},{"swirl_prong_impaler_elite",5},{"swirl_prong_impaler_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_green.iff"},

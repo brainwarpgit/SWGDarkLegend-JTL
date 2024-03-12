@@ -1,5 +1,5 @@
 rori_wood_mite_lair_neutral_boss_02 = Lair:new {
-	mobiles = {{"mobiles=wood_mite",15},{"mobiles=wood_mite_elite",5},{"mobiles=wood_mite_heroic",1},{"wood_mite_royal_guard",30},{"wood_mite_royal_guard_elite",10},{"wood_mite_royal_guard_heroic",2}},
+	mobiles = {{"wood_mite",15},{"wood_mite_elite",5},{"wood_mite_heroic",1},{"wood_mite_royal_guard",30},{"wood_mite_royal_guard_elite",10},{"wood_mite_royal_guard_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small_fog_mustard.iff"},

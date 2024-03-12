@@ -1,5 +1,5 @@
 global_bounty_hunter_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=bounty_hunter_thug",15},{"mobiles=bounty_hunter_thug_elite",5},{"mobiles=bounty_hunter_thug_heroic",1}},
+	mobiles = {{"bounty_hunter_thug",15},{"bounty_hunter_thug_elite",5},{"bounty_hunter_thug_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_misc_camp_small_1.iff"},

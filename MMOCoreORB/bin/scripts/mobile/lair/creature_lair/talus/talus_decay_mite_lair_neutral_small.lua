@@ -1,5 +1,5 @@
 talus_decay_mite_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=decay_mite",15},{"mobiles=decay_mite_elite",5},{"mobiles=decay_mite_heroic",1}},
+	mobiles = {{"decay_mite",15},{"decay_mite_elite",5},{"decay_mite_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_garbage_small.iff"},

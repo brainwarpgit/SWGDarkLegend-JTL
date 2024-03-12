@@ -1,5 +1,5 @@
 global_spaceforce_major_rebel_none = Lair:new {
-	mobiles = {{"mobiles=specforce_major",15},{"mobiles=specforce_major_elite",5},{"mobiles=specforce_major_heroic",1},{"specforce_lieutenant",15},{"specforce_lieutenant_elite",5},{"specforce_lieutenant_heroic",1},{"specforce_procurement_specialist",30},{"specforce_procurement_specialist_elite",10},{"specforce_procurement_specialist_heroic",2}},
+	mobiles = {{"specforce_major",15},{"specforce_major_elite",5},{"specforce_major_heroic",1},{"specforce_lieutenant",15},{"specforce_lieutenant_elite",5},{"specforce_lieutenant_heroic",1},{"specforce_procurement_specialist",30},{"specforce_procurement_specialist_elite",10},{"specforce_procurement_specialist_heroic",2}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},

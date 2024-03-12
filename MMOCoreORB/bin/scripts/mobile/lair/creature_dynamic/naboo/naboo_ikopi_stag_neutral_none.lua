@@ -1,5 +1,5 @@
 naboo_ikopi_stag_neutral_none = Lair:new {
-	mobiles = {{"mobiles=ikopi_stag",15},{"mobiles=ikopi_stag_elite",5},{"mobiles=ikopi_stag_heroic",1}},
+	mobiles = {{"ikopi_stag",15},{"ikopi_stag_elite",5},{"ikopi_stag_heroic",1}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

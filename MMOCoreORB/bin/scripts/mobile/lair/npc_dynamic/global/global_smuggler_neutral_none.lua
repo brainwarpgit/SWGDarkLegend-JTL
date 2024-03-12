@@ -1,5 +1,5 @@
 global_smuggler_neutral_none = Lair:new {
-	mobiles = {{"mobiles=smuggler",15},{"mobiles=smuggler_elite",5},{"mobiles=smuggler_heroic",1}},
+	mobiles = {{"smuggler",15},{"smuggler_elite",5},{"smuggler_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

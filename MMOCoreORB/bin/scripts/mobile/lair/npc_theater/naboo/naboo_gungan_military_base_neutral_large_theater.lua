@@ -1,5 +1,5 @@
 naboo_gungan_military_base_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=gungan_captain",15},{"mobiles=gungan_captain_elite",5},{"mobiles=gungan_captain_heroic",1},{"gungan_grand_army_soldier",30},{"gungan_grand_army_soldier_elite",10},{"gungan_grand_army_soldier_heroic",2},{"gungan_bomber",30},{"gungan_bomber_elite",10},{"gungan_bomber_heroic",2}},
+	mobiles = {{"gungan_captain",15},{"gungan_captain_elite",5},{"gungan_captain_heroic",1},{"gungan_grand_army_soldier",30},{"gungan_grand_army_soldier_elite",10},{"gungan_grand_army_soldier_heroic",2},{"gungan_bomber",30},{"gungan_bomber_elite",10},{"gungan_bomber_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gungwar_large1.iff","object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gungwar_large1.iff","object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},

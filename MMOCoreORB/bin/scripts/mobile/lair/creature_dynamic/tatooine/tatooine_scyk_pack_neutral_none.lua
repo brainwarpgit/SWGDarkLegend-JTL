@@ -1,5 +1,5 @@
 tatooine_scyk_pack_neutral_none = Lair:new {
-	mobiles = {{"mobiles=scyk",15},{"mobiles=scyk_elite",5},{"mobiles=scyk_heroic",1}},
+	mobiles = {{"scyk",15},{"scyk_elite",5},{"scyk_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

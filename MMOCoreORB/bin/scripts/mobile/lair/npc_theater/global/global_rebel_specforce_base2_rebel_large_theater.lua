@@ -1,5 +1,5 @@
 global_rebel_specforce_base2_rebel_large_theater = Lair:new {
-	mobiles = {{"mobiles=specforce_procurement_specialist",15},{"mobiles=specforce_procurement_specialist_elite",5},{"mobiles=specforce_procurement_specialist_heroic",1},{"specforce_technician",15},{"specforce_technician_elite",5},{"specforce_technician_heroic",1},{"specforce_marine",15},{"specforce_marine_elite",5},{"specforce_marine_heroic",1}},
+	mobiles = {{"specforce_procurement_specialist",15},{"specforce_procurement_specialist_elite",5},{"specforce_procurement_specialist_heroic",1},{"specforce_technician",15},{"specforce_technician_elite",5},{"specforce_technician_heroic",1},{"specforce_marine",15},{"specforce_marine_elite",5},{"specforce_marine_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},

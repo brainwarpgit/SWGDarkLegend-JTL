@@ -1,5 +1,5 @@
 naboo_flewt_lair_neutral_boss_02 = Lair:new {
-	mobiles = {{"mobiles=flewt",15},{"mobiles=flewt_elite",5},{"mobiles=flewt_heroic",1}},
+	mobiles = {{"flewt",15},{"flewt_elite",5},{"flewt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_fog_gray.iff"},

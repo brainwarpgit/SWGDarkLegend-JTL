@@ -1,5 +1,5 @@
 talus_grand_wrix_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=grand_wrix",15},{"mobiles=grand_wrix_elite",5},{"mobiles=grand_wrix_heroic",1}},
+	mobiles = {{"grand_wrix",15},{"grand_wrix_elite",5},{"grand_wrix_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_evil_fire_green.iff"},

@@ -1,5 +1,5 @@
 rori_borgal_young_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=young_borgle",15},{"mobiles=young_borgle_elite",5},{"mobiles=young_borgle_heroic",1}},
+	mobiles = {{"young_borgle",15},{"young_borgle_elite",5},{"young_borgle_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small_fog_gray.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small_fog_gray.iff"},

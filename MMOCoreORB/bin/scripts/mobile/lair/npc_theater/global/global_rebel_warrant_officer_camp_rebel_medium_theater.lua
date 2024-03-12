@@ -1,5 +1,5 @@
 global_rebel_warrant_officer_camp_rebel_medium_theater = Lair:new {
-	mobiles = {{"mobiles=rebel_warrant_officer_i",15},{"mobiles=rebel_warrant_officer_i_elite",5},{"mobiles=rebel_warrant_officer_i_heroic",1},{"rebel_warrant_officer_ii",15},{"rebel_warrant_officer_ii_elite",5},{"rebel_warrant_officer_ii_heroic",1}},
+	mobiles = {{"rebel_warrant_officer_i",15},{"rebel_warrant_officer_i_elite",5},{"rebel_warrant_officer_i_heroic",1},{"rebel_warrant_officer_ii",15},{"rebel_warrant_officer_ii_elite",5},{"rebel_warrant_officer_ii_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},

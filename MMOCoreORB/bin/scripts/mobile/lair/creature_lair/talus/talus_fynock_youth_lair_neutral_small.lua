@@ -1,5 +1,5 @@
 talus_fynock_youth_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=fearful_fynock_youth",15},{"mobiles=fearful_fynock_youth_elite",5},{"mobiles=fearful_fynock_youth_heroic",1}},
+	mobiles = {{"fearful_fynock_youth",15},{"fearful_fynock_youth_elite",5},{"fearful_fynock_youth_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},

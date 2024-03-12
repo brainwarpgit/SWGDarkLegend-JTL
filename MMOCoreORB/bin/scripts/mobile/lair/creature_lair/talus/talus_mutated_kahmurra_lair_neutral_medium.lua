@@ -1,5 +1,5 @@
 talus_mutated_kahmurra_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=mutated_kahmurra",15},{"mobiles=mutated_kahmurra_elite",5},{"mobiles=mutated_kahmurra_heroic",1}},
+	mobiles = {{"mutated_kahmurra",15},{"mutated_kahmurra_elite",5},{"mutated_kahmurra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_large_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_large_fog_red.iff"},

@@ -1,5 +1,5 @@
 corellia_wooded_paralope_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=wooded_paralope",15},{"mobiles=wooded_paralope_elite",5},{"mobiles=wooded_paralope_heroic",1}},
+	mobiles = {{"wooded_paralope",15},{"wooded_paralope_elite",5},{"wooded_paralope_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

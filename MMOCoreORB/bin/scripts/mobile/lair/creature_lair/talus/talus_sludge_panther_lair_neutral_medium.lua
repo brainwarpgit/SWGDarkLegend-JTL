@@ -1,5 +1,5 @@
 talus_sludge_panther_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=sludge_panther",15},{"mobiles=sludge_panther_elite",5},{"mobiles=sludge_panther_heroic",1}},
+	mobiles = {{"sludge_panther",15},{"sludge_panther_elite",5},{"sludge_panther_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},

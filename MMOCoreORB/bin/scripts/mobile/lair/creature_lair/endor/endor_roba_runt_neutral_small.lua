@@ -1,5 +1,5 @@
 endor_roba_runt_neutral_small = Lair:new {
-	mobiles = {{"mobiles=roba_runt",15},{"mobiles=roba_runt_elite",5},{"mobiles=roba_runt_heroic",1}},
+	mobiles = {{"roba_runt",15},{"roba_runt_elite",5},{"roba_runt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_leaf_small.iff"},

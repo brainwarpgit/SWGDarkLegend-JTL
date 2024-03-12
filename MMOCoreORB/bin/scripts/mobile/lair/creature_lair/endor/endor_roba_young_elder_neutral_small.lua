@@ -1,5 +1,5 @@
 endor_roba_young_elder_neutral_small = Lair:new {
-	mobiles = {{"mobiles=roba_boar",15},{"mobiles=roba_boar_elite",5},{"mobiles=roba_boar_heroic",1}},
+	mobiles = {{"roba_boar",15},{"roba_boar_elite",5},{"roba_boar_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_green.iff"},

@@ -1,5 +1,5 @@
 endor_bolle_bol_colt_neutral_small = Lair:new {
-	mobiles = {{"mobiles=bolle_bol_colt",15},{"mobiles=bolle_bol_colt_elite",5},{"mobiles=bolle_bol_colt_heroic",1}},
+	mobiles = {{"bolle_bol_colt",15},{"bolle_bol_colt_elite",5},{"bolle_bol_colt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large.iff"},

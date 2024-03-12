@@ -1,5 +1,5 @@
 tatooine_matriarch_bantha_lair_neutral_large = Lair:new {
-	mobiles = {{"mobiles=bantha_matriarch",15},{"mobiles=bantha_matriarch_elite",5},{"mobiles=bantha_matriarch_heroic",1}},
+	mobiles = {{"bantha_matriarch",15},{"bantha_matriarch_elite",5},{"bantha_matriarch_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large.iff"},

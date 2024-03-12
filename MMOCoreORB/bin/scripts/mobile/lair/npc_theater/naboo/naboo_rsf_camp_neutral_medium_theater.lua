@@ -1,5 +1,5 @@
 naboo_rsf_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=rsf_commando",15},{"mobiles=rsf_commando_elite",5},{"mobiles=rsf_commando_heroic",1}},
+	mobiles = {{"rsf_commando",15},{"rsf_commando_elite",5},{"rsf_commando_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_police_medium.iff","object/building/poi/naboo_politic_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_police_medium.iff","object/building/poi/naboo_politic_medium.iff"},

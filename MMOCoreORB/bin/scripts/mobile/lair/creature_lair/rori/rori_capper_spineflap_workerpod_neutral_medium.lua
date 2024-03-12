@@ -1,5 +1,5 @@
 rori_capper_spineflap_workerpod_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=capper_spineflap_drone",15},{"mobiles=capper_spineflap_drone_elite",5},{"mobiles=capper_spineflap_drone_heroic",1}},
+	mobiles = {{"capper_spineflap_drone",15},{"capper_spineflap_drone_elite",5},{"capper_spineflap_drone_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_small.iff"},

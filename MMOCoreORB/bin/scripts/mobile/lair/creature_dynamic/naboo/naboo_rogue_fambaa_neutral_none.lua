@@ -1,5 +1,5 @@
 naboo_rogue_fambaa_neutral_none = Lair:new {
-	mobiles = {{"mobiles=rogue_fambaa",15},{"mobiles=rogue_fambaa_elite",5},{"mobiles=rogue_fambaa_heroic",1}},
+	mobiles = {{"rogue_fambaa",15},{"rogue_fambaa_elite",5},{"rogue_fambaa_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

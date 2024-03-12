@@ -1,5 +1,5 @@
 naboo_nuna_carnivor_event_neutral_none = Lair:new {
-	mobiles = {{"mobiles=carnivorous_nuna",15},{"mobiles=carnivorous_nuna_elite",5},{"mobiles=carnivorous_nuna_heroic",1}},
+	mobiles = {{"carnivorous_nuna",15},{"carnivorous_nuna_elite",5},{"carnivorous_nuna_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

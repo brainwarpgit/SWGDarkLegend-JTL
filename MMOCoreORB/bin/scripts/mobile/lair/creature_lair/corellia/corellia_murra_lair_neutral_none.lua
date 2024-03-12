@@ -1,5 +1,5 @@
 corellia_murra_lair_neutral_none = Lair:new {
-	mobiles = {{"mobiles=murra",15},{"mobiles=murra_elite",5},{"mobiles=murra_heroic",1}},
+	mobiles = {{"murra",15},{"murra_elite",5},{"murra_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

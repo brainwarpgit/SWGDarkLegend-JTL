@@ -1,5 +1,5 @@
 dantooine_mokk_scout_neutral_none = Lair:new {
-	mobiles = {{"mobiles=mokk_scout",15},{"mobiles=mokk_scout_elite",5},{"mobiles=mokk_scout_heroic",1}},
+	mobiles = {{"mokk_scout",15},{"mokk_scout_elite",5},{"mokk_scout_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

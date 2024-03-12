@@ -1,5 +1,5 @@
 global_explorer_neutral_none = Lair:new {
-	mobiles = {{"mobiles=explorer",15},{"mobiles=explorer_elite",5},{"mobiles=explorer_heroic",1}},
+	mobiles = {{"explorer",15},{"explorer_elite",5},{"explorer_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

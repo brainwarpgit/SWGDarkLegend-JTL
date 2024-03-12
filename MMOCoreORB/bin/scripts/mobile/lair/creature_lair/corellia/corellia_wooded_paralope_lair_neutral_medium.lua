@@ -1,5 +1,5 @@
 corellia_wooded_paralope_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=wooded_paralope",15},{"mobiles=wooded_paralope_elite",5},{"mobiles=wooded_paralope_heroic",1}},
+	mobiles = {{"wooded_paralope",15},{"wooded_paralope_elite",5},{"wooded_paralope_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_thicket_small_evil_fire_green.iff"},

@@ -1,5 +1,5 @@
 corellia_gurrcat_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=gurrcat",15},{"mobiles=gurrcat_elite",5},{"mobiles=gurrcat_heroic",1}},
+	mobiles = {{"gurrcat",15},{"gurrcat_elite",5},{"gurrcat_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_small.iff"},

@@ -1,5 +1,5 @@
 naboo_fambaa_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=fambaa",15},{"mobiles=fambaa_elite",5},{"mobiles=fambaa_heroic",1}},
+	mobiles = {{"fambaa",15},{"fambaa_elite",5},{"fambaa_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

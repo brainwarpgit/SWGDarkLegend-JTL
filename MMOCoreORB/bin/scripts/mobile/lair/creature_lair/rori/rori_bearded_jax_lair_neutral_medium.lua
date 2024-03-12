@@ -1,5 +1,5 @@
 rori_bearded_jax_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=bearded_jax",15},{"mobiles=bearded_jax_elite",5},{"mobiles=bearded_jax_heroic",1}},
+	mobiles = {{"bearded_jax",15},{"bearded_jax_elite",5},{"bearded_jax_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large.iff"},

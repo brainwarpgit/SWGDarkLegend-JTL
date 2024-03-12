@@ -1,5 +1,5 @@
 naboo_swamp_rat_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=swamp_rat",15},{"mobiles=swamp_rat_elite",5},{"mobiles=swamp_rat_heroic",1}},
+	mobiles = {{"swamp_rat",15},{"swamp_rat_elite",5},{"swamp_rat_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/naboo_swamp_rat_gang_camp_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_swamp_rat_gang_camp_medium.iff"},

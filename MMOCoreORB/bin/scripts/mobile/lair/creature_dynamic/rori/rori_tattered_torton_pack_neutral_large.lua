@@ -1,5 +1,5 @@
 rori_tattered_torton_pack_neutral_large = Lair:new {
-	mobiles = {{"mobiles=tattered_torton",15},{"mobiles=tattered_torton_elite",5},{"mobiles=tattered_torton_heroic",1}},
+	mobiles = {{"tattered_torton",15},{"tattered_torton_elite",5},{"tattered_torton_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

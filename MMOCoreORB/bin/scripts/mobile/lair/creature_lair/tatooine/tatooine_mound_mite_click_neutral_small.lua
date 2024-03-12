@@ -1,5 +1,5 @@
 tatooine_mound_mite_click_neutral_small = Lair:new {
-	mobiles = {{"mobiles=mound_mite",15},{"mobiles=mound_mite_elite",5},{"mobiles=mound_mite_heroic",1}},
+	mobiles = {{"mound_mite",15},{"mound_mite_elite",5},{"mound_mite_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff","object/tangible/lair/base/poi_all_lair_insecthill_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_small.iff","object/tangible/lair/base/poi_all_lair_insecthill_small.iff"},

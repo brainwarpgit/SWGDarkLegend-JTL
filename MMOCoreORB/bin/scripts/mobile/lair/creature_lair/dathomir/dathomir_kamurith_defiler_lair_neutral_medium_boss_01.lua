@@ -1,5 +1,5 @@
 dathomir_kamurith_defiler_lair_neutral_medium_boss_01 = Lair:new {
-	mobiles = {{"mobiles=kamurith_defiler",15},{"mobiles=kamurith_defiler_elite",5},{"mobiles=kamurith_defiler_heroic",1}},
+	mobiles = {{"kamurith_defiler",15},{"kamurith_defiler_elite",5},{"kamurith_defiler_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_evil_fire_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_small_evil_fire_small.iff"},

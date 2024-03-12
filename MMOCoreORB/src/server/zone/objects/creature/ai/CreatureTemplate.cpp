@@ -144,8 +144,6 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 	if (maxdifficulty == 0)
 		maxdifficulty = 1; 
 	
-	//baseXp *= (1 - 1.0 / maxdifficulty) + 1;
-	
 	if(!templateData->getStringField("defaultAttack").isEmpty())
 		defaultAttack = templateData->getStringField("defaultAttack");
 
@@ -153,7 +151,6 @@ void CreatureTemplate::readObject(LuaObject* templateData) {
 		customAiMap = templateData->getStringField("customAiMap").hashCode();
 
 	scale = templateData->getFloatField("scale");
-	scale *= .6;
 	
 	if (maxdifficulty == 2) {
 		scale *= 1.1;

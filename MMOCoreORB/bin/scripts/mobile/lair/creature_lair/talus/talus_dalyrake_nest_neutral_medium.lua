@@ -1,5 +1,5 @@
 talus_dalyrake_nest_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=dalyrake",15},{"mobiles=dalyrake_elite",5},{"mobiles=dalyrake_heroic",1}},
+	mobiles = {{"dalyrake",15},{"dalyrake_elite",5},{"dalyrake_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_mound_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_mound_large.iff"},

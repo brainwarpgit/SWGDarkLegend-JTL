@@ -1,5 +1,5 @@
 corellia_greck_base_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=grecks_assassin",15},{"mobiles=grecks_assassin_elite",5},{"mobiles=grecks_assassin_heroic",1},{"grecks_mugger",15},{"grecks_mugger_elite",5},{"grecks_mugger_heroic",1}},
+	mobiles = {{"grecks_assassin",15},{"grecks_assassin_elite",5},{"grecks_assassin_heroic",1},{"grecks_mugger",15},{"grecks_mugger_elite",5},{"grecks_mugger_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_greck_large2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_greck_large2.iff"},

@@ -1,5 +1,5 @@
 tatooine_grizzled_dewback_lair_neutral_large = Lair:new {
-	mobiles = {{"mobiles=grizzled_dewback",15},{"mobiles=grizzled_dewback_elite",5},{"mobiles=grizzled_dewback_heroic",1}},
+	mobiles = {{"grizzled_dewback",15},{"grizzled_dewback_elite",5},{"grizzled_dewback_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_evil_fire_green.iff"},

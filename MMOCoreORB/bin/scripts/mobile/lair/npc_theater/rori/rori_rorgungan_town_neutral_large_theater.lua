@@ -1,5 +1,5 @@
 rori_rorgungan_town_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=rorgungan_commoner",15},{"mobiles=rorgungan_commoner_elite",5},{"mobiles=rorgungan_commoner_heroic",1}},
+	mobiles = {{"rorgungan_commoner",15},{"rorgungan_commoner_elite",5},{"rorgungan_commoner_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gungtrad_large1.iff","object/building/poi/naboo_gungtrad_large2.iff"},

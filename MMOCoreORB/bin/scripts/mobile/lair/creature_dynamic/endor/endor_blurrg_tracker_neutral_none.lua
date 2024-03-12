@@ -1,5 +1,5 @@
 endor_blurrg_tracker_neutral_none = Lair:new {
-	mobiles = {{"mobiles=blurrg_tracker",15},{"mobiles=blurrg_tracker_elite",5},{"mobiles=blurrg_tracker_heroic",1}},
+	mobiles = {{"blurrg_tracker",15},{"blurrg_tracker_elite",5},{"blurrg_tracker_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 naboo_flewt_lair_neutral_boss_04 = Lair:new {
-	mobiles = {{"mobiles=flewt",15},{"mobiles=flewt_elite",5},{"mobiles=flewt_heroic",1},{"flewt_leviathan",15},{"flewt_leviathan_elite",5},{"flewt_leviathan_heroic",1},{"frightened_young_flewt",30},{"frightened_young_flewt_elite",10},{"frightened_young_flewt_heroic",2}},
+	mobiles = {{"flewt",15},{"flewt_elite",5},{"flewt_heroic",1},{"flewt_leviathan",15},{"flewt_leviathan_elite",5},{"flewt_leviathan_heroic",1},{"frightened_young_flewt",30},{"frightened_young_flewt_elite",10},{"frightened_young_flewt_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_insecthill_small_evil_fire_green.iff"},

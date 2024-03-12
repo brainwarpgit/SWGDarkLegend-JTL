@@ -1,5 +1,5 @@
 talus_guf_drolg_minor_lair_neutral_small = Lair:new {
-	mobiles = {{"mobiles=minor_guf_drolg",15},{"mobiles=minor_guf_drolg_elite",5},{"mobiles=minor_guf_drolg_heroic",1}},
+	mobiles = {{"minor_guf_drolg",15},{"minor_guf_drolg_elite",5},{"minor_guf_drolg_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_small.iff"},

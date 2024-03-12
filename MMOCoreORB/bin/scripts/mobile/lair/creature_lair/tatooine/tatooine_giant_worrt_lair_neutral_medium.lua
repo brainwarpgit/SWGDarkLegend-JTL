@@ -1,5 +1,5 @@
 tatooine_giant_worrt_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=giant_worrt",15},{"mobiles=giant_worrt_elite",5},{"mobiles=giant_worrt_heroic",1}},
+	mobiles = {{"giant_worrt",15},{"giant_worrt_elite",5},{"giant_worrt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large.iff"},

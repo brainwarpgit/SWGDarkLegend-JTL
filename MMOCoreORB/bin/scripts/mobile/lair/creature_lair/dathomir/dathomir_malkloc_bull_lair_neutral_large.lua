@@ -1,5 +1,5 @@
 dathomir_malkloc_bull_lair_neutral_large = Lair:new {
-	mobiles = {{"mobiles=malkloc",15},{"mobiles=malkloc_elite",5},{"mobiles=malkloc_heroic",1},{"malkloc_bull",15},{"malkloc_bull_elite",5},{"malkloc_bull_heroic",1}},
+	mobiles = {{"malkloc",15},{"malkloc_elite",5},{"malkloc_heroic",1},{"malkloc_bull",15},{"malkloc_bull_elite",5},{"malkloc_bull_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_fog_mustard.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rocks_large_fog_mustard.iff"},

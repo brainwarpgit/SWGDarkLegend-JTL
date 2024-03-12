@@ -1,5 +1,5 @@
 naboo_fanned_rawl_hunter_neutral_none = Lair:new {
-	mobiles = {{"mobiles=vine_rawl",15},{"mobiles=vine_rawl_elite",5},{"mobiles=vine_rawl_heroic",1}},
+	mobiles = {{"vine_rawl",15},{"vine_rawl_elite",5},{"vine_rawl_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 lok_kimogilla_enraged_dune_neutral_none = Lair:new {
-	mobiles = {{"mobiles=dune_kimogila",15},{"mobiles=dune_kimogila_elite",5},{"mobiles=dune_kimogila_heroic",1},{"enraged_dune_kimogila",30},{"enraged_dune_kimogila_elite",10},{"enraged_dune_kimogila_heroic",2}},
+	mobiles = {{"dune_kimogila",15},{"dune_kimogila_elite",5},{"dune_kimogila_heroic",1},{"enraged_dune_kimogila",30},{"enraged_dune_kimogila_elite",10},{"enraged_dune_kimogila_heroic",2}},
 	spawnLimit = 6,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

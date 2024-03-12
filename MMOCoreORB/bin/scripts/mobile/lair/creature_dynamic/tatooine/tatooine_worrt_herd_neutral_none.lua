@@ -1,5 +1,5 @@
 tatooine_worrt_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=worrt",15},{"mobiles=worrt_elite",5},{"mobiles=worrt_heroic",1},{"minor_worrt",15},{"minor_worrt_elite",5},{"minor_worrt_heroic",1}},
+	mobiles = {{"worrt",15},{"worrt_elite",5},{"worrt_heroic",1},{"minor_worrt",15},{"minor_worrt_elite",5},{"minor_worrt_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

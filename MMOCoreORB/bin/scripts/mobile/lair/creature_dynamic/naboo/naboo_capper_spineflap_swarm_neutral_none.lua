@@ -1,5 +1,5 @@
 naboo_capper_spineflap_swarm_neutral_none = Lair:new {
-	mobiles = {{"mobiles=capper_spineflap",15},{"mobiles=capper_spineflap_elite",5},{"mobiles=capper_spineflap_heroic",1}},
+	mobiles = {{"capper_spineflap",15},{"capper_spineflap_elite",5},{"capper_spineflap_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

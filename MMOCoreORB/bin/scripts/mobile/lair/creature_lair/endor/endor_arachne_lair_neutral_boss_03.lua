@@ -1,5 +1,5 @@
 endor_arachne_lair_neutral_boss_03 = Lair:new {
-	mobiles = {{"mobiles=arachne_warrior",15},{"mobiles=arachne_warrior_elite",5},{"mobiles=arachne_warrior_heroic",1}},
+	mobiles = {{"arachne_warrior",15},{"arachne_warrior_elite",5},{"arachne_warrior_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_fog_green.iff"},

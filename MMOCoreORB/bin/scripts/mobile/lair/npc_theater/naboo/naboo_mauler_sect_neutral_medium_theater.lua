@@ -1,5 +1,5 @@
 naboo_mauler_sect_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=mauler_apprentice",15},{"mobiles=mauler_apprentice_elite",5},{"mobiles=mauler_apprentice_heroic",1}},
+	mobiles = {{"mauler_apprentice",15},{"mauler_apprentice_elite",5},{"mauler_apprentice_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_mauler_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_mauler_medium.iff"},

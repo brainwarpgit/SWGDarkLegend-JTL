@@ -1,5 +1,5 @@
 global_wookiee_brawler_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=wookiee_brawler",15},{"mobiles=wookiee_brawler_elite",5},{"mobiles=wookiee_brawler_heroic",1}},
+	mobiles = {{"wookiee_brawler",15},{"wookiee_brawler_elite",5},{"wookiee_brawler_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {"object/building/poi/tatooine_rodianhunter_medium.iff"},
 	buildingsEasy = {"object/building/poi/tatooine_rodianhunter_medium.iff"},

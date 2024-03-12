@@ -1,5 +1,5 @@
 corellia_corsec_patrol_neutral_none = Lair:new {
-	mobiles = {{"mobiles=corsec_cadet",15},{"mobiles=corsec_cadet_elite",5},{"mobiles=corsec_cadet_heroic",1}},
+	mobiles = {{"corsec_cadet",15},{"corsec_cadet_elite",5},{"corsec_cadet_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 talus_aakuan_steward_camp_neutral_small_theater = Lair:new {
-	mobiles = {{"mobiles=aakuan_steward",15},{"mobiles=aakuan_steward_elite",5},{"mobiles=aakuan_steward_heroic",1},{"aakuan_follower",15},{"aakuan_follower_elite",5},{"aakuan_follower_heroic",1},{"aakuan_keeper",15},{"aakuan_keeper_elite",5},{"aakuan_keeper_heroic",1}},
+	mobiles = {{"aakuan_steward",15},{"aakuan_steward_elite",5},{"aakuan_steward_heroic",1},{"aakuan_follower",15},{"aakuan_follower_elite",5},{"aakuan_follower_heroic",1},{"aakuan_keeper",15},{"aakuan_keeper_elite",5},{"aakuan_keeper_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_selonian_separatists_small1.iff","object/building/poi/corellia_selonian_separatists_small2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_selonian_separatists_small1.iff","object/building/poi/corellia_selonian_separatists_small2.iff"},

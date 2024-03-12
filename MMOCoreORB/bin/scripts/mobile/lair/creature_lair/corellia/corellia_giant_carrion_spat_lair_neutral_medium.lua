@@ -1,5 +1,5 @@
 corellia_giant_carrion_spat_lair_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=giant_carrion_spat",15},{"mobiles=giant_carrion_spat_elite",5},{"mobiles=giant_carrion_spat_heroic",1}},
+	mobiles = {{"giant_carrion_spat",15},{"giant_carrion_spat_elite",5},{"giant_carrion_spat_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_nest_large_evil_fire_red.iff"},

@@ -1,5 +1,5 @@
 global_pirate_cutthroat_camp_neutral_medium_theater = Lair:new {
-	mobiles = {{"mobiles=pirate_cutthroat",15},{"mobiles=pirate_cutthroat_elite",5},{"mobiles=pirate_cutthroat_heroic",1}},
+	mobiles = {{"pirate_cutthroat",15},{"pirate_cutthroat_elite",5},{"pirate_cutthroat_heroic",1}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},
 	buildingsEasy = {"object/building/poi/naboo_gunrunners_medium.iff","object/building/poi/tatooine_gunrunners_medium.iff"},

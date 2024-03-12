@@ -1,5 +1,5 @@
 corellia_selonian_base_neutral_large_theater = Lair:new {
-	mobiles = {{"mobiles=selonian_warlord",15},{"mobiles=selonian_warlord_elite",5},{"mobiles=selonian_warlord_heroic",1},{"selonian_champion",30},{"selonian_champion_elite",10},{"selonian_champion_heroic",2}},
+	mobiles = {{"selonian_warlord",15},{"selonian_warlord_elite",5},{"selonian_warlord_heroic",1},{"selonian_champion",30},{"selonian_champion_elite",10},{"selonian_champion_heroic",2}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/corellia_selonian_separatists_large1.iff","object/building/poi/corellia_selonian_separatists_large2.iff"},
 	buildingsEasy = {"object/building/poi/corellia_selonian_separatists_large1.iff","object/building/poi/corellia_selonian_separatists_large2.iff"},

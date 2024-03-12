@@ -1,5 +1,5 @@
 corellia_crimson_sand_panther_pride_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=crimson_razor_cat",15},{"mobiles=crimson_razor_cat_elite",5},{"mobiles=crimson_razor_cat_heroic",1}},
+	mobiles = {{"crimson_razor_cat",15},{"crimson_razor_cat_elite",5},{"crimson_razor_cat_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_rock_shelter_large_fog_red.iff"},

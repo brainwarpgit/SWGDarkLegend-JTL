@@ -1,5 +1,5 @@
 lok_droideka_patrol_neutral_none = Lair:new {
-	mobiles = {{"mobiles=droideka",15},{"mobiles=droideka_elite",5},{"mobiles=droideka_heroic",1}},
+	mobiles = {{"droideka",15},{"droideka_elite",5},{"droideka_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

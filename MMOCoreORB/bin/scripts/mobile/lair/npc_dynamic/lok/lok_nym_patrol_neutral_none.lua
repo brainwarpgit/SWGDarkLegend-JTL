@@ -1,5 +1,5 @@
 lok_nym_patrol_neutral_none = Lair:new {
-	mobiles = {{"mobiles=nym_patrol_weak",15},{"mobiles=nym_patrol_weak_elite",5},{"mobiles=nym_patrol_weak_heroic",1}},
+	mobiles = {{"nym_patrol_weak",15},{"nym_patrol_weak_elite",5},{"nym_patrol_weak_heroic",1}},
 	spawnLimit = 9,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

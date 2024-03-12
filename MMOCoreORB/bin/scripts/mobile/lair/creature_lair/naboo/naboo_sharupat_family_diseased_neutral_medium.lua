@@ -1,5 +1,5 @@
 naboo_sharupat_family_diseased_neutral_medium = Lair:new {
-	mobiles = {{"mobiles=rabid_shaupaut",15},{"mobiles=rabid_shaupaut_elite",5},{"mobiles=rabid_shaupaut_heroic",1}},
+	mobiles = {{"rabid_shaupaut",15},{"rabid_shaupaut_elite",5},{"rabid_shaupaut_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_evil_fire_green.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_dead_log_large_evil_fire_green.iff"},

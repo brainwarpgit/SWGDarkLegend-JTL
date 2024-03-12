@@ -1,5 +1,5 @@
 tatooine_gorg_glutton_neutral_none = Lair:new {
-	mobiles = {{"mobiles=gorg_glutton",15},{"mobiles=gorg_glutton_elite",5},{"mobiles=gorg_glutton_heroic",1}},
+	mobiles = {{"gorg_glutton",15},{"gorg_glutton_elite",5},{"gorg_glutton_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

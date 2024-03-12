@@ -1,5 +1,5 @@
 yavin4_qurvel_herd_neutral_none = Lair:new {
-	mobiles = {{"mobiles=kai_tok_prowler",15},{"mobiles=kai_tok_prowler_elite",5},{"mobiles=kai_tok_prowler_heroic",1}},
+	mobiles = {{"kai_tok_prowler",15},{"kai_tok_prowler_elite",5},{"kai_tok_prowler_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {},
 	buildingsEasy = {},

@@ -1,5 +1,5 @@
 yavin4_mamien_lair_neutral_boss_04 = Lair:new {
-	mobiles = {{"mobiles=mamien_matriarch",15},{"mobiles=mamien_matriarch_elite",5},{"mobiles=mamien_matriarch_heroic",1},{"elder_mamien",15},{"elder_mamien_elite",5},{"elder_mamien_heroic",1}},
+	mobiles = {{"mamien_matriarch",15},{"mamien_matriarch_elite",5},{"mamien_matriarch_heroic",1},{"elder_mamien",15},{"elder_mamien_elite",5},{"elder_mamien_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_brambles_large_evil_fire_red.iff"},

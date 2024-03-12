@@ -1,5 +1,5 @@
 global_rebel_spaceforce_trooper_camp_rebel_medium_theater = Lair:new {
-	mobiles = {{"mobiles=rebel_sergeant_major",15},{"mobiles=rebel_sergeant_major_elite",5},{"mobiles=rebel_sergeant_major_heroic",1},{"rebel_sergeant",15},{"rebel_sergeant_elite",5},{"rebel_sergeant_heroic",1},{"rebel_corporal",30},{"rebel_corporal_elite",10},{"rebel_corporal_heroic",2}},
+	mobiles = {{"rebel_sergeant_major",15},{"rebel_sergeant_major_elite",5},{"rebel_sergeant_major_heroic",1},{"rebel_sergeant",15},{"rebel_sergeant_elite",5},{"rebel_sergeant_heroic",1},{"rebel_corporal",30},{"rebel_corporal_elite",10},{"rebel_corporal_heroic",2}},
 	spawnLimit = 12,
 	buildingsVeryEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},
 	buildingsEasy = {"object/building/poi/anywhere_rebel_base_large_1.iff"},

@@ -1,5 +1,5 @@
 naboo_swamp_trooper_outpost_imperial_large_theater = Lair:new {
-	mobiles = {{"mobiles=swamp_trooper",15},{"mobiles=swamp_trooper_elite",5},{"mobiles=swamp_trooper_heroic",1}},
+	mobiles = {{"swamp_trooper",15},{"swamp_trooper_elite",5},{"swamp_trooper_heroic",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/building/poi/naboo_swamhunt_large1.iff","object/building/poi/naboo_swamhunt_large2.iff"},
 	buildingsEasy = {"object/building/poi/naboo_swamhunt_large1.iff","object/building/poi/naboo_swamhunt_large2.iff"},
