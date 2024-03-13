@@ -513,8 +513,8 @@ void PetControlDeviceImplementation::storeObject(CreatureObject* player, bool fo
 
 	if (!force) {
 		// Fail if pet or player are in combat or if the pet is dead, unless forced
-		if (pet->isInCombat() || player->isInCombat() || player->isDead())
-			return;
+//		if (pet->isInCombat() || player->isInCombat() || player->isDead())
+//			return;
 
 		// Check cooldown for call or store
 		if (!player->checkCooldownRecovery("petCallOrStoreCooldown")) {
@@ -603,7 +603,7 @@ bool PetControlDeviceImplementation::growPet(CreatureObject* player, bool force,
 
 	Time currentTime;
 	uint32 timeDelta = currentTime.getTime() - lastGrowth.getTime();
-	int stagesToGrow = timeDelta / 43200; // 12 hour
+	int stagesToGrow = timeDelta / 10; // 10 seconds
 
 	if (adult)
 		stagesToGrow = 10;

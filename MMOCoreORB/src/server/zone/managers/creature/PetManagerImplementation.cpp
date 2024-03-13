@@ -364,7 +364,7 @@ bool PetManagerImplementation::handleCommandTraining(CreatureObject* speaker, Ai
 
 			int skill = speaker->getSkillMod("tame_level");
 			int level = petCreature->getAdultLevel();
-			int roll = System::random(skill + level);
+			int roll = 0;
 
 			if (skill > roll)
 				success = true;
