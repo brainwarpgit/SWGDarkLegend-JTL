@@ -1292,12 +1292,12 @@ void CraftingSessionImplementation::createPrototype(int clientCounter, bool crea
 
 		if (createItem) {
 			startCreationTasks(manufactureSchematic->getComplexity() * 0, false);
-			xp = round(xp * 2.00f);
+			xp = round(xp * 10.00f);
 
 		} else {
 			// This is for practicing
 			startCreationTasks(manufactureSchematic->getComplexity() * 0, true);
-			xp = round(xp * 2.25f);
+			xp = round(xp * 12.0f);
 		}
 
 		Reference<PlayerManager*> playerManager = crafter->getZoneServer()->getPlayerManager();

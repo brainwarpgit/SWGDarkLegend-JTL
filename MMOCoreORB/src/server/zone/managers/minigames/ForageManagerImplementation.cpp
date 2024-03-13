@@ -207,14 +207,14 @@ void ForageManagerImplementation::finishForaging(CreatureObject* player, int for
 		int xp = System::random(player->getSkillMod("foraging") + 50) + 50;
 		
 		if (forageType == ForageManager::SCOUT || forageType == ForageManager::SHELLFISH){
-			playerManager->awardExperience(player, "camp", xp);
+			playerManager->awardExperience(player, "camp", xp * 10);
 		}
 		else if (forageType == ForageManager::LAIR){
-			playerManager->awardExperience(player, "camp", (xp * 1.5));
+			playerManager->awardExperience(player, "camp", (xp * 10));
 		}
 		else if (forageType == ForageManager::MEDICAL){
-			playerManager->awardExperience(player, "medical", xp);
-			playerManager->awardExperience(player, "camp", (xp / 2));
+			playerManager->awardExperience(player, "medical", xp * 5);
+			playerManager->awardExperience(player, "camp", (xp * 10));
 		}
 	}
 

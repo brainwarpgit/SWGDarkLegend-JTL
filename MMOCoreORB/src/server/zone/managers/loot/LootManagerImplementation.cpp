@@ -339,7 +339,7 @@ TangibleObject* LootManagerImplementation::createLootObject(TransactionLog& trx,
 		prototype->setSerialNumber(serial);
 	}
 
-	prototype->setJunkDealerNeeded(templateObject->getJunkDealerTypeNeeded());
+	prototype->setJunkDealerNeeded(1);//templateObject->getJunkDealerTypeNeeded());
 	float junkMinValue = templateObject->getJunkMinValue() * junkValueModifier;
 	float junkMaxValue = templateObject->getJunkMaxValue() * junkValueModifier;
 	float fJunkValue = junkMinValue+System::random(junkMaxValue-junkMinValue);
@@ -589,45 +589,47 @@ bool LootManagerImplementation::createLootFromCollection(TransactionLog& trx, Sc
 	Vector<int> rolls;
 	Vector<String> lootGroupNames;
 
-	for (int i = 0; i < lootCollection->count(); ++i) {
-		const LootGroupCollectionEntry* collectionEntry = lootCollection->get(i);
-		int lootChance = collectionEntry->getLootChance();
+	for (int x = 0; x < 3; ++x) {
+		for (int i = 0; i < lootCollection->count(); ++i) {
+			const LootGroupCollectionEntry* collectionEntry = lootCollection->get(i);
+			int lootChance = collectionEntry->getLootChance() * 2.0;
 
-		if (lootChance <= 0)
-			continue;
-
-		int roll = System::random(10000000);
-
-		rolls.add(roll);
-
-		if (roll > lootChance)
-			continue;
-
- 		// Start at 0
-		int tempChance = 0;
-
-		const LootGroups* lootGroups = collectionEntry->getLootGroups();
-
-		//Now we do the second roll to determine loot group.
-		roll = System::random(10000000);
-
-		rolls.add(roll);
-
-		//Select the loot group to use.
-		for (int k = 0; k < lootGroups->count(); ++k) {
-			const LootGroupEntry* groupEntry = lootGroups->get(k);
-
-			lootGroupNames.add(groupEntry->getLootGroupName());
-
-			tempChance += groupEntry->getLootChance();
-
-			// Is this entry lower than the roll? If yes, then we want to try the next groupEntry.
-			if (tempChance < roll)
+			if (lootChance <= 0)
 				continue;
 
-			objectID = createLoot(trx, container, groupEntry->getLootGroupName(), level);
+			int roll = System::random(10000000);
 
-			break;
+			rolls.add(roll);
+
+			if (roll > lootChance)
+				continue;
+
+	 		// Start at 0
+			int tempChance = 0;
+
+			const LootGroups* lootGroups = collectionEntry->getLootGroups();
+
+			//Now we do the second roll to determine loot group.
+			roll = System::random(10000000);
+
+			rolls.add(roll);
+
+			//Select the loot group to use.
+			for (int k = 0; k < lootGroups->count(); ++k) {
+				const LootGroupEntry* groupEntry = lootGroups->get(k);
+
+				lootGroupNames.add(groupEntry->getLootGroupName());
+
+				tempChance += groupEntry->getLootChance();
+
+				// Is this entry lower than the roll? If yes, then we want to try the next groupEntry.
+				if (tempChance < roll)
+					continue;
+
+				objectID = createLoot(trx, container, groupEntry->getLootGroupName(), level);
+
+				break;
+			}
 		}
 	}
 

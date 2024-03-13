@@ -582,7 +582,7 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 				ManagedReference<PlayerManager*> playerManager = zoneServer->getPlayerManager();
 
 				Locker playerLocker(player);
-				playerManager->awardExperience(player, "camp", xp * 5, true);
+				playerManager->awardExperience(player, "camp", xp * 10, true);
 
 				int color = 1;
 
