@@ -63,14 +63,17 @@ function JunkDealer:getEligibleJunk(pPlayer, dealerType, skipItem)
 			local tano = TangibleObject(pItem)
 			local sceno = SceneObject(pItem)
 
-			if sceno:getObjectID() ~= skipItem then
-				if tano:getJunkDealerNeeded() & dealerNum > 0 and tano:getCraftersName() == "" and not tano:isBroken() and not tano:isSliced() and not tano:isNoTrade() and sceno:getContainerObjectsSize() == 0 then
+--			if sceno:getObjectID() ~= skipItem then
+				if tano:getJunkDealerNeeded() and dealerNum > 0 and not tano:isNoTrade() and sceno:getContainerObjectsSize() == 0 then
 					local name = sceno:getDisplayedName()
-					local value = tano:getJunkValue()
+					local value = tano:getJunkValue() * 10
+					if (value == 0) then
+						value = 100
+					end
 					local textTable = {"[" .. value .. "] " .. name, sceno:getObjectID()}
 					table.insert(junkList, textTable)
 				end
-			end
+--			end
 		end
 	end
 
