@@ -288,10 +288,6 @@ function TatooineBestineScreenPlay:spawnMobiles()
 		AiAgent(pNpc):setConvoTemplate("junkDealerGenericConvoTemplate")
 	end
 
-	local pNpc = spawnMobile(self.planet, "junk_dealer", 0, -1125, 12, -3684, 180, 0)
-	if pNpc ~= nil then
-		AiAgent(pNpc):setConvoTemplate("junkDealerGenericConvoTemplate")
-	end
 	--Creatures
 	--[[
 	spawnMobile(self.planet, "lesser_desert_womp_rat",300,-1062.1,23.7,-3451.8,-110,0)

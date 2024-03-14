@@ -41,7 +41,7 @@ TatooineMosTaikeScreenPlay = CityScreenPlay:new {
 		{"informant_npc_lvl_2", 1, 0.93374, 1.00421, 9.03511, 180, 1154123, ""},
 		{"informant_npc_lvl_3", 1, -1.97807, -9.54192, 9.62469, -45, 1154131, ""},
 		{"junk_dealer", 1, 3902.19, 33, 2362.52, -97, 0, ""},
-		{"junk_nathan", 1, 3821.75, 17.51, 2343.11, 0, 0, ""}
+		{"junk_dealer", 1, 3821.75, 17.51, 2343.11, 0, 0, ""}
 	}
 }
 

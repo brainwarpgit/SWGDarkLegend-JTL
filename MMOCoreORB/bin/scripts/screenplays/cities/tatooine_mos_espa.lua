@@ -205,7 +205,7 @@ TatooineMosEspaScreenPlay = CityScreenPlay:new {
 		{"commoner_technician",300,7.41432,1.00001,-6.90893,0,1261017, "conversation"},
 
 		--Junk Shop
-		{"junk_nado", 0, 1.2, -0.5, 5.5, -144, 1255997, ""},
+		{"junk_dealer", 0, 1.2, -0.5, 5.5, -144, 1255997, ""},
 
 		--Guild Hall -2997 2426
 		{"trainer_brawler",0,-11,1.1,-14,0,1255994, ""},

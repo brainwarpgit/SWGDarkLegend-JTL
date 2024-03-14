@@ -79,7 +79,7 @@ RoriNarmleScreenPlay = CityScreenPlay:new {
 		{"informant_npc_lvl_1", 1, -5120, 80, -2269, 0, 0, ""},
 		{"informant_npc_lvl_1", 1, -5127, 80, -2266, 45, 0, ""},
 		{"informant_npc_lvl_1", 1, -5331, 80, -2233, 180, 0, ""},
-		{"junk_dender", 0, -5258, 80, -2213.58, -6, 0, ""},
+		{"junk_dealer", 0, -5258, 80, -2213.58, -6, 0, ""},
 
 		{"junk_dealer", 0, -14.1, 1.1, 2.8, 127, 4615372, ""},
 		{"junk_dealer", 0, -4981.81, 80, -2318.97, -176, 0, ""},

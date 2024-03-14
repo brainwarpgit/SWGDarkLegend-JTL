@@ -90,7 +90,7 @@ NabooMoeniaScreenPlay = CityScreenPlay:new {
 		{"trainer_scout",0,4836.08,4.17,-4703.96,94,0, ""},
 		{"trainer_squadleader",0,4701,3.75,-4939,0,0, ""},
 		{"trainer_tailor",0,4858,3.8,-4799,180,0, ""},
-		{"junk_lila", 0, 26, -0.9, 11.4, -128, 111, ""},
+		{"junk_dealer", 0, 26, -0.9, 11.4, -128, 111, ""},
 		{"junk_dealer", 0, -14.4, 1.1, 3.2, 122, 1717532, ""},
 		{"junk_dealer", 0, 4810.44, 4.17, -4663.38, 112, 0, ""},
 
