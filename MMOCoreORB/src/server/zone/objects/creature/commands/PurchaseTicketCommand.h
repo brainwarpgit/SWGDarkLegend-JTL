@@ -45,8 +45,7 @@ public:
 		}
 
 		if (!nearTravelTerminal) {
-//			creature->sendSystemMessage("@travel:too_far"); // You are too far from the terminal to purchase a ticket.
-			creature->sendSystemMessage("Get Closer Dumbass!!!"); // You are too far from the terminal to purchase a ticket.
+			creature->sendSystemMessage("@travel:too_far"); // You are too far from the terminal to purchase a ticket.
 			return GENERALERROR;
 		}
 
