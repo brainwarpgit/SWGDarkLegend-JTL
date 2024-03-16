@@ -33,6 +33,8 @@
 #include "server/zone/packets/scene/SceneObjectDestroyMessage.h"
 #include "server/zone/objects/intangible/tasks/StoreShipTask.h"
 
+// #define DEBUG_COV
+
 void ShipObjectImplementation::initializeTransientMembers() {
 	hyperspacing = false;
 
@@ -457,29 +459,41 @@ void ShipObjectImplementation::notifyInsert(TreeEntry* object) {
 	uint64 scnoID = sceneO->getObjectID();
 
 #ifdef DEBUG_COV
-	info(true) << "ShipObjectImplementation::notifyInsert -- Object inserted: " << sceneO->getDisplayedName() << " ID: " << scnoID;
+	info(true) << "Ship: " << getDisplayedName() << " -- ShipObjectImplementation::notifyInsert -- Object inserted: " << sceneO->getDisplayedName() << " ID: " << scnoID << " Players on Board Size: " << playersOnBoard.size();
 #endif // DEBUG_COV
 
-	for (int i = 0; i < playersOnBoard.size(); ++i) {
-		auto shipMember = playersOnBoard.get(i);
+	try {
+		for (int i = 0; i < playersOnBoard.size(); ++i) {
+			auto shipMember = playersOnBoard.get(i);
 
-		if (shipMember == nullptr || sceneO == shipMember)
-			continue;
+			if (shipMember == nullptr)
+				continue;
 
-		if (shipMember->getCloseObjects() != nullptr)
-			shipMember->addInRangeObject(sceneO, false);
-		else
-			shipMember->notifyInsert(sceneO);
+			// Update the Ship member
+			if (shipMember->getCloseObjects() != nullptr) {
+				shipMember->addInRangeObject(sceneO, false);
+			} else {
+				shipMember->notifyInsert(sceneO);
+			}
 
-		shipMember->sendTo(sceneO, true, false);
+			if (shipMember != sceneO) {
+				shipMember->sendTo(sceneO, true, false);
 
-		if (sceneO->getCloseObjects() != nullptr)
-			sceneO->addInRangeObject(shipMember, false);
-		else
-			sceneO->notifyInsert(shipMember);
+				// Update the Object with the ship member
+				if (sceneO->getCloseObjects() != nullptr) {
+					sceneO->addInRangeObject(shipMember, false);
+				} else {
+					sceneO->notifyInsert(shipMember);
+				}
 
-		if (sceneO->getParent() != nullptr)
-			sceneO->sendTo(shipMember, true, false);
+				if (sceneO->getParent() != nullptr) {
+					sceneO->sendTo(shipMember, true, false);
+				}
+			}
+		}
+	} catch (Exception& e) {
+		warning(e.getMessage());
+		e.printStackTrace();
 	}
 }
 
@@ -523,9 +537,7 @@ void ShipObjectImplementation::sendDestroyTo(SceneObject* player) {
 
 void ShipObjectImplementation::notifyInsertToZone(Zone* zone) {
 	StringBuffer newName;
-
-	newName << getDisplayedName()
-		<< " - " << zone->getZoneName();
+	newName << getDisplayedName() << " - " << zone->getZoneName();
 
 	setLoggingName(newName.toString());
 
@@ -1325,13 +1337,15 @@ ShipTargetVector* ShipObjectImplementation::getTargetVector() {
 }
 
 void ShipObjectImplementation::destroyObjectFromDatabase(bool destroyContainedObjects) {
+	// Clear the players on board list
+	playersOnBoard.removeAll();
+
 	auto thisShip = asShipObject();
 
 	VectorMap<String, ManagedReference<SceneObject* > > slotted;
 	getSlottedObjects(slotted);
 
 	SortedVector<ManagedReference<SceneObject*>> players;
-	players.setNoDuplicateInsertPlan();
 
 	// Check slotted objects for players
 	for (int i = slotted.size() - 1; i >= 0 ; --i) {
@@ -1355,9 +1369,9 @@ void ShipObjectImplementation::destroyObjectFromDatabase(bool destroyContainedOb
 
 	// Kick all the players to the ground zone
 	for (int i = players.size() - 1; i >= 0 ; --i) {
-		auto& object = players.get(i);
+		auto object = players.get(i);
 
-		if (object == nullptr || !object->isPlayerCreature())
+		if (object == nullptr)
 			continue;
 
 		auto player = object->asCreatureObject();
@@ -1379,7 +1393,7 @@ void ShipObjectImplementation::destroyObjectFromDatabase(bool destroyContainedOb
 
 		auto launchLoc = ghost->getSpaceLaunchLocation();
 
-		player->switchZone(launchZone, launchLoc.getX(), launchLoc.getZ(), launchLoc.getY());
+		player->switchZone(launchZone, launchLoc.getX(), launchLoc.getZ(), launchLoc.getY(), 0, false, -1);
 	}
 
 	// Remove and destroy all the components
@@ -1397,7 +1411,7 @@ void ShipObjectImplementation::destroyObjectFromDatabase(bool destroyContainedOb
 		}
 
 		if (component != nullptr) {
-			Locker cLock(component);
+			Locker cLock(component, thisShip);
 			component->destroyObjectFromDatabase(true);
 		}
 	}
