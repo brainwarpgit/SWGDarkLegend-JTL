@@ -149,12 +149,7 @@ Core3 = {
 	------TRE config------
 	TrePath = "/home/swgemu/workspace/tre",
 	TreFiles = {
-		"Core3_update_06.tre",
---		"Core3_update_05.tre",
---		"Core3_update_04.tre",
---		"Core3_update_03.tre",
---		"Core3_update_02.tre",
---		"Core3_update_01.tre",
+		"SWGDL_update_01.tre",
 		"default_patch.tre",
 		"patch_sku1_14_00.tre",
 		"patch_14_00.tre",
